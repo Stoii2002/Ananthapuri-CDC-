@@ -26,58 +26,102 @@ class Footer_v1 extends Component {
 
 		return (
 			<div>
-				<footer className="site-footer-one">
-					<div className="site-footer-one__upper">
-						<div className="container">
-							<img src={publicUrl + "assets/images/resources/footer-1-1.png"} alt={imgattr} className="site-footer-one__upper-moc" />
-							<div className="row">
-								<div className="col-lg-3">
-									<div className="footer-widget footer-widget__about">
-										<a href="index-2.html">
-											<img src={publicUrl + "assets/images/logo-dark.png"} alt={imgattr} />
-										</a>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod </p>
-										<form action="#" className="footer__mc-form">
-											<input type="text" placeholder="Enter Your Email" />
-											<button type="submit"><i className="fa fa-long-arrow-alt-right" /></button>
-										</form>{/* /.footer__mc-form */}
-										<div className="footer-widget__social">
-											<a href="https://www.facebook.com/webtend/"><i className="fab fa-facebook-f" /></a>
-											<a href="https://www.twitter.com/webtend/"><i className="fab fa-twitter" /></a>
-											<a href="https://google.com/webtend"><i className="fab fa-google-plus-g" /></a>
-											<a href="https://behance.com/webtend"><i className="fab fa-behance" /></a>
-										</div>{/* /.footer-widget__social */}
-									</div>{/* /.footer-widget */}
-								</div>{/* /.col-lg-3 */}
-								<div className="col-lg-4">
-									<div className="footer-widget footer-widget__contact">
-										<h3 className="footer-widget__title">Official Address</h3>{/* /.footer-widget__title */}
-										<div className="footer-widget__contact-box">
-											<div className="footer-widget__contact-top">
-												<i className="far fa-map-marked" />
-												<h3>Address</h3>
-											</div>{/* /.footer-widget__contact-top */}
-											<p>205, Khola Street Name, New York, USA</p>
-										</div>{/* /.footer-widget__contact-box */}
-										<div className="footer-widget__contact-box">
-											<div className="footer-widget__contact-top">
-												<i className="far fa-phone" />
-												<h3>Phone</h3>
-											</div>{/* /.footer-widget__contact-top */}
-											<p><a href="tel:+82-123-456-89">+82 123 456 89</a></p>
-										</div>{/* /.footer-widget__contact-box */}
-									</div>{/* /.footer-widget footer-widget__contact */}
-								</div>{/* /.col-lg-4 */}
-							</div>{/* /.row */}
-						</div>{/* /.container */}
-					</div>{/* /.site-footer-one__upper */}
-					<div className="site-footer-one__bottom">
-						<div className="container">
-							<div className="site-footer-one__bottom-line" />{/* /.site-footer-one__bottom-line */}
-							<p>Copy@2022 <a href="#">Bizkar</a>. All Right Reserved.Design By LayerDrops. </p>
-						</div>{/* /.container */}
-					</div>{/* /.site-footer-one__bottom */}
-				</footer>
+				<footer className="footer-wrapper footer-layout1">
+                <div className="container">
+                    <div className="widget-area">
+                        <div className="row justify-content-between">
+                            <div className="col-md-6 col-lg-6 col-xl-auto">
+                                <div className="widget footer-widget">
+                                    <div className="th-widget-about">
+                                        <div className="about-logo">
+                                            <a href="home-kindergarten-school.html"><img src="assets/img/logo-white.svg" alt="kitar "/></a>
+                                        </div>
+                                        <p className="about-text">Join us in shaping bright futures! Schedule a tour today to witness why families nationwide choose us as their go-to preschool.</p>
+                                        <div className="th-widget-contact">
+                                            <p className="footer-info"><i className="fas fa-map-marker-alt"></i>936 Kiehn Route West, United States</p>
+                                            <p className="footer-info"><i className="fas fa-envelope"></i><a className="text-inherit" href="mailto:info@kitar.com">Email: info@kitar.com</a></p>
+                                            <p className="footer-info"><i className="fa-sharp fa-solid fa-phone"></i><a className="text-inherit" href="tel:+1636422567">Phone: +163-642-2567</a></p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-xl-auto">
+                                <div className="widget widget_nav_menu footer-widget">
+                                    <h3 className="widget_title">Quick Links</h3>
+                                    <div className="menu-all-pages-container">
+                                        <ul className="menu">
+
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="classNamees.html">Our classNamees</a></li>
+                                            <li><a href="contact.html">Terms Of Use</a></li>
+                                            <li><a href="team.html">Expert Teacher</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                            <li><a href="service.html">Our Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div className="col-md-6 col-xl-auto">
+                                <div className="widget widget_nav_menu footer-widget">
+                                    <h3 className="widget_title">Categories</h3>
+                                    <div className="menu-all-pages-container">
+                                        <ul className="menu">
+                                            <li><a href="classNamees.html">Painting</a></li>
+                                            <li><a href="classNamees.html">Drawing</a></li>
+                                            <li><a href="classNamees.html">Music Learning</a></li>
+                                            <li><a href="classNamees.html"> Choreography</a></li>
+                                            <li><a href="classNamees.html">Sports,Games</a></li>
+                                            <li><a href="classNamees.html">Science className</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6 col-xl-auto">
+                                <div className="widget footer-widget">
+                                    <h3 className="widget_title">Recent Posts</h3>
+                                    <div className="recent-post-wrap">
+                                        <div className="recent-post style2">
+                                            <div className="media-img">
+                                                <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-4.jpg" alt="Blog Image"/></a>
+                                            </div>
+                                            <div className="media-body">
+                                                <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Virtual Learning Tools Transform
+                                                        Early</a></h4>
+                                                <div className="recent-post-meta">
+                                                    <a href="blog.html"><i className="fa-solid fa-calendar-days"></i>24 Mayil , 2024</a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div className="recent-post style2">
+                                            <div className="media-img">
+                                                <a href="blog-details.html"><img src="assets/img/blog/recent-post-1-5.jpg" alt="Blog Image"/></a>
+                                            </div>
+                                            <div className="media-body">
+                                                <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Kindergarten classNamees Forge Cross</a></h4>
+                                                <div className="recent-post-meta">
+                                                    <a href="blog.html"><i className="fa-solid fa-calendar-days"></i>30 Mayil , 2024</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="copyright-wrap text-center">
+                    <p className="copyright-text">Copyright <i className="fal fa-copyright"></i> 2024 <a href="home-kindergarten-school.html">kitar </a>. All Rights Reserved.</p>
+                </div>
+                <div className="shape-mockup shape1 movingX d-none d-xxl-block" data-top="32%" data-left="2%"><img src="assets/img/shape/shape_4.png" alt="shape"/>
+                </div>
+                <div className="shape-mockup shape1 movingX d-none d-xxl-block" data-top="0%" data-right="4%"><img src="assets/img/shape/shape_5.png" alt="shape"/>
+                </div>
+            </footer>
 			</div>
 
 

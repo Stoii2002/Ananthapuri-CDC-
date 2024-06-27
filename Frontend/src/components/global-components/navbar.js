@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { FaEnvelope } from 'react-icons/fa';
 
 class Navbar extends Component {
 	
@@ -8,74 +9,116 @@ class Navbar extends Component {
         let imgattr = 'logo'
         let anchor = '#'
         return (
-           <header className="site-header-one go-top">
-			  <nav className="main-nav__one stricky">
-			    <div className="container-fluid">
-			      <div className="main-nav__logo-box">
-			        <Link to="/">
-			          <img src={publicUrl+"assets/images/logo-full-light.png" } alt={ imgattr } />
-			        </Link>
-			        <a href="#" className="side-menu__toggler"><i className="fa fa-bars" /></a>
-			      </div>{/* /.main-nav__logo-box */}
-			      <div className="main-nav__main-navigation">
-			        <ul className=" main-nav__navigation-box">
-			          <li className="dropdown">
-			            <Link to="/">Home</Link>
-			            <ul>
-			              <li><Link to="/home-v2">Home 02</Link></li>
-			              <li><Link to="/home-v3">Home 03</Link></li>
-			              <li><Link to="/home-v4">Home 04</Link></li>
-			            </ul>{/* /.sub-menu */}
-			          </li>
-			          <li>
-			            <Link to="/about">About</Link>
-			          </li>
-			          <li className="dropdown">
-			            <a href="#">Services</a>
-			            <ul>
-			              <li><Link to="/service">Services 01</Link></li>
-			              <li><Link to="/service-v2">Services 02</Link></li>
-			              <li><Link to="/service-details">Services Details</Link></li>
-			            </ul>{/* /.sub-menu */}
-			          </li>
-			          <li className="dropdown">
-			            <a href="#">Work</a>
-			            <ul>
-			              <li><Link to="/portfolio-standard">Portfolio Standard</Link></li>
-			              <li><Link to="/portfolio-full">Portfolio Full</Link></li>
-			              <li><Link to="/portfolio-masonary">Portfolio Masonary</Link></li>
-			              <li><Link to="/portfolio-details">Portfolio Details</Link></li>
-			            </ul>{/* /.sub-menu */}
-			          </li>
-			          <li className="dropdown">
-			            <a href="#">Pages</a>
-			            <ul>
-			              <li><Link to="/pricing">Pricing</Link></li>
-			              <li><Link to="/faq">FAQ</Link></li>
-			              <li><Link to="/testimonial">Testimonials</Link></li>
-			              <li><Link to="/team">Team</Link></li>
-			            </ul>{/* /.sub-menu */}
-			          </li>
-			          <li className="dropdown">
-			            <Link to="/blog-standard">News</Link>
-			            <ul>
-			              <li><Link to="/blog-grid">News Page</Link></li>
-			              <li><Link to="/blog-list">News List</Link></li>
-			              <li><Link to="/blog-details">News Details</Link></li>
-			            </ul>{/* /.sub-menu */}
-			          </li>
-			          <li>
-			            <Link to="/contact">Contact</Link>
-			          </li>
-			        </ul>
-			      </div>{/* /.main-nav__main-navigation */}
-			      <div className="main-nav__right">
-			        <Link to="/contact" className="thm-btn">Free Trial <i className="fa fa-angle-right" /></Link>
-			        {/* /.thm-btn */}
-			      </div>{/* /.main-nav__right */}
-			    </div>
-			  </nav>
-			</header>
+			<header className="th-header header-layout1 header-absolute">
+			<div className="header-top">
+				<div className="container th-container">
+					<div className="row justify-content-center justify-content-lg-between align-items-center">
+						<div className="col-auto d-none d-md-block">
+							<div className="header-links">
+								<ul>
+									<li className="d-none d-xl-inline-block"><i className="fa-solid fa-location-dot"></i>
+										<span>936 Kiehn Route West, United States</span>
+									</li>
+									<li><i className="fa-solid fa-envelope"></i>Email: <a href="mailto:info@kitar.com">
+											info@kitar.com</a></li>
+									<li><i className="fa-solid fa-phone"></i>Phone: <a href="tel:+1636422567"> +163-642-2567</a>
+									</li>
+	
+								</ul>
+							</div>
+						</div>
+						<div className="col-auto">
+							<div className="social-links">
+								<span className="social-title">Follow Us On:</span>
+								<a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
+								<a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
+								<a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
+								<a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="sticky-wrapper">
+				{/* <!-- Main Menu Area --> */}
+				<div className="container th-container">
+					<div className="menu-area">
+						<div className="row align-items-center justify-content-between">
+							<div className="col-auto">
+								<div className="header-logo">
+									
+									<Link to="/"><img src={publicUrl+"assets/img/logo.svg" } alt={ imgattr } /></Link>
+								</div>
+							</div>
+							<div className="col-auto ms-xl-auto">
+								<nav className="main-menu d-none d-lg-inline-block">
+									<ul>
+										<li className="menu-item-has-children">
+											<a href="home-kindergarten-school.html">Home</a>
+											<ul className="sub-menu">
+												<li><a href="home-kindergarten-school.html">Home Kindergarten School</a></li>
+												<li><a href="home-kindergarten.html">Home kindergarten</a></li>
+												<li><a href="home-baby-care.html">Home Baby Care</a></li>
+	
+											</ul>
+										</li>
+										<li><Link to="/about">About Us</Link></li>
+	
+										<li className="menu-item-has-children">
+											<a href="#">Pages</a>
+											<ul className="sub-menu">
+												<li className="menu-item-has-children">
+													<a href="#">Shop</a>
+													<ul className="sub-menu">
+														<li><a href="shop.html">Shop</a></li>
+														<li><a href="shop-details.html">Shop Details</a></li>
+														<li><a href="cart.html">Cart Page</a></li>
+														<li><a href="checkout.html">Checkout</a></li>
+														<li><a href="wishlist.html">Wishlist</a></li>
+													</ul>
+												</li>
+	
+												<li><a href="classNamees.html">Our classNamees</a></li>
+												<li><a href="className-details.html">className Details</a></li>
+												<li><a href="service.html">Services</a></li>
+												<li><a href="service-details.html">Services Details</a></li>
+												<li><a href="team.html">Our Teacher</a></li>
+												<li><a href="team-details.html">Teacher Details </a></li>
+												<li><a href="event.html">Our Event</a></li>
+												<li><a href="event-details.html">Event Details </a></li>
+												<li><a href="error.html">Error Page</a></li>
+											</ul>
+	
+										</li>
+										<li><a href="gallery.html">Gallery</a></li>
+										<li className="menu-item-has-children">
+											<a href="#">Blog</a>
+											<ul className="sub-menu">
+												<li><a href="blog.html"> Our Blog</a></li>
+												<li><a href="blog-details.html">Blog Details</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="contact.html">Contact us</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<div className="col-auto">
+								<div className="header-button">
+									<button type="button" className="icon-btn searchBoxToggler d-none d-xl-block"><i className="far fa-search"></i></button>
+									<button type="button" className="icon-btn sideMenuToggler"><i className="fa-solid fa-cart-shopping"></i> <span className="badge">5</span></button>
+									<a href="contact.html" className="th-btn">Enroll Now</a>
+									<button type="button" className="th-menu-toggle d-block d-lg-none"><i className="far fa-bars"></i></button>
+	
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</header>
         )
     }
 }

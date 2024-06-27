@@ -9,20 +9,18 @@ class Banner extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return <section className="banner-one go-top" style={{backgroundImage: 'url('+publicUrl+'assets/images/backgrounds/banner-bg-1-1.png)'}}>
-				  <img src={publicUrl+"assets/images/resources/banner-1-1.png"} alt={ imagealt } className="banner-one__moc" />
-				  <div className="container-fluid">
-				    <div className="row">
-				      <div className="col-lg-6">
-				        <div className="banner-one__content">
-				          <h3><span>Discover New </span> <br />Idea To Build <br /> Your <em>Business</em></h3>
-				          <p>We are professional &amp; Experiene Digital Agency</p>
-				          <Link to="/service" className="thm-btn banner-one__btn">Discover Now <i className="fa fa-angle-double-right" /></Link>{/* /.thm-btn */}
-				        </div>
-				      </div>
-				    </div>
-				  </div>
-				</section>
+    return <div className="th-hero-wrapper hero-1" id="hero">
+				<div className="th-hero-bg" data-bg-src={publicUrl+"assets/img/bg/hero_bg_1_1.jpg" }>
+				</div>
+				<div className="bottom-shape" data-bg-src={publicUrl+"assets/img/shape/hero_bottom_shape.png" }></div>
+					<div className="container">
+						<div className="hero-style1">
+							<h6 className="sub-title sub-title2">Baby Care & Kindergarten School</h6>
+							<h1 className="hero-title">Better Feature<span className="text-theme"> For Your Kid’s</span></h1>
+							<a className="th-btn btn-green" href="contact.html">Book a Visit</a>
+							</div>
+						</div>
+			</div>
         }
 }
 

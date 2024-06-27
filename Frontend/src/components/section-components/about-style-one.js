@@ -9,30 +9,45 @@ class AboutStyleOne extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return <section className="about-one  go-top">
-			  <div className="container">
-			    <img src={publicUrl+"assets/images/resources/cta-1-1.png"} alt={ imagealt } className="about-one__moc" />
-			    <div className="row justify-content-end">
-			      <div className="col-lg-6">
-			        <div className="about-one__content">
-			          <div className="block-title text-left">
-			            <p><span>About Us</span></p>
-			            <h3>We Are Specialized In <br /> Business Soluation</h3>
-			            <div className="block-title__line" />{/* /.block-title__line */}
-			          </div>{/* /.block-title */}
-			          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incid dunt
-			            utlabore et dolore magna aliqua. Ut enim ad minim veniam weay.</p>
-			          <h4>We Are Always With You</h4>
-			          <p>But we must be dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-			            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-			            laboris nisi ut aliquip exea commodo consequat</p>
-			          <Link to="/about" className="thm-btn about-one__btn">Read More <i className="fa fa-angle-double-right" /></Link>
-			          {/* /.thm-btn */}
-			        </div>{/* /.about-one__content */}
-			      </div>{/* /.col-lg-6 */}
-			    </div>{/* /.row */}
-			  </div>{/* /.container */}
-			</section>
+    return             <div class="overflow-hidden space-top space-extra-bottom" id="about-sec">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-xl-6">
+				<div class="img-box1">
+					<div class="img1" data-bg-src="assets/img/normal/about_shape1.png">
+						<img src="assets/img/normal/about_1.png" alt="About"/>
+					</div>
+					<div class="img1 style2 ding-dong" data-bg-src="assets/img/normal/about_shape2.png">
+						<img src="assets/img/normal/about_2.png" alt="About"/>
+					</div>
+					<div class="about-shape spin">
+						<img src="assets/img/shape/about-shape.png" alt="About"/>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-6">
+				<div class="ps-xl-4 ms-xl-5">
+					<div class="title-area mb-30">
+						<span class="sub-title sub-title2 style1">About Us</span>
+						<h2 class="sec-title">We’re early childhood education, & specialize in kindergarten.</h2>
+						<p class="sec-text">Kindergarten curriculums vary by country and educational philosophy,
+							but they typically focus on foundational skill such as literacy, numeracy, & social skill.
+							Activities may include storytelling, singing, arts and crafts, counting, basic math
+							concepts, and social interaction with peers.</p>
+						<p>Qualified teachers or educators lead kindergarten classes. They create a nurturing and
+							stimulating environment where children can explore, learn, and grow.</p>
+					</div>
+					<a href="about.html" class="th-btn">About More </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="shape-mockup anim03 d-none d-xxl-block" data-top="15%" data-left="4%"><img src="assets/img/shape/bag.png" alt="shape"/>
+	</div>
+	<div class="shape-mockup movingX d-none d-xxl-block" data-top="5%" data-right="10%">
+		<img class="gmovingX" src="assets/img/shape/boy_3.png" alt="shape"/>
+	</div>
+</div>
 
         }
 }

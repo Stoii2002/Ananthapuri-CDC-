@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bizkar || Creative Multi-Purpose React Template</title>
+    <title>Ananthapuri CDC</title>
 
 
      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
@@ -31,45 +31,197 @@
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/style.css">
     <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/responsive.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha384-y4C6g8uFsM6h8gX7RYsbU6wRYFTajGdxZupK9Jc3VZ2Rn5NFnja7+ksydb+zRRvI" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/fontawesome.min.css">
+
+
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/magnific-popup.min.css">
+    <!-- flipster -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/jquery.flipster.min.css">
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/swiper-bundle.min.css">
+
 </head>
 <body>
- <div class="preloader">
-    <img src="%PUBLIC_URL%/assets/images/loader.png" class="preloader__image" alt="">
-    </div><!-- /.preloader -->
+    
+    <div id="preloader" class="preloader ">
+        <div id="loader" class="th-preloader">
+            <svg class="pencil" viewBox="0 0 200 200" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <clipPath id="pencil-eraser">
+                        <rect rx="5" ry="5" width="30" height="30"></rect>
+                    </clipPath>
+                </defs>
+                <circle class="pencil__stroke" r="70" fill="none" stroke="currentColor" stroke-width="2" stroke-dasharray="439.82 439.82" stroke-dashoffset="439.82" stroke-linecap="round" transform="rotate(-113,100,100)" />
+                <g class="pencil__rotate" transform="translate(100,100)">
+                    <g fill="none">
+                        <circle class="pencil__body1" r="64" stroke="hsl(223,90%,50%)" stroke-width="30" stroke-dasharray="402.12 402.12" stroke-dashoffset="402" transform="rotate(-90)" />
+                        <circle class="pencil__body2" r="74" stroke="hsl(223,90%,60%)" stroke-width="10" stroke-dasharray="464.96 464.96" stroke-dashoffset="465" transform="rotate(-90)" />
+                        <circle class="pencil__body3" r="54" stroke="hsl(223,90%,40%)" stroke-width="10" stroke-dasharray="339.29 339.29" stroke-dashoffset="339" transform="rotate(-90)" />
+                    </g>
+                    <g class="pencil__eraser" transform="rotate(-90) translate(49,0)">
+                        <g class="pencil__eraser-skew">
+                            <rect fill="hsl(223,90%,70%)" rx="5" ry="5" width="30" height="30" />
+                            <rect fill="hsl(223,90%,60%)" width="5" height="30" clip-path="url(#pencil-eraser)" />
+                            <rect fill="hsl(223,10%,90%)" width="30" height="20" />
+                            <rect fill="hsl(223,10%,70%)" width="15" height="20" />
+                            <rect fill="hsl(223,10%,80%)" width="5" height="20" />
+                            <rect fill="hsla(223,10%,10%,0.2)" y="6" width="30" height="2" />
+                            <rect fill="hsla(223,10%,10%,0.2)" y="13" width="30" height="2" />
+                        </g>
+                    </g>
+                    <g class="pencil__point" transform="rotate(-90) translate(49,-30)">
+                        <polygon fill="hsl(33,90%,70%)" points="15 0,30 30,0 30" />
+                        <polygon fill="hsl(33,90%,50%)" points="15 0,6 30,0 30" />
+                        <polygon fill="hsl(223,10%,10%)" points="15 0,20 10,10 10" />
+                    </g>
+                </g>
+            </svg>
+        </div>
+    </div> 
+    <!-- /.preloader -->
+     
     <div class="page-wrapper">
       <div id="bizkar"></div>
   </div>
   
-     <div class="side-menu__block">
+  <div class="sidemenu-wrapper shopping-cart ">
+    <div class="sidemenu-content">
+        <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
+        <div class="widget woocommerce widget_shopping_cart">
+            <h3 class="widget_title">Shopping cart</h3>
+            <div class="widget_shopping_cart_content">
+                <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_1_1.jpg" alt="Cart Image">Baby Toy Car</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>45</span>
+                        </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_1_2.jpg" alt="Cart Image">blue lizard toy </a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>20</span>
+                        </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_1_3.jpg" alt="Cart Image">Toys for dogs</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>35</span>
+                        </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_1_4.jpg" alt="Cart Image">robot toys</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>40</span>
+                        </span>
+                    </li>
+                    <li class="woocommerce-mini-cart-item mini_cart_item">
+                        <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
+                        <a href="#"><img src="assets/img/product/product_1_5.jpg" alt="Cart Image">Baby Plastic Toy</a>
+                        <span class="quantity">1 ×
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">$</span>35</span>
+                        </span>
+                    </li>
+                </ul>
+                <p class="woocommerce-mini-cart__total total">
+                    <strong>Subtotal:</strong>
+                    <span class="woocommerce-Price-amount amount">
+                        <span class="woocommerce-Price-currencySymbol">$</span>65</span>
+                </p>
+                <p class="woocommerce-mini-cart__buttons buttons">
+                    <a href="cart.html" class="th-btn wc-forward">View cart</a>
+                    <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup-search-box">
+    <button class="searchClose"><i class="fal fa-times"></i></button>
+    <form action="#">
+        <input type="text" placeholder="What are you looking for?">
+        <button type="submit"><i class="fal fa-search"></i></button>
+    </form>
+</div>
 
 
-        <div class="side-menu__block-overlay custom-cursor__overlay">
-            <div class="cursor"></div>
-            <div class="cursor-follower"></div>
-        </div><!-- /.side-menu__block-overlay -->
-        <div class="side-menu__block-inner ">
-            <div class="side-menu__top justify-content-end">
+  <div class="th-menu-wrapper">
+    <div class="th-menu-area text-center">
+        <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+        <div class="mobile-logo">
+            <a href="home-kindergarten-school.html"><img src="assets/img/logo.svg" alt="kitar "></a>
+        </div>
+        <div class="th-mobile-menu">
+            <ul>
+                <li class="menu-item-has-children">
+                    <a href="home-kindergarten-school.html">Home</a>
+                    <ul class="sub-menu">
+                        <li><a href="home-kindergarten-school.html">Home Kindergarten School</a></li>
+                        <li><a href="home-kindergarten.html">Home kindergarten</a></li>
+                        <li><a href="home-baby-care.html">Home Baby Care</a></li>
 
-                <a href="#" class="side-menu__toggler side-menu__close-btn"><img src="%PUBLIC_URL%/assets/images/shapes/close-1-1.png" alt=""></a>
-            </div><!-- /.side-menu__top -->
+                    </ul>
+                </li>
+                <li><a href="about.html">About Us</a></li>
 
+                <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item-has-children">
+                            <a href="#">Shop</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html">Shop</a></li>
+                                <li><a href="shop-details.html">Shop Details</a></li>
+                                <li><a href="cart.html">Cart Page</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </li>
 
-            <nav class="mobile-nav__container">
-                <!-- content is loading via js -->
-            </nav>
-            <div class="side-menu__sep"></div><!-- /.side-menu__sep -->
-            <div class="side-menu__content">
-                <p>Lorem Ipsum is simply dummy text the printing and setting industry. Lorm Ipsum has been the industry's stanard dummy text ever. </p>
-                <p><a href="mailto:needhelp@bizkar.com">needhelp@bizkar.com</a> <br> <a href="tel:888-999-0000">888 999 0000</a></p>
-                <div class="side-menu__social">
-                    <a class="fab fa-facebook-f" href="https://www.facebook.com/webtend/"></a>
-                    <a class="fab fa-twitter" href="https://www.twitter.com/webtend/"></a>
-                    <a class="fab fa-instagram" href="https://www.instagram.com/webtend/"></a>
-                    <a class="fab fa-pinterest-p" href="https://www.pinterest.com/webtend/"></a>
-                </div>
-            </div><!-- /.side-menu__content -->
-        </div><!-- /.side-menu__block-inner -->
-    </div><!-- /.side-menu__block -->
+                        <li><a href="classes.html">Our Classes</a></li>
+                        <li><a href="class-details.html">Class Details</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="service-details.html">Services Details</a></li>
+                        <li><a href="team.html">Our Teacher</a></li>
+                        <li><a href="team-details.html">Teacher Details </a></li>
+                        <li><a href="event.html">Our Event</a></li>
+                        <li><a href="event-details.html">Event Details </a></li>
+                        <li><a href="error.html">Error Page</a></li>
+                    </ul>
+
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li class="menu-item-has-children">
+                    <a href="#">Blog</a>
+                    <ul class="sub-menu">
+                        <li><a href="blog.html"> Our Blog</a></li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="contact.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
 
 
@@ -85,6 +237,16 @@
             </form>
         </div><!-- /.search-popup__inner -->
     </div>
+
+
+        <!-- Scroll To Top -->
+        <div class="scroll-top">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+                </path>
+            </svg>
+        </div>
+    
   <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
     <script src="%PUBLIC_URL%/assets/js/jquery.min.js"></script>
     <script src="%PUBLIC_URL%/assets/js/bootstrap.bundle.min.js"></script>
@@ -100,5 +262,43 @@
     <script src="%PUBLIC_URL%/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="%PUBLIC_URL%/assets/js/bootstrap-datepicker.min.js"></script>
     <script src="%PUBLIC_URL%/assets/js/isotope.js"></script>
+
+
+
+        <!-- Swiper Js -->
+        <script src="%PUBLIC_URL%/assets/js/swiper-bundle.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="%PUBLIC_URL%/assets/js/bootstrap.min.js"></script>
+        <!-- Magnific Popup -->
+        <script src="%PUBLIC_URL%/assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Counter Up -->
+        <script src="%PUBLIC_URL%/assets/js/jquery.counterup.min.js"></script>
+        <!-- Range Slider -->
+        <script src="%PUBLIC_URL%/assets/js/jquery-ui.min.js"></script>
+        <!-- imagesloaded -->
+        <script src="%PUBLIC_URL%/assets/js/imagesloaded.pkgd.min.js"></script>
+        <!-- flipster Filter -->
+        <script src="assets/js/jquery.flipster.min.js"></script>
+        <!-- isotope -->
+        <script src="%PUBLIC_URL%/assets/js/isotope.pkgd.min.js"></script>
+        <!-- gsap -->
+        <script src="%PUBLIC_URL%/assets/js/gsap.min.js"></script>
+        <!-- ScrollTrigger -->
+        <script src="%PUBLIC_URL%/assets/js/ScrollTrigger.min.js"></script>
+        <!-- circle-progress -->
+        <script src="%PUBLIC_URL%/assets/js/circle-progress.js"></script>
+    
+        <!-- nice select -->
+        <script src="%PUBLIC_URL%/assets/js/nice-select.min.js"></script>
+    
+        <!-- ScrollSmoother -->
+        <script src="%PUBLIC_URL%/assets/js/ScrollSmoother.min.js"></script>
+    
+        <!-- ScrollToPlugin -->
+        <script src="%PUBLIC_URL%/assets/js/ScrollToPlugin.min.js"></script>
+        <!-- SplitText -->
+        <script src="%PUBLIC_URL%/assets/js/SplitText.min.js"></script>
+
+
 </body>
 </html>

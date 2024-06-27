@@ -7,27 +7,29 @@ import AboutStyleOne from './section-components/about-style-one';
 import AboutStyleTwo from './section-components/about-style-two';
 import Team from './section-components/team';
 import Skill from './section-components/skill';
-import Portfolio from './section-components/portfolio-style-one';
 import Funfact from './section-components/funfact';
-import Testimonial from './section-components/testimonial-style-one';
+
 import CTA from './section-components/cta';
 import PostSlider from './section-components/post-slider';
 import Footer from './global-components/footer';
+import Joinus from './section-components/Joinus';
+import Ourgallery from './ourgallery';
+import Testimonial from './section-components/Testominials';
 
 const Home_V1 = () => {
     return <div>
         <Navbar />
         <Banner />
-        <Brand />
         <WhyChooseUs />
         <AboutStyleOne />
         <AboutStyleTwo />
-        <Team />
         <Skill />
-        <Portfolio />
+        <Team />
         <Funfact />
-        <Testimonial />
-        <CTA />
+        <Joinus/>
+        <Ourgallery/>
+        <Testimonial/>
+        <Brand />
         <PostSlider />
         <Footer />
     </div>
