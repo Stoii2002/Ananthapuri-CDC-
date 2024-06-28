@@ -6,7 +6,7 @@ import HomeV2 from './components/home-v2';
 import HomeV3 from './components/home-v3';
 import HomeV4 from './components/home-v4';
 import About from './components/about';
-import Service from './components/service';
+import Service from './components/School';
 import ServiceV2 from './components/service-v2';
 import ServiceDetails from './components/service-details';
 import PortfolioStandard from './components/portfolio-standard';
@@ -21,6 +21,7 @@ import BlogGrid from './components/blog-grid';
 import BlogList from './components/blog-list';
 import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
+import School from './components/School';
 
 
 class Root extends Component {
@@ -34,6 +35,7 @@ class Root extends Component {
 	                    <Route exact path="/home-v3" component={HomeV3} />
 	                    <Route exact path="/home-v4" component={HomeV4} />
 	                    <Route path="/about" component={About} />
+						<Route path="/our-school" component={School} />
 	                    <Route path="/service" component={Service} />
 	                    <Route path="/service-v2" component={ServiceV2} />
 	                    <Route path="/service-details" component={ServiceDetails} />
