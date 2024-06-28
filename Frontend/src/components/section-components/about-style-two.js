@@ -14,8 +14,8 @@ class AboutStyleTwo extends Component {
 	<div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png"></div>
 	<div className="container">
 		<div className="title-area text-center">
-			<span className="sub-title">Our Kitar Program</span>
-			<h2 className="sec-title">Our Early Learning Programs</h2>
+			<span className="sub-title">Our Sections</span>
+			<h2 className="sec-title">DEPARTMENTS</h2>
 		</div>
 		<div className="row gy-5 justify-content-center justify-content-lg-between">
 			<div className="col-md-6 col-xl-3 program-feature_wrapp">
@@ -26,9 +26,9 @@ class AboutStyleTwo extends Component {
 					<div className="program-feature_content">
 						<div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
 						<div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
-						<h3 className="box-title">Toddler</h3>
-						<span className="program-feature_year">(1.5 - 3 Years)</span>
-						<p className="program-feature_text">Kindergarten is often the first formal schooling experience for children.</p>
+						<h3 className="box-title">Occupational Therapy</h3>
+						
+						<p className="program-feature_text">Occupational therapy helps patients develop skills required for the activities of daily living.</p>
 						<a href="service-details.html" className="icon-btn"><i className="fa-regular fa-arrow-right"></i></a>
 					</div>
 				</div>
@@ -41,9 +41,9 @@ class AboutStyleTwo extends Component {
 					<div className="program-feature_content">
 						<div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
 						<div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
-						<h3 className="box-title">Preschool</h3>
-						<span className="program-feature_year">(2 - 3 Years)</span>
-						<p className="program-feature_text">Preschool is an early childhood educational where children</p>
+						<h3 className="box-title">Psycho Therapy</h3>
+						
+						<p className="program-feature_text">Psychotherapy is a type of therapy used to treat emotional problems and mental health conditions</p>
 						<a href="service-details.html" className="icon-btn"><i className="fa-regular fa-arrow-right"></i></a>
 					</div>
 				</div>
@@ -56,9 +56,9 @@ class AboutStyleTwo extends Component {
 					<div className="program-feature_content">
 						<div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
 						<div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
-						<h3 className="box-title">Kindergarten</h3>
-						<span className="program-feature_year">(4 - 5 Years)</span>
-						<p className="program-feature_text">Kindergarten, often abbreviated as is the first formal year of schooling</p>
+						<h3 className="box-title">Special Education</h3>
+						
+						<p className="program-feature_text">Special education prevents problems, promotes proactive learning management.</p>
 						<a href="service-details.html" className="icon-btn"><i className="fa-regular fa-arrow-right"></i></a>
 					</div>
 				</div>
@@ -71,9 +71,10 @@ class AboutStyleTwo extends Component {
 					<div className="program-feature_content">
 						<div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
 						<div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
-						<h3 className="box-title">Flex - Care</h3>
-						<span className="program-feature_year">(5 - 8 Years)</span>
-						<p className="program-feature_text">Flex-care is a term that can refer to flexible childcare arrangements</p>
+						<h3 className="box-title">Speech Therapy</h3>
+						
+						<p className="program-feature_text">
+						Speech therapy aims to improve speaking and language skills.</p>
 						<a href="service-details.html" className="icon-btn"><i className="fa-regular fa-arrow-right"></i></a>
 					</div>
 				</div>

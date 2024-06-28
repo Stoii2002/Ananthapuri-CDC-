@@ -15,7 +15,7 @@ class Banner extends Component {
 				<div className="bottom-shape" data-bg-src={publicUrl+"assets/img/shape/hero_bottom_shape.png" }></div>
 					<div className="container">
 						<div className="hero-style1">
-							<h6 className="sub-title sub-title2">Baby Care & Kindergarten School</h6>
+							<h6 className="sub-title sub-title2">Center for Child Development & Early Intervention</h6>
 							<h1 className="hero-title">Better Feature<span className="text-theme"> For Your Kid’s</span></h1>
 							<a className="th-btn btn-green" href="contact.html">Book a Visit</a>
 							</div>

@@ -29,13 +29,9 @@ class AboutStyleOne extends Component {
 				<div class="ps-xl-4 ms-xl-5">
 					<div class="title-area mb-30">
 						<span class="sub-title sub-title2 style1">About Us</span>
-						<h2 class="sec-title">We’re early childhood education, & specialize in kindergarten.</h2>
-						<p class="sec-text">Kindergarten curriculums vary by country and educational philosophy,
-							but they typically focus on foundational skill such as literacy, numeracy, & social skill.
-							Activities may include storytelling, singing, arts and crafts, counting, basic math
-							concepts, and social interaction with peers.</p>
-						<p>Qualified teachers or educators lead kindergarten classes. They create a nurturing and
-							stimulating environment where children can explore, learn, and grow.</p>
+						<h2 class="sec-title">WELCOME TO ANANTHAPURI CENTRE FOR CHILD DEVELOPMENT & EARLY INTERVENTION!</h2>
+						<p class="sec-text">A leading institution dedicated to becoming a center of excellence in Early Child Care & Education, Adolescent Care & Education, and related fields. Our mission is to systematically reduce childhood disability through comprehensive systems and personalized care.</p>
+						<p>At Ananthapuri Special School we specialize in holistic and customized care for every child dealing with developmental disabilities and autism disorders. Our commitment extends to fostering a nurturing environment that supports the unique needs of each child, ensuring their optimal growth and development.</p>
 					</div>
 					<a href="about.html" class="th-btn">About More </a>
 				</div>

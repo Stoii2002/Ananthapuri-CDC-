@@ -15,7 +15,7 @@ class PostSlider extends Component {
 					<div className="blog-title-area">
 						<div className="title-area text-center">
 							<span className="sub-title">Beyond the Headlines</span>
-							<h2 className="sec-title">Latest News and Blogs</h2>
+							<h2 className="sec-title">Blogs</h2>
 						</div>
 					</div>
 					<div className="slider-area">
@@ -28,8 +28,8 @@ class PostSlider extends Component {
 											<img src="assets/img/blog/blog_1_1.jpg" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
-											<a href="blog-details.html" className="blog-date"> 23 <span className="month">May</span> </a>
-											<h3 className="box-title"><a href="blog-details.html">The Role of early literacy in child development</a></h3>
+											
+											<h3 className="box-title"><a href="blog-details.html">SIGNS AND SYMPTOMS OF DEVELOPMENTAL DELAYS IN CHILDREN</a></h3>
 											<a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right ms-2"></i></a>
 										</div>
 									</div>
@@ -42,8 +42,8 @@ class PostSlider extends Component {
 											<img src="assets/img/blog/blog_1_2.jpg" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
-											<a href="blog-details.html" className="blog-date"> 23 <span className="month">May</span> </a>
-											<h3 className="box-title"><a href="blog-details.html">how to take comprehensive and organized notes</a></h3>
+											
+											<h3 className="box-title"><a href="blog-details.html">EDUCATING CHILDREN WITH AUTISM</a></h3>
 											<a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right ms-2"></i></a>
 										</div>
 									</div>
@@ -56,8 +56,8 @@ class PostSlider extends Component {
 											<img src="assets/img/blog/blog_1_3.jpg" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
-											<a href="blog-details.html" className="blog-date"> 23 <span className="month">May</span> </a>
-											<h3 className="box-title"><a href="blog-details.html">insights into how parents can support childs Education</a></h3>
+											
+											<h3 className="box-title"><a href="blog-details.html">PARENTS’ ROLE IN HELPING CHILDREN WITH DEVELOPMENTAL DELAYS</a></h3>
 											<a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right ms-2"></i></a>
 										</div>
 									</div>
@@ -70,40 +70,14 @@ class PostSlider extends Component {
 											<img src="assets/img/blog/blog_1_1.jpg" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
-											<a href="blog-details.html" className="blog-date"> 23 <span className="month">May</span> </a>
-											<h3 className="box-title"><a href="blog-details.html">The Role of early literacy in child development</a></h3>
+											
+											<h3 className="box-title"><a href="blog-details.html">IS STUTTERING PSYCHOLOGICAL OR BIOLOGICAL?</a></h3>
 											<a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right ms-2"></i></a>
 										</div>
 									</div>
 								</div>
 
-								<div className="swiper-slide">
-
-									<div className="blog-box" data-mask-src="assets/img/shape/blog-shape.png">
-										<div className="blog-img" data-mask-src="assets/img/shape/blog-img-shape.png">
-											<img src="assets/img/blog/blog_1_2.jpg" alt="blog image"/>
-										</div>
-										<div className="blog-box_content">
-											<a href="blog-details.html" className="blog-date"> 23 <span className="month">May</span> </a>
-											<h3 className="box-title"><a href="blog-details.html">how to take comprehensive and organized notes</a></h3>
-											<a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right ms-2"></i></a>
-										</div>
-									</div>
-								</div>
-
-								<div className="swiper-slide">
-
-									<div className="blog-box" data-mask-src="assets/img/shape/blog-shape.png">
-										<div className="blog-img" data-mask-src="assets/img/shape/blog-img-shape.png">
-											<img src="assets/img/blog/blog_1_3.jpg" alt="blog image"/>
-										</div>
-										<div className="blog-box_content">
-											<a href="blog-details.html" className="blog-date"> 23 <span className="month">May</span> </a>
-											<h3 className="box-title"><a href="blog-details.html">insights into how parents can support childs Education</a></h3>
-											<a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right ms-2"></i></a>
-										</div>
-									</div>
-								</div>
+								
 
 							</div>
 						</div>
