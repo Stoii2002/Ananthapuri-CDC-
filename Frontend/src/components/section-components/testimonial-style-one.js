@@ -4,196 +4,103 @@ import parse from 'html-react-parser';
 
 class TestimonialOne extends Component {
 
-	    componentDidMount() {
-
-	    const $ = window.$;
-	    
-	        if($('.js-tilt').length) {
-		        $('.js-tilt').tilt({
-		            maxTilt: 20,
-		            perspective:700, 
-		            glare: true,
-		            maxGlare: .3
-		        })
-		    }
-
-		    if ($('.thm__owl-carousel').length) {
-            $('.thm__owl-carousel').each(function () {
-                var Self = $(this);
-                var carouselOptions = Self.data('options');
-                var carouselPrevSelector = Self.data('carousel-prev-btn');
-                var carouselNextSelector = Self.data('carousel-next-btn');
-                var thmCarousel = Self.owlCarousel(carouselOptions);
-                if (carouselPrevSelector !== undefined) {
-                    $(carouselPrevSelector).on('click', function () {
-                        thmCarousel.trigger('prev.owl.carousel');
-                        return false;
-                    });
-                }
-                if (carouselNextSelector !== undefined) {
-                    $(carouselNextSelector).on('click', function () {
-                        thmCarousel.trigger('next.owl.carousel');
-                        return false;
-                    });
-                }
-            });
-        }
-	  }
 
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return  <section className="testimonials-one">
-			  <div className="container">
-			    <div className="testimonials-one__top">
-			      <div className="block-title text-left">
-			        <p><span>Clients Say</span></p>
-			        <h3>know Everything About <br /> Professional Skills</h3>
-			        <div className="block-title__line" />{/* /.block-title__line */}
-			      </div>{/* /.block-title */}
-			      <div className="testimonials-one__carousel-btn__wrap">
-			        <a href="#" className="testimonials-one__carousel-btn-left"><i className="fa fa-angle-double-left" /></a>
-			        <a href="#" className="testimonials-one__carousel-btn-right"><i className="fa fa-angle-double-right" /></a>
-			      </div>{/* /.testimonials-one__carousel-btn__wrap */}
-			    </div>{/* /.testimonials-one__top */}
-			    <div className="testimonials-one__arrow-decor-wrap">
-			      <i className="fa fa-angle-right" />
-			      <i className="fa fa-angle-right" />
-			      <i className="fa fa-angle-right" />
-			      <i className="fa fa-angle-right" />
-			    </div>{/* /.testimonials-one__arrow-decor-wrap */}
-			    <div className="testimonials-one__carousel owl-carousel thm__owl-carousel owl-theme" data-carousel-prev-btn=".testimonials-one__carousel-btn-left" data-carousel-next-btn=".testimonials-one__carousel-btn-right" data-options="{&quot;loop&quot;: true, &quot;margin&quot;: 65, &quot;stagePadding&quot;: 50, &quot;items&quot;: 3, &quot;smartSpeed&quot;: 700, &quot;autoplay&quot;: true, &quot;autoplayTimeout&quot;: 7000, &quot;nav&quot;: false, &quot;dots&quot;: false, &quot;responsive&quot;: { &quot;0&quot;: { &quot;items&quot;: 1, &quot;stagePadding&quot;: 20 }, &quot;1199&quot;: { &quot;items&quot;: 2 }, &quot;1200&quot;: { &quot;items&quot;: 3 } }}">
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Pearl Campbell</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Landon Anderson</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Daniel Howell</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Jay Houston</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Austin Houston</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Myrtie Wise</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-1.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Ronald Sharp</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-2.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Sophia Zimmerman</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			      <div className="item">
-			        <div className="testimonials-one__single">
-			          <div className="testimonials-one__image">
-			            <img src={publicUrl+"assets/images/testimonials/testimonial-1-3.jpg"} alt={ imagealt } />
-			          </div>{/* /.testimonials-one__image */}
-			          <div className="testimonials-one__content">
-			            <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiumod tempor incididunt ut
-			              labore e dolore magna aliqua. Ut enim ad miveniam quis nostrud exercitation</p>
-			            <h3>Chester Ortiz</h3>
-			            <span>CEO &amp; Founder</span>
-			            <i className="fa fa-quote-right testimonials-one__qoute-icon" />
-			          </div>{/* /.testimonials-one__content */}
-			        </div>{/* /.testimonials-one__single */}
-			      </div>{/* /.item */}
-			    </div>{/* /.testimonials-one__carousel owl-carousel thm__owl-carousel owl-theme */}
-			  </div>{/* /.container */}
-			</section>
+    return  <div className="space overflow-hidden" id="testi-sec">
+	<div className="container">
+		<div className="row">
+			<div className="col-xl-7">
+				<div className="testi-image2" data-mask-src="assets/img/shape/testi-img-shape.png">
+					<img src="assets/img/testimonial/testi-image2.png" alt=""/>
+				</div>
+			</div>
+			<div className="col-xl-5">
+				<div className="title-area ms-xl-4 mt-40">
+					<span className="sub-title">Clients Review</span>
+					<h2 className="sec-title">What Parents Says?</h2>
+				</div>
+				<div className="testi-slider">
+					<div className="swiper th-slider team-slider" id="testiSlide1" data-slider-options='{"effect":"fade","loop":false,"spaceBetween":10}'>
+						<div className="swiper-wrapper">
+							<div className="swiper-slide">
+								<div className="testi-box">
+									<div className="testi-box_profile">
+										<p className="testi-box_text">“Kitar has been a game -changer educ for the most our kindergartens! The users educ friendly's interfaces and engaging's of the designs have made it easy for parents to our edu stay connected with of the theirs child's activities.”</p>
+										<div className="testi-box_img">
+											<img className="img1" src="assets/img/testimonial/testi_2_1.jpg" alt=""/>
+										</div>
+									</div>
+									<div className="testi-box_wrapper">
+										<div className="testi-box_review">
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-regular fa-star"></i>
+										</div>
+										<h3 className="box-title">Emily Johnson</h3>
+									</div>
+								</div>
+							</div>
+							<div className="swiper-slide">
+								<div className="testi-box">
+									<div className="testi-box_profile">
+										<p className="testi-box_text">“I recently purchased the Kitar Baby Care set for my newborns bab, and I couldn't be happier. The quality of the products is outstanding kids , and they are gentle on my baby's sensitive skin. The diaper cream worked wonders, and the baby</p>
+										<div className="testi-box_img">
+											<img className="img1" src="assets/img/testimonial/testi_2_2.jpg" alt=""/>
+										</div>
+									</div>
+									<div className="testi-box_wrapper">
+										<div className="testi-box_review">
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-regular fa-star"></i>
+										</div>
+										<h3 className="box-title">Angelina Rose</h3>
+									</div>
+								</div>
+							</div>
+							<div className="swiper-slide">
+								<div className="testi-box">
+									<div className="testi-box_profile">
+										<p className="testi-box_text">“Kitar has been a game -changer educ for the most our kindergartens! The users educ friendly's interfaces and engaging's of the designs have made it easy for parents to our edu stay connected with of the theirs child's activities”</p>
+										<div className="testi-box_img">
+											<img className="img1" src="assets/img/testimonial/testi_2_3.jpg" alt=""/>
+										</div>
+									</div>
+									<div className="testi-box_wrapper">
+										<div className="testi-box_review">
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-solid fa-star"></i>
+											<i className="fa-regular fa-star"></i>
+										</div>
+										<h3 className="box-title">Rita Hirwat Michel</h3>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div className="testi-frame"><img src="assets/img/shape/testi-frame.png" alt=""/></div>
+					<div className="testi-quote"><img src="assets/img/shape/testi-shape.png" alt=""/></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div className="shape-mockup z-index-3 movingX d-none d-xl-block" data-top="5%" data-left="2%"><img src="assets/img/shape/shape_2_20.png" alt="shape"/>
+	</div>
+	<div className="shape-mockup z-index-3 spin d-none d-xl-block" data-bottom="18%" data-left="25%"><img className="gspin" src="assets/img/shape/shape_2_21.png" alt="shape"/>
+	</div>
+</div>
 			  
 
         }

@@ -54,7 +54,7 @@ class Navbar extends Component {
 								<nav className="main-menu d-none d-lg-inline-block">
 									<ul>
 										<li className="menu-item-has-children">
-											<a href="home-kindergarten-school.html">Home</a>
+										<li><Link to="/">Home</Link></li>
 											<ul className="sub-menu">
 												<li><a href="home-kindergarten-school.html">Home Kindergarten School</a></li>
 												<li><a href="home-kindergarten.html">Home kindergarten</a></li>
@@ -63,6 +63,7 @@ class Navbar extends Component {
 											</ul>
 										</li>
 										<li><Link to="/about">About Us</Link></li>
+										<li><Link to="/our-school">Our School</Link></li>
 	
 										<li className="menu-item-has-children">
 											<a href="#">Pages</a>
@@ -106,7 +107,7 @@ class Navbar extends Component {
 							</div>
 							<div className="col-auto">
 								<div className="header-button">
-									<button type="button" className="icon-btn searchBoxToggler d-none d-xl-block"><i className="far fa-search"></i></button>
+									
 									<button type="button" className="icon-btn sideMenuToggler"><i className="fa-solid fa-cart-shopping"></i> <span className="badge">5</span></button>
 									<a href="contact.html" className="th-btn">Enroll Now</a>
 									<button type="button" className="th-menu-toggle d-block d-lg-none"><i className="far fa-bars"></i></button>
