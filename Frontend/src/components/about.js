@@ -16,8 +16,8 @@ const AboutPage = () => {
         <Navbar />
             <Aboutbanner/>
             <About />
-            <Funfact/>
             <Howitworks/>
+            <Funfact/>
             <Team />
             <Testimonial />
             <Newsletter/>
