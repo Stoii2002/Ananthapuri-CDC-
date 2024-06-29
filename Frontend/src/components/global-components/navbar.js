@@ -17,11 +17,11 @@ class Navbar extends Component {
 							<div className="header-links">
 								<ul>
 									<li className="d-none d-xl-inline-block"><i className="fa-solid fa-location-dot"></i>
-										<span>936 Kiehn Route West, United States</span>
+										<span>Medical College, Chalakkuzhi, Trivandrum, Kerala 695011</span>
 									</li>
 									<li><i className="fa-solid fa-envelope"></i>Email: <a href="mailto:info@kitar.com">
-											info@kitar.com</a></li>
-									<li><i className="fa-solid fa-phone"></i>Phone: <a href="tel:+1636422567"> +163-642-2567</a>
+									cdc.ananthapuri@gmail.com</a></li>
+									<li><i className="fa-solid fa-phone"></i>Phone: <a href="tel:+1636422567"> 0471 2554990, +94460 64178</a>
 									</li>
 	
 								</ul>
@@ -47,7 +47,7 @@ class Navbar extends Component {
 							<div className="col-auto">
 								<div className="header-logo">
 									
-									<Link to="/"><img src={publicUrl+"assets/img/logo.svg" } alt={ imgattr } /></Link>
+									<Link to="/"><img src={publicUrl+"assets/img/logocdc.png" } alt={ imgattr } /></Link>
 								</div>
 							</div>
 							<div className="col-auto ms-xl-auto">

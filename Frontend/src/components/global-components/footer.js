@@ -89,7 +89,7 @@ class Footer_v1 extends Component {
 
                 </div>
                 <div className="copyright-wrap text-center">
-                    <p className="copyright-text">Copyright <i className="fal fa-copyright"></i> 2024 <a href="home-kindergarten-school.html">Ananthapuri CDC </a>. All Rights Reserved.</p>
+                    <p className="copyright-text">Copyright <i className="fal fa-copyright"></i> 2024 <a href="home-kindergarten-school.html">Misc Archive </a>. All Rights Reserved.</p>
                 </div>
                 <div className="shape-mockup shape1 movingX d-none d-xxl-block" data-top="32%" data-left="2%"><img src="assets/img/shape/shape_4.png" alt="shape"/>
                 </div>
