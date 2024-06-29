@@ -40,7 +40,7 @@ class Skill extends Component {
 						<div className="col-xl-6">
 							<div className="img-box2 mt-50 mt-xl-0">
 								<div className="img1">
-									<img src="assets/img/normal/benefit_1.png" alt="About"/>
+									<img src="assets/img/normal/benefit-img.png" alt="About"/>
 								</div>
 							</div>
 						</div>

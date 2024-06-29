@@ -9,7 +9,7 @@ class Joinus extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return <section class="cta-area overflow-hidden" data-bg-src="assets/img/bg/cta_bg_1.png">
+    return <section class="cta-area overflow-hidden" data-bg-src="assets/img/bg/joinus-bg-img.png">
     <div class="container">
         <div class="cta-cloud" data-bg-src="assets/img/shape/cta_shape.png">
             <div class="title-area mb-20">

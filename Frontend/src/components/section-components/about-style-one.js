@@ -15,10 +15,10 @@ class AboutStyleOne extends Component {
 			<div class="col-xl-6">
 				<div class="img-box1">
 					<div class="img1" data-bg-src="assets/img/normal/about_shape1.png">
-						<img src="assets/img/normal/about_1.png" alt="About"/>
+						<img src="assets/img/normal/about-img-1.png" alt="About"/>
 					</div>
 					<div class="img1 style2 ding-dong" data-bg-src="assets/img/normal/about_shape2.png">
-						<img src="assets/img/normal/about_2.png" alt="About"/>
+						<img src="assets/img/normal/about-img-2.png" alt="About"/>
 					</div>
 					<div class="about-shape spin">
 						<img src="assets/img/shape/about-shape.png" alt="About"/>

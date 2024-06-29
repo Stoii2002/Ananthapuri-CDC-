@@ -5,16 +5,17 @@ import Brand from './section-components/brand-one';
 import WhyChooseUs from './section-components/why-choose-us';
 import AboutStyleOne from './section-components/about-style-one';
 import AboutStyleTwo from './section-components/about-style-two';
-import Team from './section-components/team';
+
 import Skill from './section-components/skill';
 import Funfact from './section-components/funfact';
 
-import CTA from './section-components/cta';
+
 import PostSlider from './section-components/post-slider';
 import Footer from './global-components/footer';
 import Joinus from './section-components/Joinus';
 import Ourgallery from './ourgallery';
 import Testimonial from './section-components/Testominials';
+import Child_disorders from './section-components/Child-disorders';
 
 const Home_V1 = () => {
     return <div>
@@ -24,7 +25,7 @@ const Home_V1 = () => {
         <AboutStyleOne />
         <AboutStyleTwo />
         <Skill />
-        <Team />
+        <Child_disorders/>
         <Funfact />
         <Joinus/>
         <Ourgallery/>

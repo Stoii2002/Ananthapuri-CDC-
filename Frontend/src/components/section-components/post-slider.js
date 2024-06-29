@@ -25,7 +25,7 @@ class PostSlider extends Component {
 
 									<div className="blog-box" data-mask-src="assets/img/shape/blog-shape.png">
 										<div className="blog-img" data-mask-src="assets/img/shape/blog-img-shape.png">
-											<img src="assets/img/blog/blog_1_1.jpg" alt="blog image"/>
+											<img src="assets/img/blog/blog-img-1.png" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
 											
@@ -39,7 +39,7 @@ class PostSlider extends Component {
 
 									<div className="blog-box" data-mask-src="assets/img/shape/blog-shape.png">
 										<div className="blog-img" data-mask-src="assets/img/shape/blog-img-shape.png">
-											<img src="assets/img/blog/blog_1_2.jpg" alt="blog image"/>
+											<img src="assets/img/blog/blog-img-2.png" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
 											
@@ -53,7 +53,7 @@ class PostSlider extends Component {
 
 									<div className="blog-box" data-mask-src="assets/img/shape/blog-shape.png">
 										<div className="blog-img" data-mask-src="assets/img/shape/blog-img-shape.png">
-											<img src="assets/img/blog/blog_1_3.jpg" alt="blog image"/>
+											<img src="assets/img/blog/blog-img-3.png" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
 											
@@ -67,7 +67,7 @@ class PostSlider extends Component {
 
 									<div className="blog-box" data-mask-src="assets/img/shape/blog-shape.png">
 										<div className="blog-img" data-mask-src="assets/img/shape/blog-img-shape.png">
-											<img src="assets/img/blog/blog_1_1.jpg" alt="blog image"/>
+											<img src="assets/img/blog/blog-img-4.png" alt="blog image"/>
 										</div>
 										<div className="blog-box_content">
 											

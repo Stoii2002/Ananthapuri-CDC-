@@ -10,7 +10,7 @@ class Banner extends Component {
         let imagealt = 'image'
 
     return <div className="th-hero-wrapper hero-1" id="hero">
-				<div className="th-hero-bg" data-bg-src={publicUrl+"assets/img/bg/hero_bg_1_1.jpg" }>
+				<div className="th-hero-bg" data-bg-src={publicUrl+"assets/img/bg/bg-image.png" }>
 				</div>
 				<div className="bottom-shape" data-bg-src={publicUrl+"assets/img/shape/hero_bottom_shape.png" }></div>
 					<div className="container">
