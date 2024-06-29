@@ -64,34 +64,25 @@ class Navbar extends Component {
 										</li>
 										<li><Link to="/about">About Us</Link></li>
 										<li><Link to="/our-school">Our School</Link></li>
-	
 										<li className="menu-item-has-children">
-											<a href="#">Pages</a>
+											<a href="#">Disorders</a>
 											<ul className="sub-menu">
 												<li className="menu-item-has-children">
 													<a href="#">Shop</a>
-													<ul className="sub-menu">
+													{/* <ul className="sub-menu">
 														<li><a href="shop.html">Shop</a></li>
 														<li><a href="shop-details.html">Shop Details</a></li>
 														<li><a href="cart.html">Cart Page</a></li>
 														<li><a href="checkout.html">Checkout</a></li>
 														<li><a href="wishlist.html">Wishlist</a></li>
-													</ul>
+													</ul> */}
 												</li>
 	
 												<li><a href="classNamees.html">Our classNamees</a></li>
-												<li><a href="className-details.html">className Details</a></li>
-												<li><a href="service.html">Services</a></li>
-												<li><a href="service-details.html">Services Details</a></li>
-												<li><a href="team.html">Our Teacher</a></li>
-												<li><a href="team-details.html">Teacher Details </a></li>
-												<li><a href="event.html">Our Event</a></li>
-												<li><a href="event-details.html">Event Details </a></li>
-												<li><a href="error.html">Error Page</a></li>
 											</ul>
 	
 										</li>
-										<li><a href="gallery.html">Gallery</a></li>
+										<li><Link to="/blog-grid">Gallery</Link></li>
 										<li className="menu-item-has-children">
 											<a href="#">Blog</a>
 											<ul className="sub-menu">
@@ -100,7 +91,7 @@ class Navbar extends Component {
 											</ul>
 										</li>
 										<li>
-											<a href="contact.html">Contact us</a>
+										<Link to="/contact">Contact</Link>
 										</li>
 									</ul>
 								</nav>

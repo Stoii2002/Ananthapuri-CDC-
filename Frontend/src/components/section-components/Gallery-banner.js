@@ -1,21 +1,18 @@
 import React, { Component } from 'react';
 
 
-class School_banner extends Component {
+class Gallery_banner extends Component {
 
     render() {
-
-        let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
 
     return <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
     <div className="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
     <div className="container">
         <div className="breadcumb-content">
-            <h1 className="breadcumb-title">Our School</h1>
+            <h1 className="breadcumb-title">Our Gallery</h1>
             <ul className="breadcumb-menu">
                 <li><a href="home-kindergarten-school.html">Home</a></li>
-                <li>Our classNamees</li>
+                <li>Our Gallery</li>
             </ul>
         </div>
     </div>
@@ -27,4 +24,4 @@ class School_banner extends Component {
         }
 }
 
-export default School_banner
+export default Gallery_banner

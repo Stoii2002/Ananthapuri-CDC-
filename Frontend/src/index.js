@@ -17,11 +17,11 @@ import Pricing from './components/pricing';
 import Faq from './components/faq';
 import Testimonial from './components/testimonial';
 import Team from './components/team';
-import BlogGrid from './components/blog-grid';
 import BlogList from './components/blog-list';
 import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
 import School from './components/School';
+import Gallery from './components/Gallery';
 
 
 class Root extends Component {
@@ -47,7 +47,7 @@ class Root extends Component {
 	                    <Route path="/faq" component={Faq} />
 	                    <Route path="/testimonial" component={Testimonial} />
 	                    <Route path="/team" component={Team} />
-	                    <Route path="/blog-grid" component={BlogGrid} />
+	                    <Route path="/blog-grid" component={Gallery} />
 	                    <Route path="/blog-list" component={BlogList} />
 	                    <Route path="/blog-details" component={BlogDetails} />
 	                    <Route path="/contact" component={Contact} />
