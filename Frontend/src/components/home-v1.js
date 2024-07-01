@@ -16,6 +16,7 @@ import Joinus from './section-components/Joinus';
 import Ourgallery from './ourgallery';
 import Testimonial from './section-components/Testominials';
 import Child_disorders from './section-components/Child-disorders';
+import FeatureList from './Api-test';
 
 const Home_V1 = () => {
     return <div>
@@ -31,6 +32,7 @@ const Home_V1 = () => {
         <Ourgallery/>
         <Testimonial/>
         <PostSlider />
+        <FeatureList/>
         <Footer />
     </div>
 }
