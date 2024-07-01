@@ -30,7 +30,6 @@ const Home_V1 = () => {
         <Joinus/>
         <Ourgallery/>
         <Testimonial/>
-        <Brand />
         <PostSlider />
         <Footer />
     </div>
