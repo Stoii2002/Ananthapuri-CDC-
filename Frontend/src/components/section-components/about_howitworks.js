@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+
 
 class Howitworks extends Component {
 
@@ -21,11 +20,11 @@ class Howitworks extends Component {
 
                     <div className="accordion-card">
                         <div className="accordion-header" id="collapse-item-1">
-                            <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Do you offer parent-teacher conferences?</button>
+                            <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Comprehensive Child Development Approach</button>
                         </div>
                         <div id="collapse-1" className="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                             <div className="accordion-body">
-                                <p className="faq-text">As an AI developed by OpenAI, I don't offer parent-teacher conferences myself. However, I can provide information and advice on how to conduct effective parent-teacher conferences if you're interested.</p>
+                                <p className="faq-text">Our institution employs a holistic approach to early childhood and adolescent care, ensuring all aspects of development are nurtured through evidence-based practices and personalized care plans.</p>
                             </div>
                         </div>
                     </div>
@@ -33,11 +32,11 @@ class Howitworks extends Component {
 
                     <div className="accordion-card">
                         <div className="accordion-header" id="collapse-item-2">
-                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">What is your educational philosophy?</button>
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">Personalized Care Plans</button>
                         </div>
                         <div id="collapse-2" className="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                             <div className="accordion-body">
-                                <p className="faq-text">I believe education should be accessible to everyone, regardless of background or ability. This means striving to provide information in a clear, concise, and unbiased way.</p>
+                                <p className="faq-text">Each child receives a customized care plan tailored to their unique needs, leveraging our comprehensive systems to address and support their physical, cognitive, and emotional development.</p>
                             </div>
                         </div>
                     </div>
@@ -45,11 +44,11 @@ class Howitworks extends Component {
 
                     <div className="accordion-card">
                         <div className="accordion-header" id="collapse-item-3">
-                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">What is the teacher-to-child ratio?</button>
+                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">Family-Centered Support</button>
                         </div>
                         <div id="collapse-3" className="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                             <div className="accordion-body">
-                                <p className="faq-text">The teacher-to-child ratio can vary widely depending on the educational setting and the specific requirements or standards set by governing bodies.</p>
+                                <p className="faq-text">We engage families as active partners in their child's development, offering guidance, resources, and support to create a nurturing environment both at our institution and at home.</p>
                             </div>
                         </div>
                     </div>
@@ -58,7 +57,7 @@ class Howitworks extends Component {
             <div className="col-xl-6">
                 <div className="faq-img1 ms-xl-5 ps-2">
                     <div className="img1">
-                        <img src="assets/img/normal/faq_img.png" alt="faq"/>
+                        <img src="assets/img/normal/howitworks-img.png" alt="faq"/>
                     </div>
                 </div>
             </div>

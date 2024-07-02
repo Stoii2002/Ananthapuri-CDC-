@@ -15,7 +15,7 @@ class TestimonialOne extends Component {
 		<div className="row">
 			<div className="col-xl-7">
 				<div className="testi-image2" data-mask-src="assets/img/shape/testi-img-shape.png">
-					<img src="assets/img/testimonial/testi-image2.png" alt=""/>
+					<img src="assets/img/testimonial/about-testimonial.png" alt=""/>
 				</div>
 			</div>
 			<div className="col-xl-5">
@@ -29,9 +29,9 @@ class TestimonialOne extends Component {
 							<div className="swiper-slide">
 								<div className="testi-box">
 									<div className="testi-box_profile">
-										<p className="testi-box_text">“Kitar has been a game -changer educ for the most our kindergartens! The users educ friendly's interfaces and engaging's of the designs have made it easy for parents to our edu stay connected with of the theirs child's activities.”</p>
+										<p className="testi-box_text">“My son was very hyperactive. He never used to sit still,climb over the window grills.Favourite spot was top of the cupboard.Never listen to me as if he was deaf. We came at Ananthapuri Centre.They listened and understood my child’s problem. They conducted a detailed assessment for my kid.It’s almost two months and a very significant change in my son’s behaviour.Thank the team at Ananthapuri CDC.”</p>
 										<div className="testi-box_img">
-											<img className="img1" src="assets/img/testimonial/testi_2_1.jpg" alt=""/>
+											<img className="img1" src="assets/img/testimonial/test-1.png" alt=""/>
 										</div>
 									</div>
 									<div className="testi-box_wrapper">
@@ -42,16 +42,17 @@ class TestimonialOne extends Component {
 											<i className="fa-solid fa-star"></i>
 											<i className="fa-regular fa-star"></i>
 										</div>
-										<h3 className="box-title">Emily Johnson</h3>
+										<h3 className="box-title">Maya Rani ( name changed )</h3>
 									</div>
 								</div>
 							</div>
 							<div className="swiper-slide">
 								<div className="testi-box">
 									<div className="testi-box_profile">
-										<p className="testi-box_text">“I recently purchased the Kitar Baby Care set for my newborns bab, and I couldn't be happier. The quality of the products is outstanding kids , and they are gentle on my baby's sensitive skin. The diaper cream worked wonders, and the baby</p>
+										<p className="testi-box_text">“My daughter’s journey with Ananthapuri CDC has been wonderful. She has made a great progress through speech therapy. She never looked at me when I used to talk to her. On top of that, she often threw tantrums. Post her speech therapy sessions, I could see lot of changes in her behaviour. I am extremely pleased with my daughter’s accomplishments.
+										Thanks a lot team Ananthapuri for your continued support.”</p>
 										<div className="testi-box_img">
-											<img className="img1" src="assets/img/testimonial/testi_2_2.jpg" alt=""/>
+											<img className="img1" src="assets/img/testimonial/test-2.png" alt=""/>
 										</div>
 									</div>
 									<div className="testi-box_wrapper">
@@ -62,30 +63,11 @@ class TestimonialOne extends Component {
 											<i className="fa-solid fa-star"></i>
 											<i className="fa-regular fa-star"></i>
 										</div>
-										<h3 className="box-title">Angelina Rose</h3>
+										<h3 className="box-title">Radhika Nair ( name changed )</h3>
 									</div>
 								</div>
 							</div>
-							<div className="swiper-slide">
-								<div className="testi-box">
-									<div className="testi-box_profile">
-										<p className="testi-box_text">“Kitar has been a game -changer educ for the most our kindergartens! The users educ friendly's interfaces and engaging's of the designs have made it easy for parents to our edu stay connected with of the theirs child's activities”</p>
-										<div className="testi-box_img">
-											<img className="img1" src="assets/img/testimonial/testi_2_3.jpg" alt=""/>
-										</div>
-									</div>
-									<div className="testi-box_wrapper">
-										<div className="testi-box_review">
-											<i className="fa-solid fa-star"></i>
-											<i className="fa-solid fa-star"></i>
-											<i className="fa-solid fa-star"></i>
-											<i className="fa-solid fa-star"></i>
-											<i className="fa-regular fa-star"></i>
-										</div>
-										<h3 className="box-title">Rita Hirwat Michel</h3>
-									</div>
-								</div>
-							</div>
+							
 
 						</div>
 					</div>

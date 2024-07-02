@@ -8,7 +8,7 @@ class School_banner extends Component {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imagealt = 'image'
 
-    return <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    return <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/school-banner.png">
     <div className="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
     <div className="container">
         <div className="breadcumb-content">
