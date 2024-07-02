@@ -20,6 +20,8 @@ from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from ananthapuri.views import FeatureViewSet
 from . import views
+from django.conf.urls.static import static
+from django.conf import settings
 
 admin.site.site_header = 'Admin'
 admin.site.site_title = 'Admin'
@@ -33,4 +35,4 @@ urlpatterns = [
     path('api/', include('ananthapuri.urls')),  # Include app URLs
     path('', views.home, name='home'),
     # other paths
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

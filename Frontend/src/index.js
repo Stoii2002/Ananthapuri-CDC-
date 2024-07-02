@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomeV1 from './components/home-v1';
-import HomeV2 from './components/home-v2';
 import HomeV3 from './components/home-v3';
 import HomeV4 from './components/home-v4';
 import About from './components/about';
@@ -22,6 +21,7 @@ import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
 import School from './components/School';
 import Gallery from './components/Gallery';
+import Departments from './components/Departments';
 
 
 class Root extends Component {
@@ -31,7 +31,6 @@ class Root extends Component {
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
-	                    <Route exact path="/home-v2" component={HomeV2} />
 	                    <Route exact path="/home-v3" component={HomeV3} />
 	                    <Route exact path="/home-v4" component={HomeV4} />
 	                    <Route path="/about" component={About} />
@@ -51,6 +50,7 @@ class Root extends Component {
 	                    <Route path="/blog-list" component={BlogList} />
 	                    <Route path="/blog-details" component={BlogDetails} />
 	                    <Route path="/contact" component={Contact} />
+						<Route path="/Departments" component={Departments} />
 	                </Switch>
 	                </div>
                 </Router>
