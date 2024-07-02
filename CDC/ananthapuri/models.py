@@ -14,3 +14,7 @@ class Departments(models.Model):
 
     def __str__(self):
         return self.title
+    
+class Department_Page(models.Model):
+    title = models.CharField(max_length=100)
+    

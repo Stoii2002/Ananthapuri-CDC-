@@ -9,7 +9,7 @@ const Departments = () => {
         <Navbar />
         <Departmentsbanner/>
         <Departmentscontent/>
-        <Footer />
+        <Footer/>
     </div>
 }
 

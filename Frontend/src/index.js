@@ -50,7 +50,7 @@ class Root extends Component {
 	                    <Route path="/blog-list" component={BlogList} />
 	                    <Route path="/blog-details" component={BlogDetails} />
 	                    <Route path="/contact" component={Contact} />
-						<Route path="/Departments" component={Departments} />
+						<Route path="/department/:name" component={Departments} />
 	                </Switch>
 	                </div>
                 </Router>
