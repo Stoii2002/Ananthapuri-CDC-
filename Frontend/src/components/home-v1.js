@@ -30,8 +30,8 @@ const Home_V1 = () => {
         <Funfact />
         <Joinus/>
         <Ourgallery/>
-        <Testimonial/>
         <PostSlider />
+        <Testimonial/>
         <FeatureList/>
         <Footer />
     </div>
