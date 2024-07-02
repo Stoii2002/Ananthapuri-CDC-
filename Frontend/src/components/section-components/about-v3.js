@@ -16,13 +16,9 @@ class AboutV3 extends Component {
 				<div className="ps-xl-4 ms-xl-5">
 					<div className="title-area mb-30">
 						<span className="sub-title sub-title2 style1">About Us</span>
-						<h2 className="sec-title">We’re early childhood education, & specialize in kindergarten.</h2>
-						<p className="sec-text">Kindergarten curriculums vary by country and educational philosophy,
-							but they typically focus on foundational skill such as literacy, numeracy, & social skill.
-							Activities may include storytelling, singing, arts and crafts, counting, basic math
-							concepts, and social interaction with peers.</p>
-						<p>Qualified teachers or educators lead kindergarten classNamees. They create a nurturing and
-							stimulating environment where children can explore, learn, and grow.</p>
+						<h2 className="sec-title">Dedicated to Excellence in Early Child Care & Education</h2>
+						<p className="sec-text">As a leading institution, we are committed to becoming a center of excellence in Early Child Care & Education, Adolescent Care & Education, and related fields. Our mission is to systematically reduce childhood disability through comprehensive systems and personalized care.</p>
+						<p>Our approach integrates cutting-edge research, evidence-based practices, and multidisciplinary expertise to deliver high-quality care and education. We develop personalized care plans tailored to the unique needs of each child, ensuring they receive the best possible support. By engaging families, communities, and professionals in a collaborative effort, we aim to build a robust foundation for lifelong learning and well-being.</p>
 					</div>
 					<a href="about.html" className="th-btn">About More </a>
 				</div>
@@ -30,10 +26,10 @@ class AboutV3 extends Component {
 			<div className="col-xl-6">
 				<div className="img-box1">
 					<div className="img1" data-bg-src="assets/img/normal/about_shape1.png">
-						<img src="assets/img/normal/about_1.png" alt="About"/>
+						<img src="assets/img/normal/school-img-2.png" alt="About"/>
 					</div>
 					<div className="img1 style2 ding-dong" data-bg-src="assets/img/normal/about_shape2.png">
-						<img src="assets/img/normal/about_2.png" alt="About"/>
+						<img src="assets/img/normal/school-img-3.png" alt="About"/>
 					</div>
 					<div className="about-shape spin">
 						<img src="assets/img/shape/about-shape.png" alt="About"/>

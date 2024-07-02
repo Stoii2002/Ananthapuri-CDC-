@@ -10,7 +10,7 @@ class AboutPage extends Component {
 			<div className="col-xl-6">
 				<div className="img-box3 me-xl-5 pe-xl-2">
 					<div className="img1">
-						<img src="assets/img/normal/about_3.jpg" alt="About"/>
+						<img src="assets/img/normal/about-img-new.png" alt="About"/>
 					</div>
 					<div className="about-shape">
 						<img src="assets/img/shape/circle.png" alt=""/>
