@@ -21,7 +21,10 @@ import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
 import School from './components/School';
 import Gallery from './components/Gallery';
-import Departments from './components/Departments';
+import Occupational_Theraphy from './components/Occupational-Therapy';
+import Psycho_Theraphy from './components/Psycho-Theraphy';
+import Special_Education from './components/Special-Education';
+import Speech_Theraphy from './components/Speech-Theraphy';
 
 
 class Root extends Component {
@@ -50,7 +53,12 @@ class Root extends Component {
 	                    <Route path="/blog-list" component={BlogList} />
 	                    <Route path="/blog-details" component={BlogDetails} />
 	                    <Route path="/contact" component={Contact} />
-						<Route path="/department/:name" component={Departments} />
+
+						{/* Departments */}
+						<Route path="/Occupational-Theraphy" component={Occupational_Theraphy} />
+						<Route path="/Psycho-Theraphy" component={Psycho_Theraphy} />
+						<Route path="/Special-education" component={Special_Education} />
+						<Route path="/Speech-Theraphy" component={Speech_Theraphy} />
 	                </Switch>
 	                </div>
                 </Router>
