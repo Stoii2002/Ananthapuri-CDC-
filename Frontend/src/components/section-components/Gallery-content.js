@@ -9,12 +9,12 @@ class Gallery_content extends Component {
     <div className="container">
         <div className="title-area text-center">
             <span className="sub-title">Our Gallery</span>
-            <h2 className="sec-title">A Showcase of Baby Bliss</h2>
+            <h2 className="sec-title">A Showcase of Our Family</h2>
         </div>
         <div className="row gy-30 gallery-row filter-active overlay-direction">
             <div className="col-md-6 col-xl-auto filter-item gallery-card_wrapp">
                 <div className="gallery-card style2" data-theme-color="#4C59CB">
-                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_1.jpg"><img src="assets/img/gallery/gallery_3_1.jpg" alt="gallery image"/>
+                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_1.jpg"><img src="assets/img/gallery/gall-img-1.png" alt="gallery image"/>
                         <div className="box-content">
                             <span className="icon-btn style2">
                                 <i className="fas fa-eye"></i></span>
@@ -24,7 +24,7 @@ class Gallery_content extends Component {
             </div>
             <div className="col-md-6 col-xl-auto filter-item gallery-card_wrapp">
                 <div className="gallery-card style2" data-theme-color="#FE5A86">
-                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_2.jpg"><img src="assets/img/gallery/gallery_3_2.jpg" alt="gallery image"/>
+                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_2.jpg"><img src="assets/img/gallery/gall-img-2.png" alt="gallery image"/>
                         <div className="box-content">
                             <span className="icon-btn style2">
                                 <i className="fas fa-eye"></i></span>
@@ -34,7 +34,7 @@ class Gallery_content extends Component {
             </div>
             <div className="col-md-6 col-xl-auto filter-item gallery-card_wrapp">
                 <div className="gallery-card style2" data-theme-color="#FC800A">
-                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_3.jpg"><img src="assets/img/gallery/gallery_3_3.jpg" alt="gallery image"/>
+                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_3.jpg"><img src="assets/img/gallery/gall-img-3.png" alt="gallery image"/>
                         <div className="box-content">
                             <span className="icon-btn style2">
                                 <i className="fas fa-eye"></i></span>
@@ -44,7 +44,7 @@ class Gallery_content extends Component {
             </div>
             <div className="col-md-6 col-xl-auto filter-item gallery-card_wrapp">
                 <div className="gallery-card style2" data-theme-color="#16C4E3">
-                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_4.jpg"><img src="assets/img/gallery/gallery_3_4.jpg" alt="gallery image"/>
+                    <a className="box-img popup-image" href="assets/img/gallery/gallery_3_4.jpg"><img src="assets/img/gallery/gall-img-4.png" alt="gallery image"/>
                         <div className="box-content">
                             <span className="icon-btn style2">
                                 <i className="fas fa-eye"></i></span>

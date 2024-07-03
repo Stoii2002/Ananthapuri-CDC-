@@ -5,7 +5,7 @@ class Contact_banner extends Component {
 
     render() {
 
-    return <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+    return <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/contact-banner-new.png">
     <div className="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
     <div className="container">
         <div className="breadcumb-content">
