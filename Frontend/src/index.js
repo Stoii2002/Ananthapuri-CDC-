@@ -49,7 +49,7 @@ class Root extends Component {
 	                    <Route path="/faq" component={Faq} />
 	                    <Route path="/testimonial" component={Testimonial} />
 	                    <Route path="/team" component={Team} />
-	                    <Route path="/blog-grid" component={Gallery} />
+	                    <Route path="/Gallery" component={Gallery} />
 	                    <Route path="/blog-list" component={BlogList} />
 	                    <Route path="/blog-details" component={BlogDetails} />
 	                    <Route path="/contact" component={Contact} />

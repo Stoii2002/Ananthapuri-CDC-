@@ -10,11 +10,15 @@ import Newsletter from './section-components/Newsletter';
 const ContactPage = () => {
     return <div>
         <Navbar />
-        <Contact_banner/>
-        <Contact />
-        <Get_in_touch/>
-        <Newsletter/>
-        <Footer />
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Contact_banner/>
+            <Contact />
+            <Get_in_touch/>
+            <Newsletter/>
+            <Footer />
+        </div>
+        </div>
     </div>
 }
 

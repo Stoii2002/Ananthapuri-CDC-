@@ -10,11 +10,15 @@ import Footer_v1 from './global-components/footer';
 const School = () => {
     return <div>
         <Navbar/>
-        <School_banner/>
-        <AboutV3/>
-        <AboutStyleTwo/>
-        <Newsletter/>
-        <Footer_v1/>
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <School_banner/>
+            <AboutV3/>
+            <AboutStyleTwo/>
+            <Newsletter/>
+            <Footer_v1/>
+        </div>
+        </div>
     </div>
 }
 

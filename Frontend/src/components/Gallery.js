@@ -8,10 +8,14 @@ import Newsletter from './section-components/Newsletter';
 const Gallery = () => {
     return <div>
         <Navbar/>
-        <Gallery_banner/>
-        <Gallery_content/>
-        <Newsletter/>
-        <Footer />
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Gallery_banner/>
+            <Gallery_content/>
+            <Newsletter/>
+            <Footer />
+        </div>
+        </div>
     </div>
 }
 

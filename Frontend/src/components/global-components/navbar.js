@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { FaEnvelope } from 'react-icons/fa';
 
 class Navbar extends Component {
 	
     render() {
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imgattr = 'logo'
-        let anchor = '#'
         return (
 			<header className="th-header header-layout1 header-absolute">
 			<div className="header-top">
@@ -67,22 +65,18 @@ class Navbar extends Component {
 										<li className="menu-item-has-children">
 											<a href="#">Disorders</a>
 											<ul className="sub-menu">
-												<li className="menu-item-has-children">
-													<a href="#">Shop</a>
-													{/* <ul className="sub-menu">
-														<li><a href="shop.html">Shop</a></li>
-														<li><a href="shop-details.html">Shop Details</a></li>
-														<li><a href="cart.html">Cart Page</a></li>
-														<li><a href="checkout.html">Checkout</a></li>
-														<li><a href="wishlist.html">Wishlist</a></li>
-													</ul> */}
-												</li>
-	
-												<li><a href="classNamees.html">Our classNamees</a></li>
+												<li><Link to="/Cerebral-Palsy">Cerebral Palsy</Link></li>
+												<li><Link to="/Autism">Autism</Link></li>
+												<li><Link to="/ADHD">ADHD</Link></li>
+												<li><Link to="/Down-Syndrome">Downs Syndrome</Link></li>
+												<li><Link to="/Speech-sound-desorder">Speech Sound Disorder</Link></li>
+												<li><Link to="/Learning-Disability">Learning Disability</Link></li>
+												<li><Link to="/Global-Developmental-Delay">Global developmental delay</Link></li>
+												<li><Link to="/Stuttering">Stuttering</Link></li>
+												<li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
 											</ul>
-	
 										</li>
-										<li><Link to="/blog-grid">Gallery</Link></li>
+										<li><Link to="/Gallery">Gallery</Link></li>
 										<li className="menu-item-has-children">
 											<a href="#">Blog</a>
 											<ul className="sub-menu">

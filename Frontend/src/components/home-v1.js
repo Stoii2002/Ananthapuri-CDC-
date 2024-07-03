@@ -21,19 +21,23 @@ import FeatureList from './Api-test';
 const Home_V1 = () => {
     return <div>
         <Navbar />
-        <Banner />
-        <WhyChooseUs />
-        <AboutStyleOne />
-        <AboutStyleTwo />
-        <Skill />
-        <Child_disorders/>
-        <Funfact />
-        <Joinus/>
-        <Ourgallery/>
-        <PostSlider />
-        <Testimonial/>
-        <FeatureList/>
-        <Footer />
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Banner />
+            <WhyChooseUs />
+            <AboutStyleOne />
+            <AboutStyleTwo />
+            <Skill />
+            <Child_disorders/>
+            <Funfact />
+            <Joinus/>
+            <Ourgallery/>
+            <PostSlider />
+            <Testimonial/>
+            <FeatureList/>
+            <Footer />
+        </div>
+        </div>
     </div>
 }
 

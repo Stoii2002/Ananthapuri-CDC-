@@ -14,6 +14,8 @@ import Newsletter from './section-components/Newsletter';
 const AboutPage = () => {
     return <div>
         <Navbar />
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
             <Aboutbanner/>
             <About />
             <Howitworks/>
@@ -22,6 +24,8 @@ const AboutPage = () => {
             <Testimonial />
             <Newsletter/>
             <Footer/>
+        </div>
+        </div>
     </div>
 }
 
