@@ -65,15 +65,12 @@ class Navbar extends Component {
 										<li className="menu-item-has-children">
 											<a href="#">Disorders</a>
 											<ul className="sub-menu">
-												<li><Link to="/Cerebral-Palsy">Cerebral Palsy</Link></li>
-												<li><Link to="/Autism">Autism</Link></li>
 												<li><Link to="/ADHD">ADHD</Link></li>
-												<li><Link to="/Down-Syndrome">Downs Syndrome</Link></li>
-												<li><Link to="/Speech-sound-desorder">Speech Sound Disorder</Link></li>
-												<li><Link to="/Learning-Disability">Learning Disability</Link></li>
-												<li><Link to="/Global-Developmental-Delay">Global developmental delay</Link></li>
-												<li><Link to="/Stuttering">Stuttering</Link></li>
+												<li><Link to="/Autism">Autism</Link></li>
+												<li><Link to="/Cerebral-Palsy">Cerebral Palsy</Link></li>
+												<li><Link to="/Downs-Syndrome">Downs Syndrome</Link></li>
 												<li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
+												<li><Link to="/Learning-Disability">Learning Disability</Link></li>	
 											</ul>
 										</li>
 										<li><Link to="/Gallery">Gallery</Link></li>

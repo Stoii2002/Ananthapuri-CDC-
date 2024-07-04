@@ -25,6 +25,12 @@ import Occupational_Theraphy from './components/Occupational-Therapy';
 import Psycho_Theraphy from './components/Psycho-Theraphy';
 import Special_Education from './components/Special-Education';
 import Speech_Theraphy from './components/Speech-Theraphy';
+import Adhd from './components/ADH';
+import Autism from './components/Autism';
+import Cerebral from './components/Cerebral-Palsy';
+import Downs from './components/Downs-Syndrome';
+import Intellectual from './components/Intellectual-disability';
+import Learning_Disability from './components/Learning-Disability';
 
 
 class Root extends Component {
@@ -59,6 +65,14 @@ class Root extends Component {
 						<Route path="/Psycho-Theraphy" component={Psycho_Theraphy} />
 						<Route path="/Special-education" component={Special_Education} />
 						<Route path="/Speech-Theraphy" component={Speech_Theraphy} />
+
+						{/* Desorders */}
+						<Route path="/ADHD" component={Adhd} />
+						<Route path="/Autism" component={Autism} />
+						<Route path="/Cerebral-Palsy" component={Cerebral} />
+						<Route path="/Downs-Syndrome" component={Downs} />
+						<Route path="/Intellectual-Disability" component={Intellectual} />
+						<Route path="/Learning-Disability" component={Learning_Disability} />
 	                </Switch>
 	                </div>
                 </Router>

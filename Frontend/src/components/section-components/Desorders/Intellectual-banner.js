@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-const Special_Education_banner = () => {
+
+const Intellectual_banner = () => {
    
     return (
         <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
                 <div className="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
                 <div className="container">
                     <div className="breadcumb-content">
-                        <h1 className="breadcumb-title">Special Education</h1>
+                        <h1 className="breadcumb-title">Intellectual disability</h1>
                         <ul className="breadcumb-menu">
-                        <li><Link to="/">Home</Link></li>
-                            <li>Special Education</li>
+                            <li><Link to="/">Home</Link></li>
+                            <li>Intellectual disability</li>
                         </ul>
                     </div>
                 </div>
@@ -20,4 +21,4 @@ const Special_Education_banner = () => {
     );
 };
 
-export default Special_Education_banner;
+export default Intellectual_banner;
