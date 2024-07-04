@@ -10,93 +10,93 @@ const Special_Education_content = () => {
             <div className="row">
                 <div className="col-xxl-8 col-lg-8">
                     <div className="page-single mb-0">
-                        <div className="page-img th-anim">
-                            <img src={`${process.env.PUBLIC_URL}/assets/img/normal/class_details.jpg`} alt="class Image"/>
-                        </div>
+                        
                         <div className="page-content">
-                            <h3 className="sec-title page-title">Drawing & Painting</h3>
+                            <h3 className="sec-title page-title">Special Education: Fostering Full Learning Potential</h3>
                             <p className="sec-text mb-30">
-                                Drawing and painting play a crucial role in the creative development of children, and they are often integrated into educational curricula to foster holistic learning experiences. These artistic activities not only stimulate a child's imagination but also enhance their cognitive, motor, and emotional skills.
+                            The aim of special education in developmental disorders like autism is to enable a student’s ability to reach their full learning potential. While providing special education to students make sure it is designed to accomplish a great deal by managing the learning environment proactively to prevent behavior problems and promote learning. While imparting education it should be kept in mind that they may experience behavior or learning problems because they lack key skills like capacity to interact with others in socially appropriate ways. So education should focus on explicit skills-training in deficit areas as a central component in their curriculum.
                             </p>
-                            <p className="sec-text mb-45">
-                                By engaging in the process of creating visual art, children learn to express themselves, problem-solve, and observe the world around them with a heightened sense of curiosity. Moreover, the integration of drawing and painting in educational settings promotes a well-rounded approach.
+                            <p className="sec-text mb-30">
+                            Below are some of the points that should be kept in mind while providing special education to children suffering from developmental disorders.
                             </p>
+                            
                             <div className="row justify-content-center">
                                 <div className="col-lg-6">
                                     <div className="page-img">
-                                        <img src={`${process.env.PUBLIC_URL}/assets/img/normal/class_inner_1.jpg`} alt="class Image"/>
+                                        <img src={`${process.env.PUBLIC_URL}/assets/img/normal/special-img-1.png`} alt="class Image"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="page-img">
-                                        <img src={`${process.env.PUBLIC_URL}/assets/img/normal/class_inner_2.jpg`} alt="class Image"/>
+                                        <img src={`${process.env.PUBLIC_URL}/assets/img/normal/special-img-2.png`} alt="class Image"/>
                                     </div>
                                 </div>
                             </div>
-                            <h4 className="mt-n2 mb-20">Work Process</h4>
+                            <h4 className="mt-n2 mb-20">TASK ANALYSIS:</h4>
                             <p className="mb-20">
-                                Early childhood education is a crucial foundation for lifelong learning. Our curriculum is designed to stimulate cognitive development, creativity, and a love for learning. We integrate play-based learning to make education enjoyable and engaging for your child.
+                            Task analysis is a process by which a task is broken down into different component parts. Everyone uses task analysis at some point, sometimes unconsciously. As the proverb goes, you have to walk before you can run. It is easy to forget that some tasks need to be broken down into chunks, because after a time, they become like second nature to us. We often expect students to be able to figure out the steps involved in completing a task. But with special needs population, where you might have children with processing disorders or difficulty with organization, it’s necessary to take the time to express the different parts of a task until the student has mastered each one.
                             </p>
-                            <div className="checklist style2 list-three-column">
-                                <ul>
-                                    <li>Supervision of a babysitter</li>
-                                    <li>Childcare for all age groups</li>
-                                    <li>Solutions for Baby care</li>
-                                </ul>
-                            </div>
-                            <p className="mt-30 mb-0">
-                                Crafting the destiny of our children is a profound and multifaceted responsibility that involves shaping their characters, providing them with opportunities, and guiding them towards futures filled with purpose and fulfillment. Parents, educators, and society as a whole play pivotal roles in this process. Here are some key aspects to consider when it comes to crafting the destiny of our children:
+
+                            <h4 className="mt-n2 mb-20">KEEP YOUR LANGUAGE SIMPLE AND CONCRETE:</h4>
+                            <p className="mb-20">
+                            Try to get your point across in as few words as possible. Avoid using idioms such as “put your thinking caps on” or “open your eyes” as it will leave a student completely mystified and wondering how to do that.
                             </p>
-                        </div>
-                    </div>
-                    <div className="th-comment-form style2">
-                        <div className="th-comments-wrapp">
-                            <h2 className="blog-inner-title h4">Client Comment</h2>
-                            <div className="testi-card_review">
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star"></i>
-                                <i className="fa-regular fa-star"></i>
-                            </div>
-                        </div>
-                        <div className="th-comment-content">
-                            <p className="mb-30">
-                                It's wonderful to hear that you're pleased with the Kitar Baby Care set for your newborn! Providing gentle and high-quality products for your baby's sensitive skin is essential, and it sounds like Kitar’s has delivered on that front. The positive results with the diaper cream and the delightful scent of the baby lotion add to the overall positive experience.
+
+                            <h4 className="mt-n2 mb-20">USE STRATEGIES TO MAKE DIRECTIONS AND LEARNING EXPECTATIONS CLEARLY UNDERSTOOD:</h4>
+                            <p className="mb-20">
+                            Provide directions in language the student can understand. Use visual cues (hands-on demonstrations and modeling, objects, pictures) as needed to help the child to better grasp the directions. Prompt and guide the child through what you want them to do.
                             </p>
-                            <div className="comment-wrapper">
-                                <div className="comment-profile">
-                                    <div className="comment-avater">
-                                        <img src={`${process.env.PUBLIC_URL}/assets/img/blog/comment-author-1.jpg`} alt="Comment Author"/>
-                                    </div>
-                                    <div>
-                                        <h3 className="name">Rita Hirwat Michel</h3>
-                                        <span className="desig">Kids Mother</span>
-                                    </div>
-                                </div>
-                                <div className="comment-content">
-                                    <div className="comment-quote">
-                                        <img src={`${process.env.PUBLIC_URL}/assets/img/icon/quote3.svg`} alt="quote"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-md-6 form-group">
-                                <input type="text" placeholder="Your Name" className="form-control"/>
-                                <i className="far fa-user"></i>
-                            </div>
-                            <div className="col-md-6 form-group">
-                                <input type="text" placeholder="Your Email" className="form-control"/>
-                                <i className="far fa-envelope"></i>
-                            </div>
-                            <div className="col-12 form-group">
-                                <textarea placeholder="Write a Comment" className="form-control"></textarea>
-                                <i className="far fa-pencil"></i>
-                            </div>
-                            <div className="col-12 form-group mb-0">
-                                <button className="th-btn btn-fw">Send Message</button>
-                            </div>
+
+                            <h4 className="mt-n2 mb-20">CHECK TO BE SURE THAT YOU HAVE THE STUDENTS’ ATTENTION BEFORE GIVING DIRECTIONS:</h4>
+                            <p className="mb-20">
+                            Children with disabilities may not always make eye contact, even when they are paying attention to you. Be on the lookout for other signs of attending–e.g., alert posture, orientation towards you, stopping other activities, verbalizations. New teaching methods like word-processing and computer-based learning can be tried to keep the students engrossed.
+                            </p>
+
+                            <h4 className="mt-n2 mb-20">INSTRUCT SPECIFIC SOCIAL RULES/SKILLS LIKE TURN TAKING AND SOCIAL DISTANCE:</h4>
+                            <p className="mb-20">
+                            It is better not to give too many choices to children. If a child is asked to pick a color, say yellow, give only two to three choices to choose from. The more options, the more confused the child will become. Try not to give open-ended choices like “What is your plan over the weekend?” Instead ask “what do you prefer over the weekend – watching a movie or going to the park?” Give clear choices.
+                            </p>
+                            <p className="mb-20">
+                            If a blank stare is what you get from child in response to a question or instruction, try to reword your sentence. Asking the child to say what you have just said is an easy way to make sure you are properly understood.
+                            </p>
+
+                            <h4 className="mt-n2 mb-20">USE NO SARCASMS:</h4>
+                            <p className="mb-20">
+                            Children with disabilities may not always make eye contact, even when they are paying attention to you. Be on the lookout for other signs of attending–e.g., alert posture, orientation towards you, stopping other activities, verbalizations. New teaching methods like word-processing and computer-based learning can be tried to keep the students engrossed.
+                            </p>
+                            <p className="mb-20">
+                            Use short sentences and always repeat instructions to register it in students’ minds. Children with developmental disabilities crave structure and predictability in their daily life. Special needs children, though, can sometimes react more strongly than their non-disabled peers when faced with an unexpected change in their daily schedule. While giving instructions make sure they understand what you meant. For example, when you say you want them to stack the books on the shelf, make sure you show them the photograph of a neatly-stacked bookshelf so that they can latch on to what you say fast.
+                            </p>
+
+                            <h4 className="mt-n2 mb-20">LET THE ACTIVITIES END ON A HAPPY NOTE:</h4>
+                            <p className="mb-20">
+                            When the students are asked to do a slightly challenging assignment make sure they know that at the end some fun activities are there to complement. This will help them put more intense and sustained effort into the task.
+                            </p>
+
+                            <h4 className="mt-n2 mb-20">GIVE THEM FREEDOM:</h4>
+                            <p className="mb-20">
+                            Giving a little autonomy to children is very important while imparting special education. Encourage the student to choose a book on which s/he wants to write a review on or they can be given the freedom to choose a friend whom they want to help in completing a task.
+                            </p>
+                            <p className="mb-20">
+                            Address the children individually as much as possible as s/he may not realize that an instruction given to the whole class also includes him/her. Try to education with multiple form of presentation – visual, physical guidance, peer modeling etc.
+                            </p>
+
+                            <h4 className="mt-n2 mb-20">NO OFFENCE:</h4>
+                            <p className="mb-20">
+                            Being an educator, one should have the sagacity to not take rude or aggressive behavior personally.
+                            </p>
+
+                            <h4 className="mt-n2 mb-20">OUT-DOOR ACTIVITIES:</h4>
+                            <p className="mb-20">
+                            While engaging them in sports and games, they should be given the freedom to not to take part in those that they may understand or like. Compelling a student with developmental disorder is counterproductive.
+                            </p>
+                            <p className="mb-20">
+                            As they say “patience is a virtue”. A special education teacher should have oodles of patience and should have the ability to see things from the students’ point of view in order to help them deal with day-to-day life with ease.
+                            </p>
+                            <p className="mb-20">
+                            For enquiries related to Special Education, send your messages to <a href='www.AnanthapuriCDC.com/contact' target="_blank" rel="noopener noreferrer">www.AnanapuriCDC.com/contact</a>
+                            </p>
+                            
                         </div>
                     </div>
                 </div>
