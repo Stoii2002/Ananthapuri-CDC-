@@ -17,4 +17,11 @@ class Departments(models.Model):
     
 class Department_Page(models.Model):
     title = models.CharField(max_length=100)
-    
+
+class Testimonials(models.Model):
+    name = models.CharField(max_length=15)
+    Discription = models.TextField()
+    def __str__(self):
+        return self.name
+class Gallery(models.Model):
+    image = models.ImageField(upload_to='Gallery/')
