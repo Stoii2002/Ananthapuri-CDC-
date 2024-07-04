@@ -10,13 +10,14 @@ const Special_Education_content = () => {
             <div className="row">
                 <div className="col-xxl-8 col-lg-8">
                     <div className="page-single mb-0">
-                        <div className="page-img th-anim">
-                            <img src={`${process.env.PUBLIC_URL}/assets/img/normal/class_details.jpg`} alt="class Image"/>
-                        </div>
+                        
                         <div className="page-content">
-                            <h3 className="sec-title page-title">Drawing & Painting</h3>
+                            <h3 className="sec-title page-title">Special Education: Fostering Full Learning Potential</h3>
                             <p className="sec-text mb-30">
-                                Drawing and painting play a crucial role in the creative development of children, and they are often integrated into educational curricula to foster holistic learning experiences. These artistic activities not only stimulate a child's imagination but also enhance their cognitive, motor, and emotional skills.
+                            The aim of special education in developmental disorders like autism is to enable a student’s ability to reach their full learning potential. While providing special education to students make sure it is designed to accomplish a great deal by managing the learning environment proactively to prevent behavior problems and promote learning. While imparting education it should be kept in mind that they may experience behavior or learning problems because they lack key skills like capacity to interact with others in socially appropriate ways. So education should focus on explicit skills-training in deficit areas as a central component in their curriculum.
+                            </p>
+                            <p className="sec-text mb-30">
+                            Below are some of the points that should be kept in mind while providing special education to children suffering from developmental disorders.
                             </p>
                             <p className="sec-text mb-45">
                                 By engaging in the process of creating visual art, children learn to express themselves, problem-solve, and observe the world around them with a heightened sense of curiosity. Moreover, the integration of drawing and painting in educational settings promotes a well-rounded approach.
