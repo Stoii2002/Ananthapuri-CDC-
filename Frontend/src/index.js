@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import HomeV1 from './components/home-v1';
 import HomeV3 from './components/home-v3';
 import HomeV4 from './components/home-v4';
