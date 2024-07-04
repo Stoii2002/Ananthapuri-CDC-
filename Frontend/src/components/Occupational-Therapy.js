@@ -7,9 +7,13 @@ import Occupationalbanner from './section-components/Department/Occupational-ban
 const Occupational_Theraphy = () => {
     return <div>
         <Navbar />
-        <Occupationalbanner/>
-        <Occupational_content/>
-        <Footer/>
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Occupationalbanner/>
+            <Occupational_content/>
+            <Footer/>
+        </div>
+        </div>
     </div>
 }   
 

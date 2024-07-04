@@ -7,9 +7,13 @@ import Psycho_content from './section-components/Department/Psycho-content';
 const Psycho_Theraphy = () => {
     return <div>
         <Navbar />
-       <Psychobanner/>
-       <Psycho_content/>
-        <Footer/>
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Psychobanner/>
+            <Psycho_content/>
+            <Footer/>
+        </div>
+        </div>
     </div>
 }   
 

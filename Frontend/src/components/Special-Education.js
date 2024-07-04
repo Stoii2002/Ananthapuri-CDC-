@@ -8,9 +8,13 @@ import Special_Education_content from './section-components/Department/SpecialEd
 const Special_Education = () => {
     return <div>
         <Navbar />
-       <Special_Education_banner/>
-       <Special_Education_content/>
-        <Footer/>
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Special_Education_banner/>
+            <Special_Education_content/>
+            <Footer/>
+        </div>
+        </div>
     </div>
 }   
  ;

@@ -8,9 +8,13 @@ import Speech_content from './section-components/Department/Speech-content';
 const Speech_Theraphy = () => {
     return <div>
         <Navbar />
-       <Speechbanner/>
-       <Speech_content/>
-        <Footer/>
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Speechbanner/>
+            <Speech_content/>
+            <Footer/>
+        </div>
+        </div>
     </div>
 }   
  ;
