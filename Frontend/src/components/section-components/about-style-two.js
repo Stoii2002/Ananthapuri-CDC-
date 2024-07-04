@@ -23,7 +23,7 @@ const AboutStyleTwo = () => {
                             <div class="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
                             <h3 class="box-title">Occupational Therapy</h3>
                             <p class="program-feature_text">Kindergarten is often the first formal schooling experience for children.</p>
-                            <a href="service-details.html" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="icon-btn"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </Link>
                 </div>
@@ -39,7 +39,7 @@ const AboutStyleTwo = () => {
                             <div class="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
                             <h3 class="box-title">Psycho Therapy</h3>
                             <p class="program-feature_text">Preschool is an early childhood educational where children</p>
-                            <a href="service-details.html" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="icon-btn"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </Link>
                 </div>
@@ -55,7 +55,7 @@ const AboutStyleTwo = () => {
                             <div class="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
                             <h3 class="box-title">Special Education</h3>
                             <p class="program-feature_text">Kindergarten, often abbreviated as is the first formal year of schooling</p>
-                            <a href="service-details.html" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                            <a href="service-details.html" class="icon-btn"><i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                     </Link>
                 </div>
@@ -71,7 +71,7 @@ const AboutStyleTwo = () => {
                         <div class="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
                         <h3 class="box-title">Speech Therapy</h3>
                         <p class="program-feature_text">Flex-care is a term that can refer to flexible childcare arrangements</p>
-                        <a href="service-details.html" class="icon-btn"><i class="fa-regular fa-arrow-right"></i></a>
+                        <a href="service-details.html" class="icon-btn"><i class="fa-solid fa-arrow-right"></i></a>
                     </div>
                     </Link>
                 </div>
