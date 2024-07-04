@@ -3,7 +3,7 @@ import React from 'react';
 const Occupationalbanner = () => {
    
     return (
-        <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/occu-therapy-banner.png">
                 <div class="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
                 <div class="container">
                     <div class="breadcumb-content">
