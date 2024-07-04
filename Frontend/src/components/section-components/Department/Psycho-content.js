@@ -16,12 +16,12 @@ const Psycho_content = () => {
                             <p className="sec-text mb-30">
                             Psychotherapy is a type of therapy used to treat emotional problems and mental health conditions like autism and other developmental disorders. In involves talking to a trained therapist, either one-to-one or with your husband, wife or partner. It gives a deeper insight into your problems and worries and equips you to deal with your troublesome habits and wide range of issues.
 
-Talking is the integral part of psychotherapy, but sometimes other methods like art, music, drama etc may be used. Psychotherapy helps you to open up yourself completely with the therapist; you can discuss the feelings you have about yourself. In some cases, joint therapy sessions are also offered for couples and families. The therapists provide utmost confidentiality, so you can trust them with information that may be personal and embarrassing.
+                            Talking is the integral part of psychotherapy, but sometimes other methods like art, music, drama etc may be used. Psychotherapy helps you to open up yourself completely with the therapist; you can discuss the feelings you have about yourself. In some cases, joint therapy sessions are also offered for couples and families. The therapists provide utmost confidentiality, so you can trust them with information that may be personal and embarrassing.
                             </p>
                             <p className="sec-text mb-45">
                             There are several different types of psychotherapy including psychodynamic (psychoanalytic) psychotherapy, cognitive behavioral therapy (CBT), cognitive analytical therapy (CAT), interpersonal psychotherapy (IPT), the humanistic approaches, group therapy, and family therapy.
 
-If you are undergoing psychotherapy, you are required to meet your therapist regularly, usually once a week. However, in some cases more frequent visits are required. A course involving 6 to 20 sessions are considered short-term sessions with each session lasting about 50 to 60 minutes.
+                            If you are undergoing psychotherapy, you are required to meet your therapist regularly, usually once a week. However, in some cases more frequent visits are required. A course involving 6 to 20 sessions are considered short-term sessions with each session lasting about 50 to 60 minutes.
                             </p>
                             <div className="row justify-content-center">
                                 <div className="col-lg-6">
