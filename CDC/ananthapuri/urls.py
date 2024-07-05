@@ -3,6 +3,8 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import FeatureViewSet, DepartmentsViewSet, TestimonialsViewset, GalleryViewset
+from . import views
+
 
 # Create a single router instance
 router = DefaultRouter()
@@ -15,4 +17,6 @@ router.register(r'Gallery',GalleryViewset, basename='Gallery')
 # Define urlpatterns to include the router's URLs
 urlpatterns = [
     path('', include(router.urls)),  # This includes /api/features/ and /api/departments/
+     path('blogs/', views.BlogListView.as_view()),
+    path('blogs/<slug:slug>/', views.BlogDetailView.as_view()),
 ]

@@ -1,6 +1,13 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Testimonial = () => {
+	const [testimonials, setTestimonials] = useState([]);
+  
+	useEffect(() => {
+	  fetch('http://127.0.0.1:8000/api/Testimonials/')
+	   .then(response => response.json())
+	   .then(data => setTestimonials(data));
+	}, []);
 
     return (
 		 <div className="" id="testi-sec">
@@ -33,54 +40,31 @@ const Testimonial = () => {
 
 
 
-											<div className="swiper-slide">
-												<div className="testi-card">
-													<div className="testi-card_wrapper">
-														<div className="testi-card-quote">
-															<img src="assets/img/icon/testi-quote.svg" alt="img"/>
-														</div>
-														<div className="testi-card_review">
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-regular fa-star"></i>
-														</div>
-													</div>
-													<p className="testi-card_text">“My son was very hyperactive. He never used to sit still, he would climb over the window grills. His favourite spot was top of the cupboard. He would never listen to me as if he was deaf and could not hear anything. We came at Ananthapuri Centre for Child Development & Early Intervention, with the thought of asking for some tips to make the child calmer. We liked the way they listened and understood my child’s problem. They conducted a detailed assessment for my kid. Now we are attending the therapy sessions suggested by them. It’s almost two months and we can see a very significant change in my son’s behaviour. Would like to thank the team at Ananthapuri CDC. ”</p>
-													<div className="testi-card_profile">
-														
-														<div className="testi-card_content">
-															<h3 className="testi-card_name box-title">Maya Rani ( name changed )</h3>
-														</div>
-													</div>
+										{testimonials.map((testimonial, index) => (
+											<div key={index} className="swiper-slide">
+											<div className="testi-card">
+												<div className="testi-card_wrapper">
+												<div className="testi-card-quote">
+													<img src="assets/img/icon/testi-quote.svg" alt="img" />
+												</div>
+												<div className="testi-card_review">
+													<i className="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
+													<i className="fa-solid fa-star"></i>
+													<i className="fa-regular fa-star"></i>
+												</div>
+												</div>
+												<p className="testi-card_text">{testimonial.Discription}</p>
+												<div className="testi-card_profile">
+												<div className="testi-card_content">
+													<h3 className="testi-card_name box-title">{testimonial.name}</h3>
+												</div>
 												</div>
 											</div>
-											<div className="swiper-slide">
-												<div className="testi-card">
-													<div className="testi-card_wrapper">
-														<div className="testi-card-quote">
-															<img src="assets/img/icon/testi-quote.svg" alt="img"/>
-														</div>
-														<div className="testi-card_review">
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-solid fa-star"></i>
-															<i className="fa-regular fa-star"></i>
-														</div>
-													</div>
-													<p className="testi-card_text">“My son was very hyperactive. He never used to sit still, he would climb over the window grills. His favourite spot was top of the cupboard. He would never listen to me as if he was deaf and could not hear anything. We came at Ananthapuri Centre for Child Development & Early Intervention, with the thought of asking for some tips to make the child calmer. We liked the way they listened and understood my child’s problem. They conducted a detailed assessment for my kid. Now we are attending the therapy sessions suggested by them. It’s almost two months and we can see a very significant change in my son’s behaviour. Would like to thank the team at Ananthapuri CDC. ”</p>
-													<div className="testi-card_profile">
-														
-														<div className="testi-card_content">
-															<h3 className="testi-card_name box-title">Maya Rani ( name changed )</h3>
-														</div>
-													</div>
-												</div>
 											</div>
-											
-											
+										))}
+										
 										</div>
 									</div>
 								</div>

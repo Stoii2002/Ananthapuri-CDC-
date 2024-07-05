@@ -7,6 +7,9 @@ from .models import Departments
 from .serializers import DepartmentsSerializer
 from .models import Testimonials, Gallery
 from .serializers import TestimonialsSerializer, GallerySerializer
+from rest_framework import generics
+from .models import Blog
+from .serializers import BlogSerializer
 
 class FeatureViewSet(viewsets.ModelViewSet):
     queryset = Feature.objects.all()
@@ -23,3 +26,13 @@ class TestimonialsViewset(viewsets.ModelViewSet):
 class GalleryViewset(viewsets.ModelViewSet):
     queryset = Gallery.objects.all()
     serializer_class = GallerySerializer
+
+
+class BlogListView(generics.ListAPIView):
+    queryset = Blog.objects.all()
+    serializer_class = BlogSerializer
+
+class BlogDetailView(generics.RetrieveAPIView):
+    queryset = Blog.objects.all()
+    serializer_class = BlogSerializer
+    lookup_field = 'slug'

@@ -17437,6 +17437,7 @@ span.select2-selection.select2-selection--single:focus {
   line-height: 28px;
   color: var(--body-color);
   margin-bottom: 30px;
+  word-wrap: break-word;
 }
 
 .testi-card_profile {

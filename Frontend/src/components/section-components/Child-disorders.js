@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 class Child_disorders extends Component {
 
@@ -25,14 +25,13 @@ class Child_disorders extends Component {
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
-									<a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-									<a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-									<a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-									<a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+										<div class="team-content">
+										<h3 class="box-title"><Link to="Adhd">More</Link></h3>
+									</div>
 								</div>
 							</div>
 							<div class="team-content">
-								<h3 class="box-title"><a href="team-details.html">ADHD</a></h3>
+								<h3 class="box-title"><Link to="Adhd">ADHD</Link></h3>
 							</div>
 						</div>
 					</div>
@@ -40,6 +39,7 @@ class Child_disorders extends Component {
 
 					{/* <!-- Single Item --> */}
 					<div class="swiper-slide">
+						
 						<div class="team-card">
 							<div class="team-img-wrap">
 								<div class="team-img" data-mask-src="assets/img/shape/team-shape2.png">
@@ -47,16 +47,16 @@ class Child_disorders extends Component {
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
-									<a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-									<a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-									<a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-									<a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+								<div class="team-content">
+								<h3 class="box-title"><Link to="Autism">More</Link></h3>
+							</div>
 								</div>
 							</div>
 							<div class="team-content">
-								<h3 class="box-title"><a href="team-details.html">Autism</a></h3>
+								<h3 class="box-title"><Link to="Autism">Autism</Link></h3>
 							</div>
 						</div>
+						
 					</div>
 
 
@@ -69,14 +69,13 @@ class Child_disorders extends Component {
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
-									<a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-									<a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-									<a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-									<a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+								<div class="team-content">
+								<h3 class="box-title"><Link to="Cerebral-Palsy">More</Link></h3>
+							</div>
 								</div>
 							</div>
 							<div class="team-content">
-								<h3 class="box-title"><a href="team-details.html">Cerebral Palsy</a></h3>
+								<h3 class="box-title"><Link to="Cerebral-Palsy">Cerebral Palsy</Link></h3>
 							</div>
 						</div>
 					</div>
@@ -91,14 +90,13 @@ class Child_disorders extends Component {
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
-									<a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-									<a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-									<a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-									<a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+								<div class="team-content">
+								<h3 class="box-title"><Link to="Downs-Syndrome">More</Link></h3>
+							</div>
 								</div>
 							</div>
 							<div class="team-content">
-								<h3 class="box-title"><a href="team-details.html">Downs Syndrome</a></h3>
+								<h3 class="box-title"><Link to="Downs-Syndrome">Downs Syndrome</Link></h3>
 							</div>
 						</div>
 					</div>
@@ -113,14 +111,13 @@ class Child_disorders extends Component {
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
-									<a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-									<a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-									<a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-									<a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+								<div class="team-content">
+								<h3 class="box-title"><Link to="Intellectual-Disability">More</Link></h3>
+							</div>
 								</div>
 							</div>
 							<div class="team-content">
-								<h3 class="box-title"><a href="team-details.html">Intellectual Disability</a></h3>
+								<h3 class="box-title"><Link to="Intellectual-Disability">Intellectual Disabilit</Link></h3>
 							</div>
 						</div>
 					</div>
@@ -135,14 +132,13 @@ class Child_disorders extends Component {
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
-									<a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-									<a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-									<a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-									<a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+								<div class="team-content">
+								<h3 class="box-title"><Link to="Learning-Disability">More</Link></h3>
+							</div>
 								</div>
 							</div>
 							<div class="team-content">
-								<h3 class="box-title"><a href="team-details.html">Learning Disability</a></h3>
+								<h3 class="box-title"><Link to="Learning-Disability">Learning Disability</Link></h3>
 							</div>
 						</div>
 					</div>
