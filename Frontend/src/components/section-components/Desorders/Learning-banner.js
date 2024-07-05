@@ -11,7 +11,7 @@ const Learning_banner = () => {
                         <h1 className="breadcumb-title">Learning Disability</h1>
                         <ul className="breadcumb-menu">
                             <li><Link to="/">Home</Link></li>
-                            <li>DLearning Disability</li>
+                            <li>Learning Disability</li>
                         </ul>
                     </div>
                 </div>

@@ -14,14 +14,28 @@ const Learning_content = () => {
                                     <img src="assets/img/service/service_details.jpg" alt="Service Image"/>
                                 </div>
                                 <div className="page-content">
-                                    <h3 className="sec-title page-title">Night Nurses</h3>
-                                    <p className="sec-textmb-30">Night nurses, also known as nocturnal or overnight nurses, work during
-                                        the night shift in healthcare settings such as hospitals, clinics, and long-term care
-                                        facilities. They play a crucial role in providing patient care and maintaining a safe and
-                                        supportive environment during nighttime hours.</p>
-                                    <p className="sec-text mb-45">Night nurses are responsible for monitoring and attending to the needs
-                                        of patients during the night. This includes administering medications, checking vital signs,
-                                        providing wound care, and addressing any concerns or emergencies that may arise..</p>
+                                    <h3 className="sec-title page-title">UNDERSTANDIG LEARNING DISABILITIES</h3>
+                                    <h3 className="sec-title page-title">What is a Learning Disability?</h3>
+                                    <p className="sec-textmb-30">A learning disability (LD) is a neurological condition that affects how an individual processes, understands, and communicates information. Unlike intellectual disabilities, learning disabilities do not reflect a person's overall intelligence. Individuals with learning disabilities typically have average to above-average intelligence but encounter difficulties in specific areas of learning.</p>
+                                    <p className="sec-textmb-30">There are various types of learning disabilities, each affecting different aspects of learning. Some common types include:</p>
+                                
+                                    
+                                    <p className="sec-textmb-30">
+                                        <ul>
+                                            <li>Dyslexia: Affecting reading and language processing, individuals with dyslexia may have difficulty decoding words, spelling, and recognizing written words.</li>
+                                            <li>Dysgraphia: This LD impacts writing skills, making it challenging for individuals to organize thoughts on paper, form letters or words, and maintain proper spelling and grammar.</li>
+                                            <li>Dyscalculia: This LD involves difficulties with mathematical concepts, making tasks such as arithmetic, understanding mathematical symbols, and solving mathematical problems challenging.</li>
+                                            <li>Attention-Deficit/Hyperactivity Disorder (ADHD): Though not exclusively a learning disability, ADHD often coexists with LDs. It can affect attention, impulse control, and hyperactivity, making it challenging for individuals to focus on tasks and complete them promptly.</li>
+                                            <li>Auditory Processing Disorder (APD): Individuals with APD may struggle to interpret and make sense of auditory information, impacting their ability to understand spoken language and follow instructions.</li>
+                                        </ul>
+                                    </p>
+
+                                    <p className="sec-textmb-30">Identifying learning disabilities typically occurs through educational assessments, often initiated by concerns raised by parents, teachers, or the individuals themselves. These assessments may involve testing cognitive abilities, academic achievement, and other relevant areas to pinpoint specific challenges.</p>
+                                    <p className="sec-textmb-30">Support and intervention strategies for individuals with learning disabilities are tailored to their unique needs. Special education services, individualized education plans (IEPs), and accommodations in the classroom may be provided to address specific learning challenges. This can include extra time on tests, assistive technology, modified assignments, and additional support from specialists.</p>
+                                    <p className="sec-textmb-30">It’s important to recognize the strengths of individuals with learning disabilities and to foster a supportive and inclusive environment. Building self-esteem and confidence is crucial for individuals with LDs to navigate challenges and succeed in various aspects of life.</p>
+                                    <p className="sec-textmb-30">Educational and emotional support should extend beyond the classroom, involving collaboration among educators, parents, and mental health professionals. With appropriate interventions and understanding, individuals with learning disabilities can develop effective strategies to overcome challenges and thrive in their educational and personal pursuits.</p>
+                                    
+
                                     <div className="row justify-content-center">
                                         <div className="col-md-6">
                                             <div className="page-img th-anim">
@@ -31,61 +45,6 @@ const Learning_content = () => {
                                         <div className="col-md-6">
                                             <div className="page-img th-anim">
                                                 <img src="assets/img/service/service_inner_2.jpg" alt="service Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <h4 className="mb-20">Prime Selection for Your Cherished Child</h4>
-
-                                    <p className="mb-35">Selecting the right toys and activities for your child is crucial for more
-                                        their development and overall well-being. Here's a prime selection guide for your cherished
-                                        child.Choose toys mor that are suitable for your child's age and developmental stage. This
-                                        ensures safety and engagement.</p>
-                                    <p className="mt-30 mb-0">Crafting the destiny of our children is a profound’s and multifaceted
-                                        responsibility that the involve shaping their characters, providing them with the
-                                        opportunities, and guiding them towards the futures filled with purpose and fulfillments.
-                                        Parents, educatored, and society as the whole plays pivotal roles in this process. Here are
-                                        some key aspects to consider when it comes to crafting the destiny of our children:</p>
-
-                                </div>
-                            </div>
-                            <div className="th-comment-form style2 ">
-                                <h2 className="blog-inner-title h3 mb-4">Frequently Asked Question</h2>
-                                <div className="accordion" id="faqAccordion">
-
-
-                                    <div className="accordion-card style2">
-                                        <div className="accordion-header" id="collapse-item-1">
-                                            <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Do you offer parent-teacher conferences?</button>
-                                        </div>
-                                        <div id="collapse-1" className="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
-                                            <div className="accordion-body">
-                                                <p className="faq-text">As an AI developed by OpenAI, I don't offer parent-teacher conferences myself. However, I can provide information and advice on how to conduct effective parent-teacher conferences if you're interested.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="accordion-card style2">
-                                        <div className="accordion-header" id="collapse-item-2">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">What is your educational philosophy?</button>
-                                        </div>
-                                        <div id="collapse-2" className="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
-                                            <div className="accordion-body">
-                                                <p className="faq-text">I believe education should be accessible to everyone, regardless of background or ability. This means striving to provide information in a clear, concise, and unbiased way.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="accordion-card style2">
-                                        <div className="accordion-header" id="collapse-item-3">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">What is the teacher-to-child ratio?</button>
-                                        </div>
-                                        <div id="collapse-3" className="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
-                                            <div className="accordion-body">
-                                                <p className="faq-text">The teacher-to-child ratio can vary widely depending on the educational setting and the specific requirements or standards set by governing bodies.</p>
                                             </div>
                                         </div>
                                     </div>

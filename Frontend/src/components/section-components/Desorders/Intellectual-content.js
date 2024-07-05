@@ -14,14 +14,64 @@ const Intellectual_content = () => {
                                     <img src="assets/img/service/service_details.jpg" alt="Service Image"/>
                                 </div>
                                 <div className="page-content">
-                                    <h3 className="sec-title page-title">Night Nurses</h3>
-                                    <p className="sec-textmb-30">Night nurses, also known as nocturnal or overnight nurses, work during
-                                        the night shift in healthcare settings such as hospitals, clinics, and long-term care
-                                        facilities. They play a crucial role in providing patient care and maintaining a safe and
-                                        supportive environment during nighttime hours.</p>
-                                    <p className="sec-text mb-45">Night nurses are responsible for monitoring and attending to the needs
-                                        of patients during the night. This includes administering medications, checking vital signs,
-                                        providing wound care, and addressing any concerns or emergencies that may arise..</p>
+                                    <h3 className="sec-title page-title">UNDERSTANDING INTELLECTUAL DISABILITY</h3>
+                                    <h3 className="sec-title page-title">What is Intellectual Disability?</h3>
+                                    <p className="sec-textmb-30">Intellectual disability (ID) is a term used when a person has certain limitations in cognitive functioning and skills, including communication, social skills, and self-care. These limitations can cause a child to develop and learn more slowly or differently than a typically developing child.</p>
+                                    
+                                    <h3 className="sec-title page-title">Characteristics</h3>
+                                    
+                                    <p className="sec-textmb-30">
+                                        <ol>
+                                            <li>Cognitive Impairment: Individuals with intellectual disabilities may have difficulties with:
+                                               <ul>
+                                                  <li>Problem-solving</li>
+                                                  <li>Abstract thinking</li>
+                                                  <li>Comprehending complex ideas</li>
+                                                  <li>Learning new skills</li>
+                                               </ul>
+                                            </li>
+                                            <li>Adaptive Behavior: Challenges in adaptive behavior affect daily life skills, including:
+                                               <ul>
+                                                  <li>Communication (understanding and expressing language)</li>
+                                                  <li>Social skills (interacting with others, following social rules)</li>
+                                                  <li>Practical skills (personal care, safety, using money, and managing work responsibilities)</li>
+                                               </ul>
+                                            </li>
+                                            <li>Medical Care: Regular health check-ups and treatment for associated health issues
+                                               <ul>
+                                                  <li>Motor skills (crawling, walking)</li>
+                                                  <li>Language development (speaking, understanding speech)</li>
+                                                  <li>Academic skills (reading, writing, mathematics)</li>
+                                               </ul>
+                                            </li>
+                                            
+                                        </ol>
+                                    </p>
+
+                                    <h3 className="sec-title page-title">Causes</h3>
+                                    <p className="sec-textmb-30">Intellectual disability can result from various factors, including:</p>
+                                    <p className="sec-textmb-30">
+                                        <ul>
+                                            <li>Genetic Conditions: Such as Down's Syndrome, Fragile X Syndrome, and Phenylketonuria (PKU).</li>
+                                            <li>Prenatal Issues: Exposure to alcohol, drugs, infections, or malnutrition during pregnancy.</li>
+                                            <li>Perinatal Problems: Complications during birth, such as oxygen deprivation or premature birth.</li>
+                                            <li>Postnatal Factors: Severe malnutrition, brain infections (like meningitis), traumatic brain injury, or exposure to toxic substances.</li>
+                                        </ul>
+                                    </p>
+
+                                    <h3 className="sec-title page-title">Our Role</h3>
+                                    <p className="sec-textmb-30">At Ananthapuri Special School, we are dedicated to providing holistic and individualized care for children with intellectual disabilities. Our approach includes:</p>
+                                    <p className="sec-textmb-30">
+                                        <ul>
+                                            <li>Customized Education Plans: Tailored to each child's strengths and needs, ensuring they receive the appropriate support for their cognitive and adaptive development.</li>
+                                            <li>Comprehensive Therapies: Access to speech, occupational, and behavioral therapies to support overall development.</li>
+                                            <li>Family Involvement: Engaging families in the therapeutic process, offering resources, and creating a supportive community.</li>
+                                            <li>Inclusive Environment: Promoting a nurturing and inclusive atmosphere where every child feels valued and supported.</li>
+                                        </ul>
+                                    </p>
+                                    <p className="sec-textmb-30">Our mission is to systematically reduce childhood disability through comprehensive systems and personalized care, fostering optimal growth and development for every child.</p>
+
+
                                     <div className="row justify-content-center">
                                         <div className="col-md-6">
                                             <div className="page-img th-anim">
@@ -31,61 +81,6 @@ const Intellectual_content = () => {
                                         <div className="col-md-6">
                                             <div className="page-img th-anim">
                                                 <img src="assets/img/service/service_inner_2.jpg" alt="service Image"/>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <h4 className="mb-20">Prime Selection for Your Cherished Child</h4>
-
-                                    <p className="mb-35">Selecting the right toys and activities for your child is crucial for more
-                                        their development and overall well-being. Here's a prime selection guide for your cherished
-                                        child.Choose toys mor that are suitable for your child's age and developmental stage. This
-                                        ensures safety and engagement.</p>
-                                    <p className="mt-30 mb-0">Crafting the destiny of our children is a profound’s and multifaceted
-                                        responsibility that the involve shaping their characters, providing them with the
-                                        opportunities, and guiding them towards the futures filled with purpose and fulfillments.
-                                        Parents, educatored, and society as the whole plays pivotal roles in this process. Here are
-                                        some key aspects to consider when it comes to crafting the destiny of our children:</p>
-
-                                </div>
-                            </div>
-                            <div className="th-comment-form style2 ">
-                                <h2 className="blog-inner-title h3 mb-4">Frequently Asked Question</h2>
-                                <div className="accordion" id="faqAccordion">
-
-
-                                    <div className="accordion-card style2">
-                                        <div className="accordion-header" id="collapse-item-1">
-                                            <button className="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Do you offer parent-teacher conferences?</button>
-                                        </div>
-                                        <div id="collapse-1" className="accordion-collapse collapse show" aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
-                                            <div className="accordion-body">
-                                                <p className="faq-text">As an AI developed by OpenAI, I don't offer parent-teacher conferences myself. However, I can provide information and advice on how to conduct effective parent-teacher conferences if you're interested.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="accordion-card style2">
-                                        <div className="accordion-header" id="collapse-item-2">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">What is your educational philosophy?</button>
-                                        </div>
-                                        <div id="collapse-2" className="accordion-collapse collapse " aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
-                                            <div className="accordion-body">
-                                                <p className="faq-text">I believe education should be accessible to everyone, regardless of background or ability. This means striving to provide information in a clear, concise, and unbiased way.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div className="accordion-card style2">
-                                        <div className="accordion-header" id="collapse-item-3">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">What is the teacher-to-child ratio?</button>
-                                        </div>
-                                        <div id="collapse-3" className="accordion-collapse collapse " aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
-                                            <div className="accordion-body">
-                                                <p className="faq-text">The teacher-to-child ratio can vary widely depending on the educational setting and the specific requirements or standards set by governing bodies.</p>
                                             </div>
                                         </div>
                                     </div>
