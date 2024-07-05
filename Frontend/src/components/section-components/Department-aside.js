@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import axios from 'axios';
+import { useParams } from 'react-router-dom';
+
+
 
 const Departmentaside = () => {
+	const [blogs, setBlogs] = useState([]);
+
+	useEffect(() => {
+	  axios.get('http://localhost:8000/api/blogs/')
+		.then(response => {
+		  setBlogs(response.data);
+		})
+		.catch(error => {
+		  console.error(error);
+		});
+	}, []);
 
     return (
         <aside className="sidebar-area">
@@ -25,6 +40,17 @@ const Departmentaside = () => {
                 <li><Link to="Intellectual-Disability">Intellectual disability</Link></li>
                 <li><Link to="Learning-Disability">Learning Disability</Link></li>
             </ul>
+        </div>
+
+        <div className="widget widget_categories">
+            <h3 className="widget_title">Recent Blogs</h3>
+            <ul className="sub-menu">
+			    {blogs.map(blog => (
+			    	<li key={blog.id}>
+			    	<a href={`/blog/${blog.slug}`}>{blog.name}</a>
+			    	</li>
+			    ))}
+			</ul>
         </div>
 
         <div className="widget">

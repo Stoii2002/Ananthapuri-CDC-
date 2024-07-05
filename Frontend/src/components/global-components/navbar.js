@@ -1,12 +1,24 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
-class Navbar extends Component {
-	
-    render() {
-        let publicUrl = process.env.PUBLIC_URL+'/'
-        let imgattr = 'logo'
-        return (
+const Navbar = () => {
+    let publicUrl = process.env.PUBLIC_URL + '/';
+    let imgattr = 'logo';
+
+	const [blogs, setBlogs] = useState([]);
+
+	useEffect(() => {
+	  axios.get('http://localhost:8000/api/blogs/')
+		.then(response => {
+		  setBlogs(response.data);
+		})
+		.catch(error => {
+		  console.error(error);
+		});
+	}, []);
+    return(
 			<header className="th-header header-layout1 header-absolute">
 			<div className="header-top">
 				<div className="container th-container">
@@ -77,13 +89,18 @@ class Navbar extends Component {
 										<li className="menu-item-has-children">
 											<a href="#">Blog</a>
 											<ul className="sub-menu">
-												<li><a href="blog.html"> Our Blog</a></li>
-												<li><a href="blog-details.html">Blog Details</a></li>
+											{blogs.map(blog => (
+												<li key={blog.id}>
+												<a href={`/blog/${blog.slug}`}>{blog.name}</a>
+												</li>
+											))}
 											</ul>
 										</li>
 										<li>
 										<Link to="/contact">Contact</Link>
 										</li>
+
+										
 									</ul>
 								</nav>
 							</div>
@@ -102,9 +119,7 @@ class Navbar extends Component {
 				</div>
 			</div>
 		</header>
-        )
-    }
+    );
 }
 
-
-export default Navbar
+export default Navbar;

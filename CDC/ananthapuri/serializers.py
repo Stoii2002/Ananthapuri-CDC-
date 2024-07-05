@@ -3,6 +3,7 @@ from rest_framework import serializers
 from .models import Feature
 from .models import Departments
 from .models import Testimonials, Gallery
+from .models import Blog
 
 class FeatureSerializer(serializers.ModelSerializer):
     class Meta:
@@ -23,3 +24,8 @@ class GallerySerializer(serializers.ModelSerializer):
     class Meta:
         model = Gallery
         fields = '__all__'
+
+class BlogSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Blog
+        fields = ('id', 'name', 'description', 'image', 'slug')

@@ -35,6 +35,7 @@ import Intellectual from './components/Intellectual-disability';
 import Learning_Disability from './components/Learning-Disability';
 
 
+
 class Root extends Component {
     render() {
         return(
@@ -59,7 +60,6 @@ class Root extends Component {
 	                    <Route path="/team" component={Team} />
 	                    <Route path="/Gallery" component={Gallery} />
 	                    <Route path="/blog-list" component={BlogList} />
-	                    <Route path="/blog-details" component={BlogDetails} />
 	                    <Route path="/contact" component={Contact} />
 
 						{/* Departments */}
@@ -75,6 +75,8 @@ class Root extends Component {
 						<Route path="/Downs-Syndrome" component={Downs} />
 						<Route path="/Intellectual-Disability" component={Intellectual} />
 						<Route path="/Learning-Disability" component={Learning_Disability} />
+
+						<Route path="/blog/:slug" component={BlogDetails} />
 	                </Switch>
 	                </div>
                 </Router>
