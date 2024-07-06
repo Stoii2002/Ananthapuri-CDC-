@@ -16,22 +16,20 @@ class Skill extends Component {
 							<div className="pe-xl-5 me-xl-4">
 								<div className="title-area mb-15">
 									<span className="sub-title">Our Benefits</span>
-									<h2 className="sec-title">The Importance of Kindergarten in Early Childhood Education</h2>
+									<h2 className="sec-title">Empowering Young Minds: Excellence in Early Child Care, Developmental Disabilities, and Inclusive Education </h2>
 								</div>
-								<p className="mb-25">Kindergarten provides opportunities for children to develop fine and gross motor skills
-									through various activities such as drawing, painting, cutting, and playing games. These
-									activities help strengthen muscles.
+								<p className="mb-25">By choosing Ananthapuri Special School and CDC, parents and caregivers invest in a future where children with diverse needs can thrive, grow, and reach their fullest potential in a compassionate and inclusive setting.
 								</p>
 								<div className="checklist style1 list-two-column">
 									<ul>
-										<li>Academic Readiness</li>
-										<li>Emotional Development</li>
-										<li>Socialization Skills</li>
-										<li>Independence & Responsibility</li>
-										<li>Home-like environment</li>
-										<li>Safety and scurity</li>
-										<li>Safety and scurity</li>
-										<li>Love for Learning</li>
+										<li>Personalized Care and Education</li>
+										<li>Expert Team</li>
+										<li>Modern & better Facilities</li>
+										<li>Inclusive Environment</li>
+										<li>Focus on Developmental Disabilities</li>
+										<li>Parental Involvement</li>
+										<li>Community Integration</li>
+										<li>Commitment to Excellence</li>
 
 									</ul>
 								</div>

@@ -107,7 +107,7 @@ class Child_disorders extends Component {
 						<div class="team-card">
 							<div class="team-img-wrap">
 								<div class="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/team_1_2.jpg" alt="Team"/>
+									<img src="assets/img/team/intellectual-home-img.png" alt="Team"/>
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
@@ -117,7 +117,7 @@ class Child_disorders extends Component {
 								</div>
 							</div>
 							<div class="team-content">
-								<h3 class="box-title"><Link to="Intellectual-Disability">Intellectual Disabilit</Link></h3>
+								<h3 class="box-title"><Link to="Intellectual-Disability">Intellectual Disability</Link></h3>
 							</div>
 						</div>
 					</div>
@@ -128,7 +128,7 @@ class Child_disorders extends Component {
 						<div class="team-card">
 							<div class="team-img-wrap">
 								<div class="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/team_1_3.jpg" alt="Team"/>
+									<img src="assets/img/team/learning-home-img.png" alt="Team"/>
 									<div class="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div class="th-social">
