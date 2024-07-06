@@ -89,11 +89,13 @@ const Navbar = () => {
 										<li className="menu-item-has-children">
 											<a href="#">Blog</a>
 											<ul className="sub-menu">
+
 											{blogs.map(blog => (
 												<li key={blog.id}>
 												<a href={`/blog/${blog.slug}`}>{blog.name}</a>
 												</li>
 											))}
+											
 											</ul>
 										</li>
 										<li>

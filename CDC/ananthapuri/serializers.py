@@ -28,4 +28,4 @@ class GallerySerializer(serializers.ModelSerializer):
 class BlogSerializer(serializers.ModelSerializer):
     class Meta:
         model = Blog
-        fields = ('id', 'name', 'description', 'image', 'slug')
+        fields = ('id', 'name', 'description', 'image', 'slug', 'Banner')

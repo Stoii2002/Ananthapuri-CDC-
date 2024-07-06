@@ -8,9 +8,13 @@ import Blog_banner from './blog-components/blog-banner';
 const BlogList = () => {
     return <div>
         <Navbar />
-        <Blog_banner/>
-        <BlogDetails />
-        <Footer />
+        <div id="smooth-wrapper style2">
+        <div id="smooth-content">
+            <Blog_banner/>
+            <BlogDetails />
+            <Footer />
+        </div>
+        </div>
     </div>
 }
 

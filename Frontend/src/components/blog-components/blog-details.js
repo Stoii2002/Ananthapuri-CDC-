@@ -9,162 +9,186 @@ const Blog_page = () => {
 
   useEffect(() => {
     axios.get(`http://localhost:8000/api/blogs/${slug}/`)
-     .then(response => {
+      .then(response => {
         setBlog(response.data);
       })
-     .catch(error => {
+      .catch(error => {
         console.error(error);
       });
   }, [slug]);
 
   return (
-    <div>
-      <h1>{blog.name}</h1>
-      <p>{blog.description}</p>
-
-
-	  <section class="th-blog-wrapper blog-details space-top space-extra-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xxl-8 col-lg-7">
-                            <div class="th-blog blog-single">
-                                <div class="blog-img">
-                                    <img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image"/>
-                                    <a href="blog-details.html" class="blog-date"> 26 <span class="month">May</span> </a>
-                                </div>
-                                <div class="blog-content">
-                                    <div class="blog-meta">
-                                        <a class="author" href="blog.html"><i class="fa-solid fa-user"></i>Admin</a>
-                                        <a href="blog.html"><i class="fa-solid fa-comment"></i>Comments (5)</a>
-                                    </div>
-                                    <h2 class="blog-title">Friendship Blooms in Kindergarten</h2>
-                                    <p class="mb-30">In a pioneering’s moves, kindergarten’s across the countrys are embracings
-                                        virtual’s learning tools to enhance early education.It's interesting to hear that
-                                        kindergartens across the country are embracing virtual learning tools to enhance early
-                                        education.</p>
-                                    <p> Virtual learning tools for the kindergartens often include interactives educationals games,
-                                        multimedia content, and online platforms designed to supports early learning objectives.
-                                        These tools can cater to different learning styles, providing a more dynamic and engaging
-                                        environment.</p>
-                                    <blockquote>
-                                        <p>"<a class="text-theme" href="#">Mrs. Rodriguez,</a> a beacon of the warmth and guidance, transforms for the kindergarten classroom into the magical garden where each child's a potential sprouts, and the seeds of knowledge are sown with care and joy."</p>
-                                    </blockquote>
-                                    <div class="row mt-25">
-                                        <div class="col-md-6 mb-4">
-                                            <img class="w-100 rounded-30" src="assets/img/blog/blog_inner_1.jpg" alt="Blog Image"/>
-                                        </div>
-                                        <div class="col-md-6 mb-4">
-                                            <img class="w-100 rounded-30" src="assets/img/blog/blog_inner_2.jpg" alt="Blog Image"/>
-                                        </div>
-                                    </div>
-
-                                    <p class="blog-text">Indeed, the integration of virtual learning tools in kindergartens settings represent’s a significant shift in early educations. These tools aim to the make learning more engagings, interactive, and tailored to individual needs. Some key aspects of virtual learning tools in kindergarten include.</p>
-
-
-                                    <div class="share-links clearfix ">
-                                        <div class="row justify-content-between">
-                                            <div class="col-md-auto">
-                                                <span class="share-links-title">Tags:</span>
-                                                <div class="tagcloud">
-                                                    <a href="blog.html">Babycare</a>
-                                                    <a href="blog.html">Reading</a>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-auto text-xl-end">
-                                                <span class="share-links-title">Share:</span>
-                                                <div class="th-social">
-                                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                                </div>
-                                            </div>{/* <!-- Share Links Area end --> */}
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                            <div class="blog-navigation">
-                                <a href="blog-details.html" class="nav-btn prev">
-                                    <i class="fa-solid fa-angle-left"></i>
-                                    <span class="nav-text">Explore Adventures in Kindergarten</span>
-                                </a>
-                                <a href="blog-details.html" class="nav-btn next">
-                                    <i class="fa-solid fa-angle-right"></i>
-                                    <span class="nav-text">Friendship Blooms in Kindergarten</span>
-                                </a>
-                            </div>
-                            <div class="th-comments-wrap ">
-                                <h2 class="blog-inner-title h4"> <i class="fa-solid fa-comments"></i>Comments (02)</h2>
-                                <ul class="comment-list">
-                                    <li class="th-comment-item">
-                                        <div class="th-post-comment">
-                                            <div class="comment-avater">
-                                                <img src="assets/img/blog/comment-author-1.jpg" alt="Comment Author"/>
-                                            </div>
-                                            <div class="comment-content">
-                                                <h3 class="name">Rita Hirwat Michel</h3>
-                                                <span class="commented-on">26 Mar,2024 10:30 am</span>
-                                                <p class="text">I recently purchased the Kitar Baby Cares set for my newborns baby, and I couldn't be happier. The quality of the products is outstandings kids , and they are gentles on my baby's sensitived skin. The diaper cream worked wonders, and the baby lotion has a delightful scent.</p>
-                                                <div class="reply_and_edit">
-                                                    <a href="blog-details.html" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <ul class="children">
-                                            <li class="th-comment-item">
-                                                <div class="th-post-comment">
-                                                    <div class="comment-avater">
-                                                        <img src="assets/img/blog/comment-author-2.jpg" alt="Comment Author"/>
-                                                    </div>
-                                                    <div class="comment-content">
-                                                        <div class="">
-                                                            <h3 class="name">Sarah Sneha</h3>
-                                                            <span class="commented-on">26 Mar,2024 10:30 am</span>
-                                                            <p class="text">I recently purchased the Kitar Baby Cares set for my newborns baby, and I couldn't be happier. The quality of the products is outstandings kids , and they are gentles on my baby's sensitived skin. The diaper cream worked wonders, and the baby.</p>
-                                                        </div>
-                                                        <div class="reply_and_edit">
-                                                            <a href="blog-details.html" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div> {/* <!-- Comment end --> <!-- Comment Form --> */}
-                            <div class="th-comment-form ">
-                                <div class="row">
-                                    <h3 class="blog-inner-title h4 mb-2">Leave Your Comment</h3>
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" placeholder="Your Name" class="form-control"/>
-                                        <i class="far fa-user"></i>
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" placeholder="Your Email" class="form-control"/>
-                                        <i class="far fa-envelope"></i>
-                                    </div>
-                                    <div class="col-12 form-group">
-                                        <input type="text" placeholder="Website" class="form-control"/>
-                                        <i class="far fa-globe"></i>
-                                    </div>
-                                    <div class="col-12 form-group">
-                                        <textarea placeholder="Write a Comment" class="form-control"></textarea>
-                                        <i class="far fa-pencil"></i>
-                                    </div>
-                                    <div class="col-12 form-group mb-0">
-                                        <button class="th-btn btn-fw">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xxl-4 col-lg-5">	
-                            <Departmentaside/>
-                        </div>
-                    </div>
+    <div>      
+      <section className="th-blog-wrapper blog-details space-top space-extra-bottom">
+        <div className="container">
+          <div className="row">
+            <div className="col-xxl-8 col-lg-7">
+              <div className="th-blog blog-single">
+                <div className="blog-img">
+                <img src={blog.image} alt={blog.name} />
+                  <a href="blog-details.html" className="blog-date"> 26 <span className="month">May</span> </a>
                 </div>
-            </section>
+                <div className="blog-content">
+                  <div className="blog-meta">
+                    <a className="author" href="blog.html">
+                      <i className="fa-solid fa-user"></i>Admin
+                    </a>
+                    <a href="blog.html">
+                      <i className="fa-solid fa-comment"></i>Comments (5)
+                    </a>
+                  </div>
+                  <h2 className="blog-title">{blog.name}</h2>
+                  <p className="mb-30">
+                        {blog.description}
+                  </p>
+                  <p>
+                    Virtual learning tools for the kindergartens often include interactives educational games,
+                    multimedia content, and online platforms designed to support early learning objectives.
+                    These tools can cater to different learning styles, providing a more dynamic and engaging
+                    environment.
+                  </p>
+                  <blockquote>
+                    <p>
+                      "<a className="text-theme" href="#">Mrs. Rodriguez,</a> a beacon of warmth and guidance, transforms the kindergarten classroom into a magical garden where each child's potential sprouts, and the seeds of knowledge are sown with care and joy."
+                    </p>
+                  </blockquote>
+                  <div className="row mt-25">
+                    <div className="col-md-6 mb-4">
+                      <img 
+                        className="w-100 rounded-30" 
+                        src={`${process.env.PUBLIC_URL}/assets/img/blog/blog_inner_1.jpg`} 
+                        alt="Blog Image" 
+                      />
+                    </div>
+                    <div className="col-md-6 mb-4">
+                      <img 
+                        className="w-100 rounded-30" 
+                        src={`${process.env.PUBLIC_URL}/assets/img/blog/blog_inner_2.jpg`} 
+                        alt="Blog Image" 
+                      />
+                    </div>
+                  </div>
+                  <p className="blog-text">
+                    Indeed, the integration of virtual learning tools in kindergarten settings represents a significant shift in early education. These tools aim to make learning more engaging, interactive, and tailored to individual needs. Some key aspects of virtual learning tools in kindergarten include...
+                  </p>
+
+                  <div className="share-links clearfix">
+                    <div className="row justify-content-between">
+                      <div className="col-md-auto">
+                        <span className="share-links-title">Tags:</span>
+                        <div className="tagcloud">
+                          <a href="blog.html">Babycare</a>
+                          <a href="blog.html">Reading</a>
+                        </div>
+                      </div>
+                      <div className="col-md-auto text-xl-end">
+                        <span className="share-links-title">Share:</span>
+                        <div className="th-social">
+                          <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
+                          <a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
+                          <a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
+                          <a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="blog-navigation">
+                <a href="blog-details.html" className="nav-btn prev">
+                  <i className="fa-solid fa-angle-left"></i>
+                  <span className="nav-text">Explore Adventures in Kindergarten</span>
+                </a>
+                <a href="blog-details.html" className="nav-btn next">
+                  <i className="fa-solid fa-angle-right"></i>
+                  <span className="nav-text">Friendship Blooms in Kindergarten</span>
+                </a>
+              </div>
+
+              {/* <div className="th-comments-wrap">
+                <h2 className="blog-inner-title h4"> <i className="fa-solid fa-comments"></i>Comments (02)</h2>
+                <ul className="comment-list">
+                  <li className="th-comment-item">
+                    <div className="th-post-comment">
+                      <div className="comment-avater">
+                        <img 
+                          src={`${process.env.PUBLIC_URL}/assets/img/blog/comment-author-1.jpg`} 
+                          alt="Comment Author" 
+                        />
+                      </div>
+
+                      <div className="comment-content">
+                        <h3 className="name">Rita Hirwat Michel</h3>
+                        <span className="commented-on">26 Mar, 2024 10:30 am</span>
+                        <p className="text">
+                          I recently purchased the Kitar Baby Care set for my newborn baby, and I couldn't be happier. The quality of the products is outstanding, and they are gentle on my baby's sensitive skin. The diaper cream worked wonders, and the baby lotion has a delightful scent.
+                        </p>
+                        <div className="reply_and_edit">
+                          <a href="blog-details.html" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
+                        </div>
+                      </div>
+                    </div>
+                    <ul className="children">
+                      <li className="th-comment-item">
+                        <div className="th-post-comment">
+                          <div className="comment-avater">
+                            <img 
+                              src={`${process.env.PUBLIC_URL}/assets/img/blog/comment-author-2.jpg`} 
+                              alt="Comment Author" 
+                            />
+                          </div>
+                          <div className="comment-content">
+                            <div className="">
+                              <h3 className="name">Sarah Sneha</h3>
+                              <span className="commented-on">26 Mar, 2024 10:30 am</span>
+                              <p className="text">
+                                I recently purchased the Kitar Baby Care set for my newborn baby, and I couldn't be happier. The quality of the products is outstanding, and they are gentle on my baby's sensitive skin. The diaper cream worked wonders, and the baby lotion has a delightful scent.
+                              </p>
+                            </div>
+                            <div className="reply_and_edit">
+                              <a href="blog-details.html" className="reply-btn"><i className="fas fa-reply"></i>Reply</a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div> */}
+
+              <div className="th-comment-form">
+                <div className="row">
+                  <h3 className="blog-inner-title h4 mb-2">Leave Your Comment</h3>
+                  <div className="col-md-6 form-group">
+                    <input type="text" placeholder="Your Name" className="form-control" />
+                    <i className="far fa-user"></i>
+                  </div>
+                  <div className="col-md-6 form-group">
+                    <input type="text" placeholder="Your Email" className="form-control" />
+                    <i className="far fa-envelope"></i>
+                  </div>
+                  <div className="col-12 form-group">
+                    <input type="text" placeholder="Website" className="form-control" />
+                    <i className="far fa-globe"></i>
+                  </div>
+                  <div className="col-12 form-group">
+                    <textarea placeholder="Write a Comment" className="form-control"></textarea>
+                    <i className="far fa-pencil"></i>
+                  </div>
+                  <div className="col-12 form-group mb-0">
+                    <button className="th-btn btn-fw">Send Message</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div className="col-xxl-4 col-lg-5">
+              <Departmentaside />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
