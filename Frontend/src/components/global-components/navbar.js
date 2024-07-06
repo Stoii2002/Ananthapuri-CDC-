@@ -29,9 +29,9 @@ const Navbar = () => {
 									<li className="d-none d-xl-inline-block"><i className="fa-solid fa-location-dot"></i>
 										<span>Medical College, Chalakkuzhi, Trivandrum, Kerala 695011</span>
 									</li>
-									<li><i className="fa-solid fa-envelope"></i>Email: <a href="mailto:info@kitar.com">
+									<li><i className="fa-solid fa-envelope"></i>Email: <a href="cdc.ananthapuri@gmail.com" target="_blank">
 									cdc.ananthapuri@gmail.com</a></li>
-									<li><i className="fa-solid fa-phone"></i>Phone: <a href="tel:+1636422567"> 0471 2554990, +94460 64178</a>
+									<li><i className="fa-solid fa-phone"></i>Phone: <a href="tel:0471 2554990"> 0471 2554990</a> <a href="tel:+91 94460 64178"> +91 94460 64178</a>
 									</li>
 	
 								</ul>
@@ -40,9 +40,9 @@ const Navbar = () => {
 						<div className="col-auto">
 							<div className="social-links">
 								<span className="social-title">Follow Us On:</span>
-								<a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
-								<a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
-								<a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
+								<a href="https://www.facebook.com/profile.php?id=61555715290318" target="_blank"><i className="fab fa-facebook-f"></i></a>
+								
+								<a href="https://www.linkedin.com/company/99358336/admin/feed/posts/ " target="_blank"><i className="fab fa-linkedin-in"></i></a>
 								<a href="https://www.instagram.com/ananthapuricdc?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" target="_blank"><i className="fab fa-instagram"></i></a>
 								
 							</div>
