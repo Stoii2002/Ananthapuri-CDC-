@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const Downs_banner = () => {
    
     return (
-        <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/down-syndrome-banner.png">
                 <div className="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
                 <div className="container">
                     <div className="breadcumb-content">
-                        <h1 className="breadcumb-title">Downs Syndrome</h1>
+                        <h1 className="breadcumb-title">Down Syndrome</h1>
                         <ul className="breadcumb-menu">
                             <li><Link to="/">Home</Link></li>
-                            <li>Downs Syndrome</li>
+                            <li>Down Syndrome</li>
                         </ul>
                     </div>
                 </div>
