@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 const Special_Education_banner = () => {
    
     return (
-        <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/special-banner.png">
                 <div className="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
                 <div className="container">
                     <div className="breadcumb-content">

@@ -11,7 +11,7 @@ const Intellectual_content = () => {
                         <div className="col-xxl-8 col-lg-8">
                             <div className="page-single mb-0">
                                 <div className="page-img th-anim">
-                                    <img src="assets/img/service/service_details.jpg" alt="Service Image"/>
+                                    <img src="assets/img/service/intellectual-img-1.png" alt="Service Image"/>
                                 </div>
                                 <div className="page-content">
                                     <h3 className="sec-title page-title">UNDERSTANDING INTELLECTUAL DISABILITY</h3>
@@ -75,12 +75,12 @@ const Intellectual_content = () => {
                                     <div className="row justify-content-center">
                                         <div className="col-md-6">
                                             <div className="page-img th-anim">
-                                                <img src="assets/img/service/service_inner_1.jpg" alt="service Image"/>
+                                                <img src="assets/img/service/intellectual-img-2.png" alt="service Image"/>
                                             </div>
                                         </div>
                                         <div className="col-md-6">
                                             <div className="page-img th-anim">
-                                                <img src="assets/img/service/service_inner_2.jpg" alt="service Image"/>
+                                                <img src="assets/img/service/intellectual-img-3.png" alt="service Image"/>
                                             </div>
                                         </div>
                                     </div>
