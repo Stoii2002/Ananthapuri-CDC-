@@ -38,10 +38,10 @@ const Gallery_content = () => {
         </div>
         <div className="row gy-30 gallery-row filter-active overlay-direction">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="col-md-6 col-xl-auto filter-item gallery-card_wrapp">
+            <div key={index} className="col-md-6 col-xl-4 filter-item gallery-card_wrapp">
               <div className="gallery-card style2" data-theme-color="#4C59CB">
-                <a className="box-img popup-image" href={testimonial.image_url}>
-                  <img src={testimonial.image_url} alt="gallery "/>
+                <a className="box-img popup-image" href={testimonial.image}>
+                  <img src={testimonial.image} alt="gallery "/>
                   <div className="box-content">
                     <span className="icon-btn style2">
                       <i className="fas fa-eye"></i>
