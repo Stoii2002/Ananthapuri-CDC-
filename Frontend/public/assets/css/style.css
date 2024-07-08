@@ -11750,6 +11750,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 .hero-style3 .hero-title {
   font-weight: 800;
   margin-bottom: 10px;
+  color: white;
   /* Extra small devices */
 }
 
@@ -11766,6 +11767,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   line-height: 30px;
   max-width: 666px;
   margin-bottom: 33px;
+  color:#f8f8f8;
   /* Small devices */
 }
 
@@ -19733,7 +19735,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .call-btn .btn-title {
   font-size: 18px;
-  color: var(--body-color);
+  color: white;
   font-weight: 500;
 }
 
