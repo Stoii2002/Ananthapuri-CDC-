@@ -17,9 +17,8 @@ class WhyChooseUs extends Component {
                         <img src="assets/img/icon/feature_1_1.svg" alt="icon"/>
                     </div>
                     <div className="media-body">
-                        <h3 className="box-title">Licensed Child Care</h3>
-                        <p className="feature-item_text">Kindergarten is often the first formal schooling experience for
-                            children, typically aged.</p>
+                        <h3 className="box-title">Comprehensive Child Development Programs</h3>
+                        <p className="feature-item_text">Holistic child growth through personalized educational plans.</p>
                     </div>
                 </div>
             </div>
@@ -30,9 +29,8 @@ class WhyChooseUs extends Component {
                         <img src="assets/img/icon/feature_1_2.svg" alt="icon"/>
                     </div>
                     <div className="media-body">
-                        <h3 className="box-title">High Quality Learning</h3>
-                        <p className="feature-item_text">High Quality Learning" refers to an educational approach focused on
-                            providing students</p>
+                        <h3 className="box-title">Specialized Care for Developmental Disabilities</h3>
+                        <p className="feature-item_text">Tailored support for unique developmental needs.</p>
                     </div>
                 </div>
             </div>
@@ -43,9 +41,8 @@ class WhyChooseUs extends Component {
                         <img src="assets/img/icon/feature_1_3.svg" alt="icon"/>
                     </div>
                     <div className="media-body">
-                        <h3 className="box-title">Super Talented Staff</h3>
-                        <p className="feature-item_text">Super Talented Staff" refers to a team of individuals who possess
-                            exceptional skills, expertise</p>
+                        <h3 className="box-title">Highly Qualified and Experienced Faculty</h3>
+                        <p className="feature-item_text">Expert educators committed to exceptional child care and education.</p>
                     </div>
                 </div>
             </div>
@@ -56,9 +53,8 @@ class WhyChooseUs extends Component {
                         <img src="assets/img/icon/feature_1_4.svg" alt="icon"/>
                     </div>
                     <div className="media-body">
-                        <h3 className="box-title">Play to Learn</h3>
-                        <p className="feature-item_text">Play to Learn" is an educational approach that incorporates
-                            elements of play</p>
+                        <h3 className="box-title">Educational Support and Development</h3>
+                        <p className="feature-item_text">Specialized education fostering individual academic success and growth.</p>
                     </div>
                 </div>
             </div>
