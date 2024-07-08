@@ -26,7 +26,7 @@ class Footer_v1 extends Component {
                                     <div className="widget footer-widget">
                                         <div className="th-widget-about">
                                             <div className="about-logo">
-                                                <a href="home-kindergarten-school.html"><img src={publicUrl + "assets/img/logo-white.svg"} alt="kitar"/></a>
+                                                <a href="home-kindergarten-school.html"><img src={publicUrl + "assets/img/logocdc.png"} alt="kitar"/></a>
                                             </div>
                                             <p className="about-text">Welcome To Ananthapuri Centre For Child Development & Early Intervention! .</p>
                                         </div>
