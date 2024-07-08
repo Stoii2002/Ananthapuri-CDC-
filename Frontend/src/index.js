@@ -39,7 +39,7 @@ import Learning_Disability from './components/Learning-Disability';
 class Root extends Component {
     render() {
         return(
-                <Router>
+				<Router forceRefresh={true}>
 	                <div>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
