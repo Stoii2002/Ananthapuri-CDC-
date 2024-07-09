@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './global-components/navbar';
 import Banner from './section-components/banner';
-import Brand from './section-components/brand-one';
 import WhyChooseUs from './section-components/why-choose-us';
 import AboutStyleOne from './section-components/about-style-one';
 import AboutStyleTwo from './section-components/about-style-two';
@@ -17,7 +16,6 @@ import Ourgallery from './ourgallery';
 import Testimonial from './section-components/Testominials';
 import Child_disorders from './section-components/Child-disorders';
 import FeatureList from './Api-test';
-import MyForm from './Forns';
 
 const Home_V1 = () => {
     return <div>
