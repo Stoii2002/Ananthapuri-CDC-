@@ -17,7 +17,6 @@ import Ourgallery from './ourgallery';
 import Testimonial from './section-components/Testominials';
 import Child_disorders from './section-components/Child-disorders';
 import FeatureList from './Api-test';
-import MyForm from './Forns';
 
 const Home_V1 = () => {
     return <div>

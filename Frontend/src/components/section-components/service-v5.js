@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+
 
 class ServiceV5 extends Component {
 
@@ -38,7 +38,7 @@ class ServiceV5 extends Component {
 		              Making Distributed Product Teams Work More Efficiently other
 		            </li>
 		          </ul>{/* /.list-unstyled video-one__list */}
-		          <Link to="/service-v2" className="thm-btn">View More <i className="fa fa-angle-double-right" /></Link>
+		        
 		          {/* /.thm-btn */}
 		        </div>{/* /.service-two__block */}
 		      </div>{/* /.col-lg-5 */}

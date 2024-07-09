@@ -77,4 +77,4 @@ class Ourgallery extends Component {
 }
 
 
-export default Ourgallery
+export default Ourgallery
