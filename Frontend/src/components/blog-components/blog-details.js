@@ -41,44 +41,16 @@ const Blog_page = () => {
                   <p className="mb-30">
                         {blog.description}
                   </p>
-                  <p>
-                    Virtual learning tools for the kindergartens often include interactives educational games,
-                    multimedia content, and online platforms designed to support early learning objectives.
-                    These tools can cater to different learning styles, providing a more dynamic and engaging
-                    environment.
-                  </p>
-                  <blockquote>
-                    <p>
-                      "<a className="text-theme" href="#">Mrs. Rodriguez,</a> a beacon of warmth and guidance, transforms the kindergarten classroom into a magical garden where each child's potential sprouts, and the seeds of knowledge are sown with care and joy."
-                    </p>
-                  </blockquote>
-                  <div className="row mt-25">
-                    <div className="col-md-6 mb-4">
-                      <img 
-                        className="w-100 rounded-30" 
-                        src={`${process.env.PUBLIC_URL}/assets/img/blog/blog_inner_1.jpg`} 
-                        alt="Blog Image" 
-                      />
-                    </div>
-                    <div className="col-md-6 mb-4">
-                      <img 
-                        className="w-100 rounded-30" 
-                        src={`${process.env.PUBLIC_URL}/assets/img/blog/blog_inner_2.jpg`} 
-                        alt="Blog Image" 
-                      />
-                    </div>
-                  </div>
-                  <p className="blog-text">
-                    Indeed, the integration of virtual learning tools in kindergarten settings represents a significant shift in early education. These tools aim to make learning more engaging, interactive, and tailored to individual needs. Some key aspects of virtual learning tools in kindergarten include...
-                  </p>
+
+
 
                   <div className="share-links clearfix">
                     <div className="row justify-content-between">
                       <div className="col-md-auto">
                         <span className="share-links-title">Tags:</span>
                         <div className="tagcloud">
-                          <a href="blog.html">Babycare</a>
-                          <a href="blog.html">Reading</a>
+                          <a>Ananthapuri CDC</a>
+                          <a>Child Developement</a>
                         </div>
                       </div>
                       <div className="col-md-auto text-xl-end">

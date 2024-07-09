@@ -10,7 +10,7 @@ class Banner extends Component {
 		<div className="swiper-wrapper">
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/hero_banner_1.png">
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner1.jpg">
 						
 					</div>
 					<div className="container">
@@ -38,7 +38,7 @@ class Banner extends Component {
 			</div>
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/hero_banner_2.png">
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner5.jpg">
 						
 					</div>
 					<div className="container">
@@ -67,7 +67,7 @@ class Banner extends Component {
 			</div>
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/hero_banner_3.png">
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner4.jpg">
 						
 					</div>
 					<div className="container">

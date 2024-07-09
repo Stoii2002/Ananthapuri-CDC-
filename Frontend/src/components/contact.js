@@ -1,6 +1,9 @@
 import React from 'react';
 import Navbar from './global-components/navbar';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0d4b2aaa16974d4ca5dcb569effb8f9f231ff993
 import Contact from './section-components/contact-page';
 import Footer from './global-components/footer';
 import Contact_banner from './section-components/Contact_banner';

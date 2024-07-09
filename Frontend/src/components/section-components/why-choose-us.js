@@ -4,10 +4,8 @@ class WhyChooseUs extends Component {
 
     render() {
 
-        let publicUrl = process.env.PUBLIC_URL+'/'
-        let imagealt = 'image'
 
-    return              <div className="feature-area overflow-hidden space-top" id="feature-area">
+    return   <div className="feature-area overflow-hidden space-top" id="feature-area">
     <div className="container">
         <div className="row gy-4 justify-content-center">
             <div className="col-md-6 col-xl-3">
