@@ -11750,7 +11750,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 .hero-style3 .hero-title {
   font-weight: 800;
   margin-bottom: 10px;
-  color: white;
+  color: #92324c;
   /* Extra small devices */
 }
 
@@ -11767,7 +11767,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   line-height: 30px;
   max-width: 666px;
   margin-bottom: 33px;
-  color:#f8f8f8;
+  color:rgb(189, 26, 54)
   /* Small devices */
 }
 
@@ -19735,7 +19735,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .call-btn .btn-title {
   font-size: 18px;
-  color: white;
+  color:rgb(7, 132, 173);
   font-weight: 500;
 }
 
@@ -26261,3 +26261,6 @@ span.select2-selection.select2-selection--single:focus {
   opacity: 1;
 }
 
+.img1 img{
+  border-radius: 100px;
+}

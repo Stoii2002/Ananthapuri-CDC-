@@ -4,7 +4,7 @@ from .models import Feature
 from .models import Departments
 from .models import Testimonials, Gallery
 from .models import Blog
-
+from .models import Teachers
 class FeatureSerializer(serializers.ModelSerializer):
     class Meta:
         model = Feature
@@ -29,3 +29,8 @@ class BlogSerializer(serializers.ModelSerializer):
     class Meta:
         model = Blog
         fields = ('id', 'name', 'description', 'image', 'slug', 'Banner')
+
+class Teachersserializer(serializers.ModelSerializer):
+    class Meta:
+        model = Teachers
+        fields = '__all__'

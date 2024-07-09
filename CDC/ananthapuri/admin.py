@@ -4,11 +4,13 @@ from .models import Departments
 from .models import Testimonials
 from .models import Gallery
 from .models import Blog
+from .models import Teachers
 
 admin.site.register(Feature)  # Register the Feature model
 admin.site.register(Departments)
 admin.site.register(Testimonials)
 admin.site.register(Gallery)
+admin.site.register(Teachers)
 
 class BlogAdmin(admin.ModelAdmin):
     list_display = ('name', 'slug')

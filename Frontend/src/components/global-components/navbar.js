@@ -111,7 +111,7 @@ const Navbar = () => {
 								<div className="header-button">
 									
 									<button type="button" className="icon-btn sideMenuToggler"><i className="fa-solid fa-cart-shopping"></i> <span className="badge">5</span></button>
-									<a href="contact.html" className="th-btn">Enroll Now</a>
+									<Link to="contact"  className="th-btn">Enroll Now</Link>
 									<button type="button" className="th-menu-toggle d-block d-lg-none"><i className="far fa-bars"></i></button>
 	
 								</div>

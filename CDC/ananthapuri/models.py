@@ -36,3 +36,10 @@ class Blog(models.Model):
     def __str__(self):
         return self.name
 
+class Teachers(models.Model):
+    Name = models.CharField(max_length=15)
+    Image = models.ImageField(upload_to='Teachers/')
+    Designation = models.CharField(max_length=15)
+
+    def __str__(self):
+        return self.Name

@@ -30,10 +30,10 @@ const Home_V1 = () => {
             <AboutStyleTwo />
             <Skill />
             <Child_disorders/>
-            <Funfact />
             <Joinus/>
             <Ourgallery/>
             <PostSlider />
+            <Funfact />
             <Testimonial/>
             <FeatureList/>
             <Footer />
