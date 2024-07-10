@@ -90,8 +90,11 @@ const AboutStyleTwo = () => {
     </div>
     <div className="shape-mockup spin d-none d-xl-block" data-top="10%" data-right="11%"><img src="assets/img/shape/star2.png" alt="shape"/>
     </div>
+    
 
 </div>
+
+
   );
 };
 

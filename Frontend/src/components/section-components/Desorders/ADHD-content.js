@@ -76,6 +76,7 @@ const Adhd_content = () => {
                     </div>
                 </div>
             </section>
+            
     );
 };
 

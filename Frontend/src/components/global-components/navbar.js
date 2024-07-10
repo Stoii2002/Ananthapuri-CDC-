@@ -74,7 +74,7 @@ const Navbar = () => {
 												<li><Link to="/ADHD">ADHD</Link></li>
 												<li><Link to="/Autism">Autism</Link></li>
 												<li><Link to="/Cerebral-Palsy">Cerebral Palsy</Link></li>
-												<li><Link to="/Downs-Syndrome">Downs Syndrome</Link></li>
+												<li><Link to="/Downs-Syndrome">Down Syndrome</Link></li>
 												<li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
 												<li><Link to="/Learning-Disability">Learning Disability</Link></li>	
 											</ul>
