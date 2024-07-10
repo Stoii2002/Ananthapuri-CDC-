@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from './global-components/navbar';
 import Banner from './section-components/banner';
-import Brand from './section-components/brand-one';
 import WhyChooseUs from './section-components/why-choose-us';
 import AboutStyleOne from './section-components/about-style-one';
 import AboutStyleTwo from './section-components/about-style-two';
