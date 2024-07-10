@@ -5,8 +5,6 @@ class Howitworks extends Component {
 
     render() {
 
-        let publicUrl = process.env.PUBLIC_URL+'/'
-
     return <div className="faq-area position-relative space overflow-hidden" id="faq-sec">
     <div className="container">
         <div className="row align-items-center">
