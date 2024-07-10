@@ -94,7 +94,7 @@ class Banner extends Component {
 				</div>
 			</div>
 		</div>
-		<div className="slider-pagination"></div>
+		<div className="slider-pagination" style={{top:'40%'}}></div>
 		<div className="shape-mockup z-index-3 spin d-none d-md-block" data-top="30%" data-left="1%"><img className="gspin" src="assets/img/shape/shape_3_1.png" alt="shape"/>
 		</div>
 		<div className="shape-mockup z-index-3 anim02 d-none d-xl-block" data-top="23%" data-left="28%"><img src="assets/img/shape/shape_3_2.png" alt="shape"/>

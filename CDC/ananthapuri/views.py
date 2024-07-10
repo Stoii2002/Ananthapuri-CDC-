@@ -1,9 +1,5 @@
 # views.py
 from rest_framework import viewsets
-from .models import Feature
-from .serializers import FeatureSerializer
-from .models import Departments
-from .serializers import DepartmentsSerializer
 from .models import Testimonials, Gallery
 from .serializers import TestimonialsSerializer, GallerySerializer
 from rest_framework import generics
@@ -12,13 +8,6 @@ from .serializers import BlogSerializer
 from .models import Teachers
 from .serializers import Teachersserializer
 
-class FeatureViewSet(viewsets.ModelViewSet):
-    queryset = Feature.objects.all()
-    serializer_class = FeatureSerializer
-
-class DepartmentsViewSet(viewsets.ModelViewSet):
-    queryset = Departments.objects.all()
-    serializer_class = DepartmentsSerializer
 
 class TestimonialsViewset(viewsets.ModelViewSet):
     queryset = Testimonials.objects.all()

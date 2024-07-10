@@ -64,15 +64,8 @@ const Navbar = () => {
 							<div className="col-auto ms-xl-auto">
 								<nav className="main-menu d-none d-lg-inline-block">
 									<ul>
-										<li className="menu-item-has-children">
+										
 										<li><Link to="/">Home</Link></li>
-											<ul className="sub-menu">
-												<li><a href="home-kindergarten-school.html">Home Kindergarten School</a></li>
-												<li><a href="home-kindergarten.html">Home kindergarten</a></li>
-												<li><a href="home-baby-care.html">Home Baby Care</a></li>
-	
-											</ul>
-										</li>
 										<li><Link to="/about">About Us</Link></li>
 										<li><Link to="/our-school">Our School</Link></li>
 										<li className="menu-item-has-children">
@@ -110,9 +103,9 @@ const Navbar = () => {
 							<div className="col-auto">
 								<div className="header-button">
 									
-									<button type="button" className="icon-btn sideMenuToggler"><i className="fa-solid fa-cart-shopping"></i> <span className="badge">5</span></button>
+									<button type="button" className="icon-btn sideMenuToggler"><i className="fa fa-envelope" style={{ fontSize: '27px' }}></i></button>
 									<Link to="contact"  className="th-btn">Enroll Now</Link>
-									<button type="button" className="th-menu-toggle d-block d-lg-none"><i className="far fa-bars"></i></button>
+									<button type="button" className="th-menu-toggle d-block d-lg-none"><i className="fas fa-bars"></i></button>
 	
 								</div>
 							</div>

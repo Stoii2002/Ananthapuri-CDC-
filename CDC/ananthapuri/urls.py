@@ -2,15 +2,13 @@
 
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import FeatureViewSet, DepartmentsViewSet, TestimonialsViewset, GalleryViewset, TeacherViewset
+from .views import TestimonialsViewset, GalleryViewset, TeacherViewset
 from . import views
 
 
 # Create a single router instance
 router = DefaultRouter()
 # Register both viewsets with the router
-router.register(r'features', FeatureViewSet, basename='feature')
-router.register(r'departments', DepartmentsViewSet, basename='departments')
 router.register(r'Testimonials', TestimonialsViewset, basename='Testimonials')
 router.register(r'Gallery',GalleryViewset, basename='Gallery')
 router.register(r'Teachers',TeacherViewset, basename='Teachers')
