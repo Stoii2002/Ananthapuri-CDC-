@@ -44,8 +44,8 @@ const PostSlider = () => {
                             ))}
                         </div>
                     </div>
-                    <button data-slider-prev="#blogSlider1" className="slider-arrow slider-prev"><i className="far fa-arrow-left"></i></button>
-                    <button data-slider-next="#blogSlider1" className="slider-arrow slider-next"><i className="far fa-arrow-right"></i></button>
+                    <button data-slider-prev="#blogSlider1" className="slider-arrow slider-prev"><i className="fa fa-arrow-left"></i></button>
+                    <button data-slider-next="#blogSlider1" className="slider-arrow slider-next"><i className="fa fa-arrow-right"></i></button>
                 </div>
             </div>
             <div className="shape-mockup movingX d-none d-xl-block" data-top="18%" data-left="0%">

@@ -24,6 +24,7 @@ import Cerebral from './components/Cerebral-Palsy';
 import Downs from './components/Downs-Syndrome';
 import Intellectual from './components/Intellectual-disability';
 import Learning_Disability from './components/Learning-Disability';
+import Mobile_menu from './components/global-components/mobile_menu';
 
 
 
@@ -32,14 +33,13 @@ class Root extends Component {
         return(
 				<Router forceRefresh={true}>
 	                <div>
+					<Mobile_menu/>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
 	                    <Route path="/about" component={About} />
 						<Route path="/our-school" component={School} />
 	                    <Route path="/service" component={Service} />
 	               
-
-	                    <Route path="/team" component={Team} />
 	                    <Route path="/Gallery" component={Gallery} />
 	                    <Route path="/contact" component={Contact} />
 

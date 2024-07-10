@@ -26,14 +26,14 @@ const Home_V1 = () => {
             <WhyChooseUs />
             <AboutStyleOne />
             <AboutStyleTwo />
+            
             <Skill />
             <Child_disorders/>
             <Joinus/>
             <Ourgallery/>
             <PostSlider />
-            <Funfact />
+            
             <Testimonial/>
-            <FeatureList/>
             <Footer />
         </div>
         </div>
