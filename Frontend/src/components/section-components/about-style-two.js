@@ -8,7 +8,7 @@ const AboutStyleTwo = () => {
     <div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png"></div>
     <div className="container">
         <div className="title-area text-center">
-            <span className="sub-title">Our Kitar Program</span>
+            <span className="sub-title">Our Programs</span>
             <h2 className="sec-title">Our Early Learning Programs</h2>
         </div>
         <div className="row gy-5 justify-content-center justify-content-lg-between">

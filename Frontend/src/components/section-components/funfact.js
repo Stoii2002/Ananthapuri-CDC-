@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import parse from 'html-react-parser';
+
 
 class Funfact extends Component {
 

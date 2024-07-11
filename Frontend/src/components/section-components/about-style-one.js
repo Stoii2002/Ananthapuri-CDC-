@@ -13,7 +13,7 @@ class AboutStyleOne extends Component {
 						<img src="assets/img/normal/about-img-1.png" alt="About"/>
 					</div>
 					<div className="img1 style2 ding-dong" data-bg-src="assets/img/normal/about_shape2.png">
-						<img src="assets/img/normal/about-img-2.png" alt="About"/>
+						<img src="assets/img/normal/about_img_2.png" alt="About"/>
 					</div>
 					<div className="about-shape spin">
 						<img src="assets/img/shape/about-shape.png" alt="About"/>

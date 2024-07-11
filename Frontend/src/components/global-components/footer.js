@@ -65,8 +65,8 @@ class Footer_v1 extends Component {
                                         <h3 className="widget_title">Contact Us!</h3>
                                         <div className="th-widget-contact">
                                             <p className="footer-info"><i className="fas fa-map-marker-alt"></i>Medical College, Chalakkuzhi, Trivandrum, Kerala 695011</p>
-                                            <p className="footer-info"><i className="fas fa-envelope"></i><a className="text-inherit" href="mailto:info@kitar.com">Email: cdc.ananthapuri@gmail.com</a></p>
-                                            <p className="footer-info"><i className="fas fa-phone-alt"></i><a className="text-inherit" href="tel:+1636422567">Phone: 0471 2554990, 94460 64178</a></p>
+                                            <p className="footer-info"><i className="fas fa-envelope"></i>Email:<a className="text-inherit" href="cdc.ananthapuri@gmail.com"> cdc.ananthapuri@gmail.com</a></p>
+                                            <p className="footer-info"><i className="fas fa-phone-alt"></i>Phone:<a className="text-inherit" href="tel:0471 2554990"> 0471 2554990</a>&nbsp;<a className="text-inherit" href="tel:+91 94460 64178">+91 94460 64178</a></p>
                                         </div>
                                     </div>
                                 </div>
