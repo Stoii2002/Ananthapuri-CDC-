@@ -4,11 +4,12 @@ import Navbar from './global-components/navbar';
 import About from './section-components/about';
 import Team from './section-components/team-v2';
 import Testimonial from './section-components/testimonial-style-one';
-import Footer from './global-components/footer';
+
 import Aboutbanner from './section-components/about-banner';
 import Funfact from './section-components/funfact';
 import Howitworks from './section-components/about_howitworks';
 import Newsletter from './section-components/Newsletter';
+import Footer_v1 from './global-components/footer';
 
 
 const AboutPage = () => {
@@ -23,7 +24,7 @@ const AboutPage = () => {
             <Team />
             <Testimonial />
             <Newsletter/>
-            <Footer/>
+            <Footer_v1/>
         </div>
         </div>
     </div>

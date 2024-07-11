@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { useState } from 'react';
 import axios from 'axios';
 
-const Get_in_touch = () =>{
+function Popup_contactform() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -27,15 +27,18 @@ const Get_in_touch = () =>{
                 console.error('Error in form submission:', error.response.data);
             });
     };
-    return (
-    <div className="space-bottom">
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-6">
-                <div className="">
+  return (
+    <div>
+        <div class="sidemenu-wrapper shopping-cart ">
+    <div class="sidemenu-content">
+        <button class="closeButton sideMenuCls"><i class="fa fa-times"></i></button>
+        <div class="widget woocommerce widget_shopping_cart">
+            <h3 class="widget_title">Connect with us </h3>
+            <div class="widget_shopping_cart_content">
+               
+                
 
-                    
-                <form onSubmit={handleSubmit} className="contact-form style2 ajax-contact">
+            <form onSubmit={handleSubmit} className="contact-form style2 ajax-contact">
             <div className="title-area mb-30">
                 <h3 className="sec-title mt-n3">Get In Touch</h3>
             </div>
@@ -62,21 +65,16 @@ const Get_in_touch = () =>{
             </div>
             <p className="form-messages mb-0 mt-3"></p>
         </form>
-                    
 
-                </div>
-            </div>
-            <div className="col-lg-6">
-                <div className="contact-image style2">
-                    <img src="assets/img/normal/get-in-touch-img.png" alt=""/>
-                </div>
+
+
+
             </div>
         </div>
     </div>
 </div>
-
-
-    )
+    </div>
+  )
 }
 
-export default Get_in_touch
+export default Popup_contactform

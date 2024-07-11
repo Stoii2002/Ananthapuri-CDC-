@@ -7,7 +7,11 @@ from .models import Blog
 from .serializers import BlogSerializer
 from .models import Teachers
 from .serializers import Teachersserializer
-
+from rest_framework.decorators import api_view
+from rest_framework.response import Response
+from rest_framework import status
+from .models import Contact
+from .serializers import ContactSerializer
 
 class TestimonialsViewset(viewsets.ModelViewSet):
     queryset = Testimonials.objects.all()
@@ -30,3 +34,10 @@ class BlogDetailView(generics.RetrieveAPIView):
     serializer_class = BlogSerializer
     lookup_field = 'slug'
 
+@api_view(['POST'])
+def contact_form_submission(request):
+    serializer = ContactSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

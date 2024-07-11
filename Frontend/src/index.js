@@ -25,6 +25,7 @@ import Downs from './components/Downs-Syndrome';
 import Intellectual from './components/Intellectual-disability';
 import Learning_Disability from './components/Learning-Disability';
 import Mobile_menu from './components/global-components/mobile_menu';
+import Popup_contactform from './components/Popup-contactform';
 
 
 
@@ -34,6 +35,7 @@ class Root extends Component {
 				<Router forceRefresh={true}>
 	                <div>
 					<Mobile_menu/>
+					<Popup_contactform/>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
 	                    <Route path="/about" component={About} />

@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import { FaEnvelope } from 'react-icons/fa';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 class Ourgallery extends Component {
 	
     render() {
-        let publicUrl = process.env.PUBLIC_URL+'/'
-        let imgattr = 'logo'
-        let anchor = '#'
         return (
 			<div className="space">
                 <div className="container">
@@ -20,57 +16,118 @@ class Ourgallery extends Component {
                         </div>
                         <div className="col-lg-auto d-none d-lg-block">
                             <div className="sec-btn">
-                                <a href="gallery.html" className="th-btn th-style">view all Gallery</a>
+                                <Link to="Gallery" className="th-btn th-style">view all Gallery</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="row gy-30 gallery-row filter-active overlay-direction">
-                        <div className="col-xxl-auto col-md-6 filter-item">
-                            <div className="gallery-card">
-                                <a className="box-img popup-image" href="assets/img/gallery/gallery_1_1.jpg"><img src="assets/img/gallery/gallery_1_1.jpg" alt="gallery image"/>
-                                    <div className="box-content">
-                                        <span className="icon-btn style2">
-                                            <i className="fas fa-eye"></i></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-xxl-auto col-md-6 filter-item">
-                            <div className="gallery-card">
-                                <a className="box-img popup-image" href="assets/img/gallery/gallery_1_2.jpg"><img src="assets/img/gallery/gallery_1_2.jpg" alt="gallery image"/>
-                                    <div className="box-content">
-                                        <span className="icon-btn style2">
-                                            <i className="fas fa-eye"></i></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-xxl-auto col-md-6 filter-item">
-                            <div className="gallery-card">
-                                <a className="box-img popup-image" href="assets/img/gallery/gallery_1_3.jpg"><img src="assets/img/gallery/gallery_1_3.jpg" alt="gallery image"/>
-                                    <div className="box-content">
-                                        <span className="icon-btn style2">
-                                            <i className="fas fa-eye"></i></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="col-xxl-auto col-md-6 filter-item">
-                            <div className="gallery-card">
-                                <a className="box-img popup-image" href="assets/img/gallery/gallery_1_4.jpg"><img src="assets/img/gallery/gallery_1_4.jpg" alt="gallery image"/>
-                                    <div className="box-content">
-                                        <span className="icon-btn style2">
-                                            <i className="fas fa-eye"></i></span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
                 <div className="shape-mockup anim03 d-none d-xl-block" data-top="20%" data-left="2%"><img src="assets/img/shape/shape_12.png" alt="shape"/>
                 </div>
                 <div className="shape-mockup anim02 d-none d-xl-block" data-top="20%" data-right="2%"><img src="assets/img/shape/shape_13.png" alt="shape"/>
                 </div>
+
+
+                <div className="swiper th-slider" id="gallerySlide3" data-slider-options='{ "effect": "coverflow", "grabCursor": true, "centeredSlides":true,"slidesPerView":2,"initialSlide": 5,"coverflowEffect": { "rotate": 0,"stretch": 0,  "depth": 100,"modifier":10,"slideShadows": false}}'>
+                        <div className="swiper-wrapper">
+                            <div className="swiper-slide">
+                                <div className="gallery-box">
+                                    <div className="gallery-img">
+                                        <img src="assets/img/gallery/gallery_2_1.jpg" alt="gallery image"/>
+                                    </div>
+                                    <div className="gallery-content">
+                                        <div className="media-left">
+                                            <a href="assets/img/gallery/gallery_2_1.jpg" className="icon-btn popup-image">
+                                                <i className="fa-regular fa-eye"></i></a>
+                                            <h4 className="box-title">
+                                                <a href="gallery.html">Kids Art className</a>
+                                            </h4>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="gallery-box">
+                                    <div className="gallery-img">
+                                        <img src="assets/img/gallery/gallery_2_2.jpg" alt="gallery image"/>
+                                    </div>
+                                    <div className="gallery-content">
+                                        <div className="media-left">
+                                            <a href="assets/img/gallery/gallery_2_2.jpg" className="icon-btn popup-image">
+                                                <i className="fa-regular fa-eye"></i></a>
+                                            <h4 className="box-title">
+                                                <a href="gallery.html">Drawing & Painting</a>
+                                            </h4>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="gallery-box">
+                                    <div className="gallery-img">
+                                        <img src="assets/img/gallery/gallery_2_3.jpg" alt="gallery image"/>
+                                    </div>
+                                    <div className="gallery-content">
+                                        <div className="media-left">
+                                            <a href="assets/img/gallery/gallery_2_3.jpg" className="icon-btn popup-image">
+                                                <i className="fa-regular fa-eye"></i></a>
+                                            <h4 className="box-title">
+                                                <a href="gallery.html">Kids Letter Match</a>
+                                            </h4>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="gallery-box">
+                                    <div className="gallery-img">
+                                        <img src="assets/img/gallery/gallery_2_4.jpg" alt="gallery image"/>
+                                    </div>
+                                    <div className="gallery-content">
+                                        <div className="media-left">
+                                            <a href="assets/img/gallery/gallery_2_4.jpg" className="icon-btn popup-image">
+                                                <i className="fa-regular fa-eye"></i></a>
+                                            <h4 className="box-title">
+                                                <a href="gallery.html">Reading & Writing Skill</a>
+                                            </h4>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="gallery-box">
+                                    <div className="gallery-img">
+                                        <img src="assets/img/gallery/gallery_2_5.jpg" alt="gallery image"/>
+                                    </div>
+                                    <div className="gallery-content">
+                                        <div className="media-left">
+                                            <a href="assets/img/gallery/gallery_2_5.jpg" className="icon-btn popup-image">
+                                                <i className="fa-regular fa-eye"></i></a>
+                                            <h4 className="box-title">
+                                                <a href="gallery.html">Drawing & Painting</a>
+                                            </h4>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button data-slider-prev="#gallerySlide3" className="slider-arrow slider-prev" style={{left:'45.3%',position:'absolute',top:'90%'}}><i className="fa fa-arrow-left"></i></button>
+                        <button data-slider-next="#gallerySlide3" className="slider-arrow slider-next" style={{right:'45.3%',top:'90%'}}><i className="fa fa-arrow-right"></i></button>
+                    </div>
+            
+
+
             </div>
         )
     }
