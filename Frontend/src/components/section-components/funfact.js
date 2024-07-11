@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import parse from 'html-react-parser';
+
 
 class Funfact extends Component {
 
     render() {
 
-        let publicUrl = process.env.PUBLIC_URL+'/'
 
     return <div className="counter-area">
 	<div className="counter-shape" data-mask-src="assets/img/shape/counter_shape.png"></div>
