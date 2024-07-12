@@ -29,12 +29,12 @@ function Popup_contactform() {
     };
   return (
     <div>
-        <div class="sidemenu-wrapper shopping-cart ">
-    <div class="sidemenu-content">
-        <button class="closeButton sideMenuCls"><i class="fa fa-times"></i></button>
-        <div class="widget woocommerce widget_shopping_cart">
-            <h3 class="widget_title">Connect with us </h3>
-            <div class="widget_shopping_cart_content">
+        <div className="sidemenu-wrapper shopping-cart ">
+    <div className="sidemenu-content">
+        <button className="closeButton sideMenuCls"><i className="fa fa-times"></i></button>
+        <div className="widget woocommerce widget_shopping_cart">
+            <h3 className="widget_title">Connect with us </h3>
+            <div className="widget_shopping_cart_content">
                
                 
 

@@ -5,7 +5,7 @@ class Banner extends Component {
 
 
 
-    return <div className="th-hero-wrapper hero-3" id="hero">
+    return <div className="th-hero-wrapper hero-3" id="hero"><div className="bottom-shape" data-bg-src="assets/img/shape/hero_bottom_shape.png"></div>
 	<div className="swiper th-slider number-dots hero-slider-3" id="heroSlide3" data-slider-options='{"effect":"fade"}'>
 		<div className="swiper-wrapper">
 			<div className="swiper-slide">

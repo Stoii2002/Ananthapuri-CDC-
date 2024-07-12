@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 class AboutStyleOne extends Component {
 
     render() {
@@ -28,7 +28,7 @@ class AboutStyleOne extends Component {
 						<p className="sec-text">A leading institution dedicated to becoming a center of excellence in Early Child Care & Education, Adolescent Care & Education, and related fields. Our mission is to systematically reduce childhood disability through comprehensive systems and personalized care.</p>
 						<p>At Ananthapuri Special School we specialize in holistic and customized care for every child dealing with developmental disabilities and autism disorders. Our commitment extends to fostering a nurturing environment that supports the unique needs of each child, ensuring their optimal growth and development.</p>
 					</div>
-					<a href="about.html" className="th-btn">About More </a>
+					<Link to="about" className="th-btn">Know More </Link>
 				</div>
 			</div>
 		</div>

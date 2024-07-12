@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
-@import url('path_to_your_font_awesome_pro.css');
 
 
 
@@ -11326,9 +11324,9 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
   }
 }
 
-.hero-1 .bottom-shape {
+.hero-3 .bottom-shape {
   position: absolute;
-  bottom: -1px;
+  bottom: 70px;
   left: 0;
   width: 100%;
   height: 260px;
@@ -11633,8 +11631,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 .hero-3 .th-hero-bg {
   background-size: auto;
   background-position: right center;
-  -webkit-clip-path: path("M0 0H1920V850L1765.74 803.993C1709.8 787.308 1650.2 787.308 1594.26 803.993L1525.74 824.428C1469.8 841.113 1410.2 841.113 1354.26 824.428L1285.74 803.993C1229.8 787.308 1170.2 787.308 1114.26 803.993L1045.74 824.428C989.798 841.113 930.202 841.113 874.258 824.428L805.742 803.993C749.798 787.308 690.202 787.308 634.258 803.993L565.742 824.428C509.798 841.113 450.202 841.113 394.258 824.428L325.742 803.993C269.798 787.308 210.202 787.308 154.258 803.993L0 850V0Z");
-          clip-path: path("M0 0H1920V850L1765.74 803.993C1709.8 787.308 1650.2 787.308 1594.26 803.993L1525.74 824.428C1469.8 841.113 1410.2 841.113 1354.26 824.428L1285.74 803.993C1229.8 787.308 1170.2 787.308 1114.26 803.993L1045.74 824.428C989.798 841.113 930.202 841.113 874.258 824.428L805.742 803.993C749.798 787.308 690.202 787.308 634.258 803.993L565.742 824.428C509.798 841.113 450.202 841.113 394.258 824.428L325.742 803.993C269.798 787.308 210.202 787.308 154.258 803.993L0 850V0Z");
+
 }
 
 @media (min-width: 1930px) {
