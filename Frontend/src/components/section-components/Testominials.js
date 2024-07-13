@@ -17,7 +17,7 @@ const Testimonial = () => {
 							<div className="col-xl-6">
 								<div className="testi-wrapper">
 									<div className="testi-image">
-										<img src="assets/img/testimonial/testimonial-img.png" alt=""/>
+										<img src="assets/img/testimonial/testi-indian.png" alt=""/>
 									</div>
 									<div className="testi-shape"><img src="assets/img/shape/testi-line.png" alt=""/></div>
 									<div className="team-thumb" data-slider-tab="#testiSlide1">

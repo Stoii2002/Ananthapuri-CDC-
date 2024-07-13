@@ -10,7 +10,7 @@ class AboutPage extends Component {
 			<div className="col-xl-6">
 				<div className="img-box3 me-xl-5 pe-xl-2">
 					<div className="img1">
-						<img src="assets/img/normal/about-img-new.png" alt="About"/>
+						<img src="assets/img/normal/about-new-img-1.png" alt="About"/>
 					</div>
 					<div className="about-shape">
 						<img src="assets/img/shape/circle.png" alt=""/>
@@ -20,8 +20,8 @@ class AboutPage extends Component {
 					</div>
 					<div className="th-experience movingX">
 						<div className="th-experience_content">
-							<h2 className="experience-year"><img src="assets/img/icon/about_2.svg" alt=""/><span className="counter-number">30</span>+</h2>
-							<p className="experience-text">Award.</p>
+							<h2 className="experience-year"><span className="counter-number">5</span>+</h2>
+							<p className="experience-text">Years</p>
 						</div>
 						<div className="about-shape3"></div>
 					</div>

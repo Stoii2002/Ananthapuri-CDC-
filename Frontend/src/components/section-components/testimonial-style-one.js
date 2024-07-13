@@ -16,7 +16,7 @@ const TestimonialOne = () => {
                 <div className="row">
                     <div className="col-xl-7">
                         <div className="testi-image2" data-mask-src="assets/img/shape/testi-img-shape.png">
-                            <img src="assets/img/testimonial/about-testimonial.png" alt=""/>
+                            <img src="assets/img/testimonial/client-testi.png" alt=""/>
                         </div>
                     </div>
                     <div className="col-xl-5">
