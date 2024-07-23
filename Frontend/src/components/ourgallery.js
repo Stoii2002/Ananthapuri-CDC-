@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
-class Ourgallery extends Component {
+class   Ourgallery extends Component {
 	
     render() {
         return (
@@ -33,16 +33,16 @@ class Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/gallery_2_1.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc1.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/gallery_2_1.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc1.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
-                                            <h4 className="box-title">
+                                            {/* <h4 className="box-title">
                                                 <a href="gallery.html">Kids Art className</a>
                                             </h4>
-                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span> */}
 
                                         </div>
                                     </div>
@@ -51,16 +51,16 @@ class Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/gallery_2_2.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc2.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/gallery_2_2.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc2.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
-                                            <h4 className="box-title">
+                                            {/* <h4 className="box-title">
                                                 <a href="gallery.html">Drawing & Painting</a>
                                             </h4>
-                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span> */}
 
                                         </div>
                                     </div>
@@ -69,16 +69,16 @@ class Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/gallery_2_3.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc3.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/gallery_2_3.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc3.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
-                                            <h4 className="box-title">
+                                           {/*  <h4 className="box-title">
                                                 <a href="gallery.html">Kids Letter Match</a>
                                             </h4>
-                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span> */}
 
                                         </div>
                                     </div>
@@ -87,16 +87,16 @@ class Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/gallery_2_4.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc4.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/gallery_2_4.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc4.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
-                                            <h4 className="box-title">
+                                            {/* <h4 className="box-title">
                                                 <a href="gallery.html">Reading & Writing Skill</a>
                                             </h4>
-                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span> */}
 
                                         </div>
                                     </div>
@@ -105,16 +105,16 @@ class Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/gallery_2_5.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc5.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/gallery_2_5.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc5.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
-                                            <h4 className="box-title">
+                                            {/* <h4 className="box-title">
                                                 <a href="gallery.html">Drawing & Painting</a>
                                             </h4>
-                                            <span className="gallery-subtitle">Kitar Kinder Garten</span>
+                                            <span className="gallery-subtitle">Kitar Kinder Garten</span> */}
 
                                         </div>
                                     </div>

@@ -22,11 +22,12 @@ function Popup_contactform() {
         axios.post('http://localhost:8000/api/contact/', formData)
             .then(response => {
                 console.log('Form submitted successfully:', response.data);
+                window.location.reload(); // Refresh the page after successful submission
             })
             .catch(error => {
                 console.error('Error in form submission:', error.response.data);
             });
-    };
+      };
   return (
     <div>
         <div className="sidemenu-wrapper shopping-cart ">

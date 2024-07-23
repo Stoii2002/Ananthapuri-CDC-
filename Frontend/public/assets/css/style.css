@@ -1465,13 +1465,16 @@ textarea.is-invalid {
 }
 
 .th-mobile-menu ul li a:before {
-  content: '\f105';
-  font-family: var(--icon-font);
-  position: absolute;
-  left: 0;
-  top: 12px;
-  margin-right: 10px;
-  display: inline-block;
+  content: '\f105'; /* Unicode for right chevron icon */
+            font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome family */
+            font-weight: 900; /* Use the appropriate weight (900 for solid icons) */
+            position: absolute;
+            left: 0;
+            top: 12px;
+            margin-right: 10px;
+            display: inline-block;
+            font-size: 18px; /* Adjust icon size as needed */
+            line-height: 1; /* Ensure the icon aligns properly */
 }
 
 .th-mobile-menu ul li.th-active > a {
@@ -1516,18 +1519,20 @@ textarea.is-invalid {
 }
 
 .th-mobile-menu ul .menu-item-has-children > a:after {
-  content: "\f067";
-  font-family: var(--icon-font);
+  content: "\f067"; /* Unicode for the plus icon */
+  font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome family */
+  font-weight: 900; /* Use the appropriate weight for solid icons */
   width: 22px;
   height: 22px;
   line-height: 22px;
   display: inline-block;
   text-align: center;
   font-size: 12px;
-  border-radius: 50px;
+  border-radius: 50%;
   background-color: var(--smoke-color);
   float: right;
   margin-top: 1px;
+  margin-left: 10px; /* Optional: Add some space before the icon */
 }
 
 .th-mobile-menu ul .menu-item-has-children.th-active > a .th-mean-expand:before {
@@ -2430,23 +2435,24 @@ textarea.is-invalid {
 }
 
 .scroll-top:after {
-  content: "\f062";
-  font-family: var(--icon-font);
-  position: absolute;
-  text-align: center;
-  line-height: 50px;
-  font-size: 20px;
-  color: var(--theme-color);
-  left: 0;
-  top: 0;
-  height: 50px;
-  width: 50px;
-  cursor: pointer;
-  display: block;
-  z-index: 1;
-  border: 2px solid var(--theme-color);
-  box-shadow: none;
-  border-radius: 50%;
+  content: '\f062'; /* Unicode for arrow up icon */
+            font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome family */
+            font-weight: 900; /* Use the appropriate weight for solid icons */
+            position: absolute;
+            text-align: center;
+            line-height: 50px;
+            font-size: 20px;
+            color: var(--theme-color, black); /* Use black as the fallback color */
+            left: 0;
+            top: 0;
+            height: 50px;
+            width: 50px;
+            cursor: pointer;
+            display: block;
+            z-index: 1;
+            border: 2px solid var(--theme-color, black); /* Use black as the fallback color */
+            box-shadow: none;
+            border-radius: 50%;
 }
 
 .scroll-top svg {
@@ -7411,7 +7417,7 @@ ol.wp-block-rss {
   font-weight: 600;
   left: 0;
   top: 2px;
-  font-family: var(--icon-font);
+  font-family: 'Font Awesome 6 Free'; 
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
@@ -7823,10 +7829,10 @@ ol.wp-block-rss {
 }
 
 .main-menu ul li.menu-item-has-children > a:after {
-  content: "\2b";
+  content: '\f067';
   display: inline-block;
   position: relative;
-  font-family: var(--icon-font);
+  font-family: 'Font Awesome 5 Free';
   margin-left: 4px;
   font-weight: 600;
   top: 0;
@@ -7931,7 +7937,7 @@ ol.wp-block-rss {
   position: absolute;
   top: 6px;
   left: 10px;
-  font-family: var(--icon-font);
+  font-family: 'Font Awesome 5 Free';
   width: 11px;
   height: 11px;
   text-align: center;
@@ -9482,13 +9488,13 @@ ol.wp-block-rss {
 }
 
 .breadcumb-menu li:after {
-  content: "\f101";
+  content: "\f101"; /* Unicode for right angle bracket (chevron) */
   position: relative;
   margin-left: 6px;
-  font-weight: 500;
+  font-weight: 900; /* Use the appropriate weight (900 for solid icons) */
   font-size: 18px;
-  color: var(--white-color);
-  font-family: var(--icon-font);
+  color: var(--white-color, white); /* Default to white if --white-color is not set */
+  font-family: 'Font Awesome 6 Free'; /* Specify the Font Awesome family */
 }
 
 .breadcumb-menu li:last-child {
@@ -26288,3 +26294,33 @@ span.select2-selection.select2-selection--single:focus {
 	margin-top:14px;
 }
 
+@media (max-width: 767px) {
+  .hero-3 .bottom-shape{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    z-index: 5;
+  }
+}
+
+@media (max-width: 1114px) {
+  .hero-3 .bottom-shape{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 260px;
+    background-size: auto;
+    background-repeat: repeat-x;
+    background-position: bottom center;
+    z-index: 5;
+  }
+  .sub-title .slideindown{
+    margin-top: 10px;
+  }
+}
