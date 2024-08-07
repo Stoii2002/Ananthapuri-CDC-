@@ -21688,7 +21688,7 @@ span.select2-selection.select2-selection--single:focus {
   background-color: var(--theme-color);
   content: "\2b";
   inset: 0px;
-  font-family: var(--icon-font);
+  font-family:'Font Awesome 5 Free';
   font-weight: 400;
   font-size: 16px;
   -webkit-transform: rotate(0);
@@ -21712,11 +21712,12 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .accordion-card .accordion-button:not(.collapsed):after {
-  content: "\f068";
+  content: '\f068';
   -webkit-transform: rotate(0);
       -ms-transform: rotate(0);
           transform: rotate(0);
   color: var(--white-color);
+  font-family: "FontAwesome";
 }
 
 .accordion-card .accordion-collapse {
@@ -26323,4 +26324,11 @@ span.select2-selection.select2-selection--single:focus {
   .sub-title .slideindown{
     margin-top: 10px;
   }
+}
+
+.Morebutton{
+  text-align: center;
+  border: 2px solid #fe5a86;
+  padding: 5px;
+  border-radius: 100px;
 }

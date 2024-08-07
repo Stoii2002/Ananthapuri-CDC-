@@ -18,6 +18,7 @@ from .views import contact_form_submission
 urlpatterns = [
     path('', include(router.urls)),  # This includes /api/features/ and /api/departments/
      path('blogs/', views.BlogListView.as_view()),
+     path('fullblogs/', views.FullBlogListView.as_view()),
     path('blogs/<slug:slug>/', views.BlogDetailView.as_view()),
      path('contact/', contact_form_submission, name='contact_form_submission'),
 ]

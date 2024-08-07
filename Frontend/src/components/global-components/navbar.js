@@ -89,7 +89,8 @@ const Navbar = () => {
 												<a href={`/blog/${blog.slug}`}>{blog.name}</a>
 												</li>
 											))}
-											
+											<Link to="/blogs" className="Morebutton">More</Link>
+
 											</ul>
 										</li>
 										<li>

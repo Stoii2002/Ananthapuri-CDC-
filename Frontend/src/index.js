@@ -26,6 +26,7 @@ import Intellectual from './components/Intellectual-disability';
 import Learning_Disability from './components/Learning-Disability';
 import Mobile_menu from './components/global-components/mobile_menu';
 import Popup_contactform from './components/Popup-contactform';
+import Blogs from './components/Blogs';
 
 
 
@@ -60,6 +61,7 @@ class Root extends Component {
 						<Route path="/Learning-Disability" component={Learning_Disability} />
 
 						<Route path="/blog/:slug" component={BlogDetails} />
+						<Route path="/blogs/" component={Blogs} />
 	                </Switch>
 	                </div>
                 </Router>
