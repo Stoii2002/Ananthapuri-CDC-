@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 class Banner extends Component {
 
     render() {
@@ -20,9 +21,7 @@ class Banner extends Component {
 							Customized intervention and attentionas per each child’s need! </h1>
 							<p className="hero-text" data-ani="slideinleft" data-ani-delay="0.4s">Comprehensive Well-being Guide for Child Development: Nurturing Health and Growth </p>
 							<div className="btn-group">
-								<div className="" data-ani="slideinleft" data-ani-delay="0.8s">
-									<a href="contact.html" className="th-btn">Connect With Us </a>
-								</div>
+							<Link to="contact"  className="th-btn">Enroll Now</Link>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
 									<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
 										<i className="fas fa-play"></i>

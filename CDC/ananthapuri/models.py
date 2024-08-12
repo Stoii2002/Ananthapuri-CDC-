@@ -14,6 +14,7 @@ class Blog(models.Model):
     image = models.ImageField(upload_to='blogs/')
     Banner = models.ImageField(upload_to='blogs/', default='blogs/default_banner.jpg')  # Add a default value here
     slug = models.SlugField(unique=True)
+    meta_title = models.CharField(max_length=30,default="blog")
 
     def __str__(self):
         return self.name
