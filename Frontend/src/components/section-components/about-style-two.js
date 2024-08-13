@@ -37,7 +37,7 @@ const AboutStyleTwo = () => {
                         <div className="program-feature_content">
                             <div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
                             <div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
-                            <h3 className="box-title">Psycho Therapy</h3>
+                            <h3 className="box-title">Behavioural Therapy</h3>
                             <p className="program-feature_text">Preschool is an early childhood educational where children</p>
                             <button className="icon-btn"><i className="fa-solid fa-arrow-right"></i></button>
                         </div>

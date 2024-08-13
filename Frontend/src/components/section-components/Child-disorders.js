@@ -6,6 +6,7 @@ class Child_disorders extends Component {
     render() {
 
     return <section className=" overflow-hidden space">
+		
 	<div className="container z-index-common">
 		<div className="title-area text-center">
 			<span className="sub-title">Childhood Disorders</span>
@@ -149,8 +150,8 @@ class Child_disorders extends Component {
 
 				</div>
 			</div>
-			<button data-slider-prev="#teamSlider1" className="slider-arrow slider-prev"><i className="far fa-arrow-left"></i></button>
-			<button data-slider-next="#teamSlider1" className="slider-arrow slider-next"><i className="far fa-arrow-right"></i></button>
+			<button data-slider-prev="#teamSlider1" className="slider-arrow slider-prev"><i className="fa fa-arrow-left"></i></button>
+			<button data-slider-next="#teamSlider1" className="slider-arrow slider-next"><i className="fa fa-arrow-right"></i></button>
 		</div>
 	</div>
 	<div className="shape-mockup anim02 d-none d-xl-block" data-bottom="22%" data-left="5%"><img src="assets/img/shape/star3-1.png" alt="shape"/>

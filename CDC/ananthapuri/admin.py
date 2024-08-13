@@ -3,6 +3,7 @@ from .models import Testimonials
 from .models import Gallery
 from .models import Blog
 from .models import Teachers
+from .models import Contact
 
 admin.site.register(Testimonials)
 admin.site.register(Gallery)
@@ -13,3 +14,4 @@ class BlogAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('name',)}
 
 admin.site.register(Blog, BlogAdmin)
+admin.site.register(Contact)

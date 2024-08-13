@@ -14,7 +14,6 @@ const ContactPage = () => {
             <Contact_banner/>
             <Contact />
             <Get_in_touch/>
-            <Newsletter/>
             <Footer />
         </div>
         </div>

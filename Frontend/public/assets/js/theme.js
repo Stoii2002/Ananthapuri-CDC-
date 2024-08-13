@@ -1332,5 +1332,26 @@ let smoother = ScrollSmoother.create({
     //       return false;
     //     }
     //   } 
-
+    function sendContact() {
+        var formData = {
+            name: $('#name').val(),
+            email: $('#email').val(),
+            phone: $('#phone').val(),
+            message: $('#message').val()
+        };
+    
+        $.ajax({
+            type: 'POST',
+            url: 'http://localhost:8000/api/contact/',  // Ensure this is the correct URL
+            data: JSON.stringify(formData),
+            contentType: 'application/json',
+            success: function(response) {
+                console.log('Form submitted successfully:', response);
+            },
+            error: function(jqXHR, textStatus, errorThrown) {
+                console.error('Error in form submission:', jqXHR.responseText);
+            }
+        });
+    }
+    
 })(jQuery);

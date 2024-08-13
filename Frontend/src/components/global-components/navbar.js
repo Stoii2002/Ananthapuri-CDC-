@@ -69,14 +69,21 @@ const Navbar = () => {
 										<li><Link to="/about">About Us</Link></li>
 										<li><Link to="/our-school">Our School</Link></li>
 										<li className="menu-item-has-children">
-											<a href="#">Disorders</a>
+											<a href="#">Conditions</a>	
 											<ul className="sub-menu">
-												<li><Link to="/ADHD">ADHD</Link></li>
+												<li><Link to="/ADHD">Attention Deficit Hyperactive Disorder - ADHD</Link></li>
 												<li><Link to="/Autism">Autism</Link></li>
-												<li><Link to="/Cerebral-Palsy">Cerebral Palsy</Link></li>
+												<li><Link to="/Cerebral-Palsy">Cerebral palsy (CP)</Link></li>
 												<li><Link to="/Downs-Syndrome">Down Syndrome</Link></li>
 												<li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
-												<li><Link to="/Learning-Disability">Learning Disability</Link></li>	
+												<li><Link to="/Learning-Disability">Learning Disability (LD)</Link></li>
+
+												<li><Link to="/Counduct-Disorder">Counduct Disorder </Link></li>	
+												<li><Link to="/Virtual-Autism">Virtual Autism</Link></li>	
+												<li><Link to="/">Global developmental Delay (GDD)</Link></li>	
+												<li><Link to="/">Adolescent Counselling </Link></li>	
+												<li><Link to="/">Stuttering </Link></li>	
+												<li><Link to="/">Senory Processing Disorders</Link></li>	
 											</ul>
 										</li>
 										<li><Link to="/Gallery">Gallery</Link></li>
@@ -89,7 +96,8 @@ const Navbar = () => {
 												<a href={`/blog/${blog.slug}`}>{blog.name}</a>
 												</li>
 											))}
-											
+											<Link to="/blogs" className="Morebutton">More</Link>
+
 											</ul>
 										</li>
 										<li>

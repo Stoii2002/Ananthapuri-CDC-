@@ -12,9 +12,9 @@ const Psycho_content = () => {
                     <div className="page-single mb-0">
                         
                         <div className="page-content">
-                            <h3 className="sec-title page-title">Child Psychotherapy: Helping Children Thrive</h3>
+                            <h3 className="sec-title page-title">Child Behavioural Therapy: Helping Children Thrive</h3>
                             <p className="sec-text mb-30">
-                            Psychotherapy is a type of therapy used to treat emotional problems and mental health conditions like autism and other developmental disorders. In involves talking to a trained therapist, either one-to-one or with your husband, wife or partner. It gives a deeper insight into your problems and worries and equips you to deal with your troublesome habits and wide range of issues.
+                            Behavioural therapy is a type of therapy used to treat emotional problems and mental health conditions like autism and other developmental disorders. In involves talking to a trained therapist, either one-to-one or with your husband, wife or partner. It gives a deeper insight into your problems and worries and equips you to deal with your troublesome habits and wide range of issues.
 
                             Talking is the integral part of psychotherapy, but sometimes other methods like art, music, drama etc may be used. Psychotherapy helps you to open up yourself completely with the therapist; you can discuss the feelings you have about yourself. In some cases, joint therapy sessions are also offered for couples and families. The therapists provide utmost confidentiality, so you can trust them with information that may be personal and embarrassing.
                             </p>

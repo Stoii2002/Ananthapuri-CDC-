@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 class Banner extends Component {
 
     render() {
 
 
 
-    return <div className="th-hero-wrapper hero-3" id="hero">
+    return <div className="th-hero-wrapper hero-3" id="hero"><div className="bottom-shape" data-bg-src="assets/img/shape/hero_bottom_shape.png"></div>
 	<div className="swiper th-slider number-dots hero-slider-3" id="heroSlide3" data-slider-options='{"effect":"fade"}'>
 		<div className="swiper-wrapper">
 			<div className="swiper-slide">
@@ -20,9 +21,7 @@ class Banner extends Component {
 							Customized intervention and attentionas per each child’s need! </h1>
 							<p className="hero-text" data-ani="slideinleft" data-ani-delay="0.4s">Comprehensive Well-being Guide for Child Development: Nurturing Health and Growth </p>
 							<div className="btn-group">
-								<div className="" data-ani="slideinleft" data-ani-delay="0.8s">
-									<a href="contact.html" className="th-btn">Connect With Us </a>
-								</div>
+							<Link to="contact"  className="th-btn">Enroll Now</Link>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
 									<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
 										<i className="fas fa-play"></i>
@@ -38,7 +37,7 @@ class Banner extends Component {
 			</div>
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner5.jpg">
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner6.jpg">
 						
 					</div>
 					<div className="container">
@@ -101,9 +100,9 @@ class Banner extends Component {
 		</div>
 		<div className="shape-mockup z-index-3 movingX d-none d-md-block" data-top="35%" data-left="40%"><img className="gmovingX" src="assets/img/shape/shape_3_3.png" alt="shape"/>
 		</div>
-		<div className="shape-mockup z-index-3 d-none d-xl-block" data-bottom="6%" data-left="0%"><img src="assets/img/shape/shape_3_4.png" alt="shape"/>
+		<div className="shape-mockup z-index-3 d-none d-xl-block" data-bottom="10%" data-left="-3%"><img src="assets/img/shape/shape_3_4.png" alt="shape"/>
 		</div>
-		<div className="shape-mockup z-index-3 movingX d-none d-md-block" data-bottom="11%" data-left="36%"><img src="assets/img/shape/shape_3_6.png" alt="shape"/>
+		<div className="shape-mockup z-index-3 movingX d-none d-md-block" data-bottom="15%" data-left="36%"><img src="assets/img/shape/shape_3_6.png" alt="shape"/>
 		</div>
 	</div>
 </div>

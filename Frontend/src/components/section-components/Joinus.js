@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 class Joinus extends Component {
 
@@ -11,7 +12,7 @@ class Joinus extends Component {
                 <span className="sub-title">Join Us</span>
                 <h2 className="sec-title">How to <span className="text-theme3">enroll</span> your child? </h2>
             </div>
-            <a href="classNamees.html" className="th-btn">FILL OUT THE FORM</a>
+            <Link to="/contact" className="th-btn">FILL OUT THE FORM</Link>
         </div>
     </div>
 </section>

@@ -25,6 +25,10 @@ import Downs from './components/Downs-Syndrome';
 import Intellectual from './components/Intellectual-disability';
 import Learning_Disability from './components/Learning-Disability';
 import Mobile_menu from './components/global-components/mobile_menu';
+import Popup_contactform from './components/Popup-contactform';
+import Blogs from './components/Blogs';
+import Counduct from './Counduct-Disorder';
+import Virtual_Autism from './components/Virtual-autism';
 
 
 
@@ -34,6 +38,7 @@ class Root extends Component {
 				<Router forceRefresh={true}>
 	                <div>
 					<Mobile_menu/>
+					<Popup_contactform/>
 	                <Switch>
 	                    <Route exact path="/" component={HomeV1} />
 	                    <Route path="/about" component={About} />
@@ -56,8 +61,11 @@ class Root extends Component {
 						<Route path="/Downs-Syndrome" component={Downs} />
 						<Route path="/Intellectual-Disability" component={Intellectual} />
 						<Route path="/Learning-Disability" component={Learning_Disability} />
+						<Route path="/Counduct-Disorder" component={Counduct} />
+						<Route path="/Virtual-Autism" component={Virtual_Autism} />
 
 						<Route path="/blog/:slug" component={BlogDetails} />
+						<Route path="/blogs/" component={Blogs} />
 	                </Switch>
 	                </div>
                 </Router>

@@ -23,7 +23,7 @@ const Departmentaside = () => {
         <div className="widget widget_categories">
             <h3 className="widget_title">Departments</h3>
             <ul>
-                <li><Link to="Occupational-Theraphy">Occupational Theraphy</Link></li>
+                <li><Link to="Occupational-Theraphy">Behavioural Therapy</Link></li>
                 <li><Link to="Psycho-Theraphy">Psycho Theraphy</Link></li>
                 <li><Link to="Special-education">Special Education</Link></li>
                 <li><Link to="Speech-Theraphy">Speech Theraphy</Link></li>
@@ -31,7 +31,7 @@ const Departmentaside = () => {
         </div>
 
         <div className="widget widget_categories">
-            <h3 className="widget_title">Disorders</h3>
+            <h3 className="widget_title">Conditions</h3>
             <ul>
                 <li><Link to="ADHD">ADHD</Link></li>
                 <li><Link to="Autism">Autism</Link></li>
@@ -39,6 +39,8 @@ const Departmentaside = () => {
                 <li><Link to="Downs-Syndrome">Downs Syndrome</Link></li>
                 <li><Link to="Intellectual-Disability">Intellectual disability</Link></li>
                 <li><Link to="Learning-Disability">Learning Disability</Link></li>
+                <li><Link to="Virtual-Autism">Virtual Autism</Link></li>            
+                <li><Link to="Counduct-Disorder">Counduct Disorder</Link></li>
             </ul>
         </div>
 

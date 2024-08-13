@@ -48,8 +48,8 @@ const TeamV2 = () => {
 
 				</div>
 			</div>
-			<button data-slider-prev="#teamSlider2" className="slider-arrow slider-prev"><i className="far fa-arrow-left"></i></button>
-			<button data-slider-next="#teamSlider2" className="slider-arrow slider-next"><i className="far fa-arrow-right"></i></button>
+			<button data-slider-prev="#teamSlider2" className="slider-arrow slider-prev"><i className="fa fa-arrow-left"></i></button>
+			<button data-slider-next="#teamSlider2" className="slider-arrow slider-next"><i className="fa fa-arrow-right"></i></button>
 		</div>
 	</div>
 	<div className="shape-mockup anim02 d-none d-xxl-block" data-top="30%" data-left="5%"><img src="assets/img/shape/star3-1.png" alt="shape"/>

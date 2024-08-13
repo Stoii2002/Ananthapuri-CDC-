@@ -8,10 +8,10 @@ const Psychobanner = () => {
                 <div className="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
                 <div className="container">
                     <div className="breadcumb-content">
-                        <h1 className="breadcumb-title">Psycho Theraphy</h1>
+                        <h1 className="breadcumb-title">Behavioural Therapy</h1>
                         <ul className="breadcumb-menu">
                         <li><Link to="/">Home</Link></li>
-                            <li>Psycho Theraphy</li>
+                            <li>Behavioural Therapy</li>
                         </ul>
                     </div>
                 </div>

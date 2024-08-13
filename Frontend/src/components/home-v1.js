@@ -7,18 +7,22 @@ import AboutStyleTwo from './section-components/about-style-two';
 
 import Skill from './section-components/skill';
 import Funfact from './section-components/funfact';
-
+import { Helmet } from 'react-helmet';
 
 import PostSlider from './section-components/post-slider';
-import Footer from './global-components/footer';
+
 import Joinus from './section-components/Joinus';
 import Ourgallery from './ourgallery';
 import Testimonial from './section-components/Testominials';
 import Child_disorders from './section-components/Child-disorders';
-import FeatureList from './Api-test';
+import Footer_v1 from './global-components/footer';
 
 const Home_V1 = () => {
     return <div>
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Ananthapuri CDC</title>
+        </Helmet>
         <Navbar />
         <div id="smooth-wrapper style2">
         <div id="smooth-content">
@@ -28,13 +32,15 @@ const Home_V1 = () => {
             <AboutStyleTwo />
             
             <Skill />
+            <Funfact/>
             <Child_disorders/>
             <Joinus/>
             <Ourgallery/>
             <PostSlider />
             
             <Testimonial/>
-            <Footer />
+            <Footer_v1/>
+            
         </div>
         </div>
     </div>
