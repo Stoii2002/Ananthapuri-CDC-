@@ -16,7 +16,7 @@ Including another URLconf
 
 # CDC/urls.py
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path, include, re_path
 from rest_framework.routers import DefaultRouter
 from . import views
 from django.conf.urls.static import static
@@ -33,5 +33,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('ananthapuri.urls')),  # Include app URLs
     path('', views.home, name='home'),
+    re_path(r'^tinymce/', include('tinymce.urls')),
     # other paths
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

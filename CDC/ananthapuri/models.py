@@ -1,4 +1,5 @@
 from django.db import models
+from tinymce.models import HTMLField
 
 class Testimonials(models.Model):
     name = models.CharField(max_length=15)
@@ -10,7 +11,7 @@ class Gallery(models.Model):
 
 class Blog(models.Model):
     name = models.CharField(max_length=255)
-    description = models.TextField()
+    description = HTMLField()
     image = models.ImageField(upload_to='blogs/')
     Banner = models.ImageField(upload_to='blogs/', default='blogs/default_banner.jpg')  # Add a default value here
     slug = models.SlugField(unique=True)

@@ -58,18 +58,8 @@ const handleSubmit = (e) => {
                   <a href="blog-details.html" className="blog-date"> 26 <span className="month">May</span> </a>
                 </div>
                 <div className="blog-content">
-                  <div className="blog-meta">
-                    <a className="author" href="blog.html">
-                      <i className="fa-solid fa-user"></i>Admin
-                    </a>
-                    <a href="blog.html">
-                      <i className="fa-solid fa-comment"></i>Comments (5)
-                    </a>
-                  </div>
                   <h2 className="blog-title">{blog.name}</h2>
-                  <p className="mb-30">
-                        {blog.description}
-                  </p>
+                  <p className="mb-30" dangerouslySetInnerHTML={{ __html: blog.description }}></p>
 
 
 
@@ -96,14 +86,14 @@ const handleSubmit = (e) => {
                 </div>
               </div>
               
-              <div className="blog-navigation">
-                <a href="blog-details.html" className="nav-btn prev">
+              <div className="blog-navigation mb-5">
+                <a href="" className="nav-btn prev">
                   <i className="fa-solid fa-angle-left"></i>
-                  <span className="nav-text">Explore Adventures in Kindergarten</span>
+                  <span className="nav-text">Explore Adventures in Ananthapuri CDC</span>
                 </a>
-                <a href="blog-details.html" className="nav-btn next">
+                <a href="" className="nav-btn next">
                   <i className="fa-solid fa-angle-right"></i>
-                  <span className="nav-text">Friendship Blooms in Kindergarten</span>
+                  <span className="nav-text">Friendship Blooms in Ananthapuri CDC</span>
                 </a>
               </div>
 
