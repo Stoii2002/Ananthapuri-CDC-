@@ -29,6 +29,11 @@ import Popup_contactform from './components/Popup-contactform';
 import Blogs from './components/Blogs';
 import Counduct from './Counduct-Disorder';
 import Virtual_Autism from './components/Virtual-autism';
+import Global_Developmental_Delay from './components/Gdd';
+import Adolescent_Counselling from './components/Adolescent_councelling';
+import Stuttering_disorder from './components/Stuttering';
+import Senory_Processing_Disorders from './components/Senory';
+
 
 
 
@@ -63,6 +68,10 @@ class Root extends Component {
 						<Route path="/Learning-Disability" component={Learning_Disability} />
 						<Route path="/Counduct-Disorder" component={Counduct} />
 						<Route path="/Virtual-Autism" component={Virtual_Autism} />
+						<Route path="/Gdd" component={Global_Developmental_Delay} />
+						<Route path="/Adolescent_councelling" component={Adolescent_Counselling} />
+                        <Route path="/Stuttering" component={Stuttering_disorder} />
+						<Route path="/Senory" component={Senory_Processing_Disorders} />
 
 						<Route path="/blog/:slug" component={BlogDetails} />
 						<Route path="/blogs/" component={Blogs} />

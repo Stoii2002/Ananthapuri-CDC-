@@ -80,10 +80,10 @@ const Navbar = () => {
 
 												<li><Link to="/Counduct-Disorder">Counduct Disorder </Link></li>	
 												<li><Link to="/Virtual-Autism">Virtual Autism</Link></li>	
-												<li><Link to="/">Global developmental Delay (GDD)</Link></li>	
-												<li><Link to="/">Adolescent Counselling </Link></li>	
-												<li><Link to="/">Stuttering </Link></li>	
-												<li><Link to="/">Senory Processing Disorders</Link></li>	
+												<li><Link to="/Gdd">Global developmental Delay (GDD)</Link></li>	
+												<li><Link to="/Adolescent_councelling">Adolescent Counselling </Link></li>	
+												<li><Link to="/Stuttering">Stuttering </Link></li>	
+												<li><Link to="/Senory">Sensory Processing Disorders</Link></li>	
 											</ul>
 										</li>
 										<li><Link to="/Gallery">Gallery</Link></li>

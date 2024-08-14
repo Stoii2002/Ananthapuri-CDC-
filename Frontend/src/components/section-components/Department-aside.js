@@ -41,6 +41,10 @@ const Departmentaside = () => {
                 <li><Link to="Learning-Disability">Learning Disability</Link></li>
                 <li><Link to="Virtual-Autism">Virtual Autism</Link></li>            
                 <li><Link to="Counduct-Disorder">Counduct Disorder</Link></li>
+                <li><Link to="Gdd">Global Developmental Delay</Link></li>
+                <li><Link to="Adolescent_councelling">Adolescent Counselling</Link></li>
+                <li><Link to="Stuttering">Stuttering</Link></li>
+                <li><Link to="Senory">Sensory Processing Disoders</Link></li>
             </ul>
         </div>
 
