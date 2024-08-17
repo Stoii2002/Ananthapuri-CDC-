@@ -145,7 +145,124 @@ class Child_disorders extends Component {
 					</div>
 
 
-					
+					{/* <!-- Single Item --> */}
+					<div className="swiper-slide">
+						<div className="team-card">
+							<div className="team-img-wrap">
+								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
+									<img src="assets/img/team/counduct-disorder.jpg" alt="Team"/>
+									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
+								</div>
+								<div className="th-social">
+								<div className="team-content">
+								<h3 className="box-title"><Link to="/Counduct-Disorder">More</Link></h3>
+							</div>
+								</div>
+							</div>
+							<div className="team-content">
+								<h3 className="box-title"><Link to="/Counduct-Disorder">Counduct Disorder</Link></h3>
+							</div>
+						</div>
+					</div>
+
+
+					{/* <!-- Single Item --> */}
+					<div className="swiper-slide">
+						<div className="team-card">
+							<div className="team-img-wrap">
+								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
+									<img src="assets/img/team/virtual.jpg" alt="Team"/>
+									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
+								</div>
+								<div className="th-social">
+								<div className="team-content">
+								<h3 className="box-title"><Link to="/Virtual-Autism">More</Link></h3>
+							</div>
+								</div>
+							</div>
+							<div className="team-content">
+								<h3 className="box-title"><Link to="/Virtual-Autism">Virtual Autism</Link></h3>
+							</div>
+						</div>
+					</div>
+
+					{/* <!-- Single Item --> */}
+					<div className="swiper-slide">
+						<div className="team-card">
+							<div className="team-img-wrap">
+								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
+									<img src="assets/img/team/GDD.jpg" alt="Team"/>
+									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
+								</div>
+								<div className="th-social">
+								<div className="team-content">
+								<h3 className="box-title"><Link to="/Gdd">More</Link></h3>
+							</div>
+								</div>
+							</div>
+							<div className="team-content">
+								<h3 className="box-title"><Link to="/Gdd">Global developmental Delay (GDD)</Link></h3>
+							</div>
+						</div>
+					</div>
+
+					{/* <!-- Single Item --> */}
+					<div className="swiper-slide">
+						<div className="team-card">
+							<div className="team-img-wrap">
+								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
+									<img src="assets/img/team/A-C.jpg" alt="Team"/>
+									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
+								</div>
+								<div className="th-social">
+								<div className="team-content">
+								<h3 className="box-title"><Link to="/Adolescent_councelling">More</Link></h3>
+							</div>
+								</div>
+							</div>
+							<div className="team-content">
+								<h3 className="box-title"><Link to="/Adolescent_councelling">Adolescent Counselling</Link></h3>
+							</div>
+						</div>
+					</div>
+					{/* <!-- Single Item --> */}
+					<div className="swiper-slide">
+						<div className="team-card">
+							<div className="team-img-wrap">
+								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
+									<img src="assets/img/team/shuttering.jpg" alt="Team"/>
+									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
+								</div>
+								<div className="th-social">
+								<div className="team-content">
+								<h3 className="box-title"><Link to="/Stuttering">More</Link></h3>
+							</div>
+								</div>
+							</div>
+							<div className="team-content">
+								<h3 className="box-title"><Link to="/Stuttering">Stuttering </Link></h3>
+							</div>
+						</div>
+					</div>
+					{/* <!-- Single Item --> */}
+					<div className="swiper-slide">
+						<div className="team-card">
+							<div className="team-img-wrap">
+								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
+									<img src="assets/img/team/SPD.jpg" alt="Team"/>
+									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
+								</div>
+								<div className="th-social">
+								<div className="team-content">
+								<h3 className="box-title"><Link to="/Senory">More</Link></h3>
+							</div>
+								</div>
+							</div>
+							<div className="team-content">
+								<h3 className="box-title"><Link to="/Senory">Sensory Processing Disorders</Link></h3>
+							</div>
+						</div>
+					</div>
 
 
 				</div>
