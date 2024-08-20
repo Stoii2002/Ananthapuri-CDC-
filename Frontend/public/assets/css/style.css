@@ -11332,7 +11332,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child > .th-pos
 
 .hero-3 .bottom-shape {
   position: absolute;
-  bottom: 70px;
+  bottom: -1px;
   left: 0;
   width: 100%;
   height: 260px;

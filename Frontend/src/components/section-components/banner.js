@@ -11,7 +11,7 @@ class Banner extends Component {
 		<div className="swiper-wrapper">
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner1.jpg">
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner1.jpg" style={{backgroundSize:'cover'}}>
 						
 					</div>
 					<div className="container">
@@ -21,13 +21,13 @@ class Banner extends Component {
 							Customized intervention and attentionas per each child’s need! </h1>
 							<p className="hero-text" data-ani="slideinleft" data-ani-delay="0.4s">Comprehensive Well-being Guide for Child Development: Nurturing Health and Growth </p>
 							<div className="btn-group">
-							<Link to="contact"  className="th-btn">Enroll Now</Link>
+							<Link to="/contact"  className="th-btn">Connect With Us</Link>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
-									<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
+									<a href="" className="play-btn popup-video">
 										<i className="fas fa-play"></i>
 									</a>
 									<div className="media-body">
-										<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="btn-title popup-video">Watch Video</a>
+										<a href="" className="btn-title popup-video">Watch Video</a>
 									</div>
 								</div>
 							</div>
@@ -37,7 +37,7 @@ class Banner extends Component {
 			</div>
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner6.jpg">
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner6.jpg" style={{backgroundSize:'cover'}}>
 						
 					</div>
 					<div className="container">
@@ -49,14 +49,14 @@ class Banner extends Component {
 							Holistic Well-being and Development Guide for Children: Supporting Health, Growth, and Happiness</p>
 							<div className="btn-group">
 								<div className="" data-ani="slideinleft" data-ani-delay="0.8s">
-									<a href="contact.html" className="th-btn">Connect With US</a>
+								<Link to="/contact"  className="th-btn">Connect With Us</Link>
 								</div>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
-									<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
+									<a href="" className="play-btn popup-video">
 										<i className="fas fa-play"></i>
 									</a>
 									<div className="media-body">
-										<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="btn-title popup-video">Watch Video</a>
+										<a href="" className="btn-title popup-video">Watch Video</a>
 									</div>
 								</div>
 							</div>
@@ -66,7 +66,7 @@ class Banner extends Component {
 			</div>
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner4.jpg">
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner4.jpg" style={{backgroundSize:'cover'}}>
 						
 					</div>
 					<div className="container">
@@ -77,14 +77,14 @@ class Banner extends Component {
 							<p className="hero-text" data-ani="slideinleft" data-ani-delay="0.4s">Guide to Comprehensive Child Development and Wellness: Promoting Holistic Health, Supporting Growth, and Nurturing Happiness</p>
 							<div className="btn-group">
 								<div className="" data-ani="slideinleft" data-ani-delay="0.8s">
-									<a href="contact.html" className="th-btn">Connect With uS</a>
+								<Link to="/contact"  className="th-btn">Connect With Us</Link>
 								</div>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
-									<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video">
+									<a href="" className="play-btn popup-video">
 										<i className="fas fa-play"></i>
 									</a>
 									<div className="media-body">
-										<a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="btn-title popup-video">Watch Video</a>
+										<a href="" className="btn-title popup-video">Watch Video</a>
 									</div>
 								</div>
 							</div>
