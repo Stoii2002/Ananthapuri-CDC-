@@ -4,7 +4,7 @@ const TeamV2 = () => {
 	const [teachers, setTeachers] = useState([]);
   
 	useEffect(() => {
-	  fetch('http://127.0.0.1:8000/api/Teachers/')
+	  fetch('https://ananthapuricdc.com/api/Teachers/')
 	   .then(response => response.json())
 	   .then(data => setTeachers(data));
 	}, []);

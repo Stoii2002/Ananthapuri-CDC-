@@ -10,7 +10,7 @@ function Blogdetails2() {
     const [previousPage, setPreviousPage] = useState(null);
 
     useEffect(() => {
-        axios.get(`http://localhost:8000/api/fullblogs/?limit=3&offset=${(currentPage - 1) * 3}`)
+        axios.get(`https://ananthapuricdc.com/api/fullblogs/?limit=3&offset=${(currentPage - 1) * 3}`)
             .then(response => {
                 setBlogs(response.data.results);
                 setTotalPages(Math.ceil(response.data.count / 3));

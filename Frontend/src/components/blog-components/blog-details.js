@@ -8,7 +8,7 @@ const Blog_page = () => {
   const [blog, setBlog] = useState({});
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/api/blogs/${slug}/`)
+    axios.get(`https://ananthapuricdc.com/api/blogs/${slug}/`)
       .then(response => {
         setBlog(response.data);
       })
@@ -36,7 +36,7 @@ const handleChange = (e) => {
 
 const handleSubmit = (e) => {
   e.preventDefault(); // Prevent the default form action
-  axios.post('http://localhost:8000/api/contact/', formData)
+  axios.post('https://ananthapuricdc.com/api/contact/', formData)
       .then(response => {
           console.log('Form submitted successfully:', response.data);
           window.location.reload(); // Refresh the page after successful submission

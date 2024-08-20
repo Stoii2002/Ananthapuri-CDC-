@@ -10,7 +10,7 @@ const Navbar = () => {
 	const [blogs, setBlogs] = useState([]);
 
 	useEffect(() => {
-	  axios.get('http://localhost:8000/api/blogs/')
+	  axios.get('https://ananthapuricdc.com/api/blogs/')
 		.then(response => {
 		  setBlogs(response.data);
 		})

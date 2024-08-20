@@ -25,9 +25,9 @@ SECRET_KEY = "django-insecure-&3(edgat_)nvb-0culsd$v48^^kglgscevwr_9)i2ehxyol)3k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ananthapuricdc.com','www.ananthapuricdc.com']
 
-
+ADMIN_URL = '/admin/'
 # Application definition
 
 INSTALLED_APPS = [
@@ -56,8 +56,12 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
 ]
+
+CSRF_COOKIE_SECURE = True  # Ensures CSRF cookie is sent over HTTPS only
+SESSION_COOKIE_SECURE = True  # Ensures session cookie is sent over HTTPS only
+CSRF_TRUSTED_ORIGINS = ['https://ananthapuricdc.com', 'https://www.ananthapuricdc.com']
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # adjust to your React app's URL
+    'https://ananthapuricdc.com','https://www.ananthapuricdc.com',  # adjust to your React app's URL
 ]
 
 CORS_ALLOW_METHODS = [
@@ -107,9 +111,13 @@ CORS_ALLOW_ALL_ORIGINS = True
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'CDC',
+        'USER': 'Ananthapuricdc',
+        'PASSWORD': 'Ananthapuricdcdatabase@123',
+        'HOST': '127.0.0.1',  # Or 'localhost' if hosted locally
+        'PORT': '3306',  # Default port for MySQL
     }
 }
 
@@ -158,7 +166,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/django-static/"
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
