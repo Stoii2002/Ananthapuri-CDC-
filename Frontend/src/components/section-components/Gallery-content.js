@@ -9,7 +9,7 @@ const Gallery_content = () => {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = await fetch('http://127.0.0.1:8000/api/Gallery/');
+        const response = await fetch('https://ananthapuricdc.com/api/Gallery/');
         const data = await response.json();
         setTestimonials(data);
       } catch (error) {

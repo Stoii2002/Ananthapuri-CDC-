@@ -18,7 +18,7 @@ const Newsletter = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevent the default form action
-        axios.post('http://localhost:8000/api/contact/', formData)
+        axios.post('https://ananthapuricdc.com/api/contact/', formData)
             .then(response => {
                 console.log('Form submitted successfully:', response.data);
                 window.location.reload(); // Refresh the page after successful submission

@@ -12,7 +12,7 @@ const BlogList = () => {
     const [blog, setBlog] = useState({});
   
     useEffect(() => {
-      axios.get(`http://localhost:8000/api/blogs/${slug}/`)
+      axios.get(`https://ananthapuricdc.com/api/blogs/${slug}/`)
         .then(response => {
           setBlog(response.data);
         })

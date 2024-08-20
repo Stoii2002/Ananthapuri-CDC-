@@ -5,7 +5,7 @@ const TestimonialOne = () => {
 	const [testimonials, setTestimonials] = useState([]);
   
 	useEffect(() => {
-	  fetch('http://127.0.0.1:8000/api/Testimonials/')
+	  fetch('https://ananthapuricdc.com/api/Testimonials/')
 	   .then(response => response.json())
 	   .then(data => setTestimonials(data));
 	}, []);
