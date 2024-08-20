@@ -24,7 +24,7 @@ const Home_V1 = () => {
                 <title>Ananthapuri CDC</title>
         </Helmet>
         <Navbar />
-        <div id="smooth-wrapper style2">
+        <div id="smooth-wrapper style2">    
         <div id="smooth-content">
             <Banner />
             <WhyChooseUs />

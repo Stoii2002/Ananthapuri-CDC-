@@ -28,16 +28,16 @@ class   Ourgallery extends Component {
                 </div>
 
 
-                <div className="swiper th-slider" id="gallerySlide3" data-slider-options='{ "effect": "coverflow", "grabCursor": true, "centeredSlides":true,"slidesPerView":2,"initialSlide": 5,"coverflowEffect": { "rotate": 0,"stretch": 0,  "depth": 100,"modifier":10,"slideShadows": false}}'>
+                <div className="swiper th-slider p-4" id="gallerySlide3" data-slider-options='{ "effect": "coverflow", "grabCursor": true, "centeredSlides":true,"slidesPerView":2,"initialSlide": 5,"coverflowEffect": { "rotate": 0,"stretch": 0,  "depth": 100,"modifier":10,"slideShadows": false}}'>
                         <div className="swiper-wrapper">
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc1.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc11.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/cdc1.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc11.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
                                             {/* <h4 className="box-title">
                                                 <a href="gallery.html">Kids Art className</a>
@@ -51,11 +51,11 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc2.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc6.webp" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/cdc2.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc6.webp" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
                                             {/* <h4 className="box-title">
                                                 <a href="gallery.html">Drawing & Painting</a>
@@ -69,11 +69,11 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc3.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc12.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/cdc3.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc12.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
                                            {/*  <h4 className="box-title">
                                                 <a href="gallery.html">Kids Letter Match</a>
@@ -87,11 +87,11 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc4.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc13.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/cdc4.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc13.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
                                             {/* <h4 className="box-title">
                                                 <a href="gallery.html">Reading & Writing Skill</a>
@@ -105,11 +105,11 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc5.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc14.jpg" alt="gallery image"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
-                                            <a href="assets/img/gallery/cdc5.jpg" className="icon-btn popup-image">
+                                            <a href="assets/img/gallery/cdc14.jpg" className="icon-btn popup-image">
                                                 <i className="fa-regular fa-eye"></i></a>
                                             {/* <h4 className="box-title">
                                                 <a href="gallery.html">Drawing & Painting</a>
