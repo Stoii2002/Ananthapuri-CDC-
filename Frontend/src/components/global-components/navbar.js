@@ -29,9 +29,9 @@ const Navbar = () => {
 									<li className="d-none d-xl-inline-block"><i className="fa-solid fa-location-dot"></i>
 										<span>Medical College, Chalakkuzhi, Trivandrum, Kerala 695011</span>
 									</li>
-									<li><i className="fa-solid fa-envelope"></i>Email: <a href="cdc.ananthapuri@gmail.com" target="_blank">
-									cdc.ananthapuri@gmail.com</a></li>
-									<li><i className="fa-solid fa-phone"></i>Phone: <a href="tel:0471 2554990"> 0471 2554990</a> <a href="tel:+91 94460 64178"> +91 94460 64178</a>
+									<li><i className="fa-solid fa-envelope"></i>Email:
+									cdc.ananthapuri@gmail.com</li>
+									<li><i className="fa-solid fa-phone"></i>Phone:  0471 2554990 , +91 94460 64178
 									</li>
 	
 								</ul>

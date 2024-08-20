@@ -11,14 +11,14 @@ class Banner extends Component {
 		<div className="swiper-wrapper">
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner1.jpg" style={{backgroundSize:'cover'}}>
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-BANNER-NEW.jpg" style={{backgroundSize:'cover'}}>
 						
 					</div>
 					<div className="container">
 						<div className="hero-style3">
 							<span className="sub-title" data-ani="slideindown" data-ani-delay="0.1s">Expert on Child Care</span>
 							<h1 className="hero-title" data-ani="slideinleft" data-ani-delay="0.4s">
-							Customized intervention and attentionas per each child’s need! </h1>
+							Customized intervention and attention as per each child’s need! </h1>
 							<p className="hero-text" data-ani="slideinleft" data-ani-delay="0.4s">Comprehensive Well-being Guide for Child Development: Nurturing Health and Growth </p>
 							<div className="btn-group">
 							<Link to="/contact"  className="th-btn">Connect With Us</Link>
@@ -37,7 +37,7 @@ class Banner extends Component {
 			</div>
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner6.jpg" style={{backgroundSize:'cover'}}>
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/web-banner.jpg" style={{backgroundSize:'cover'}}>
 						
 					</div>
 					<div className="container">
@@ -66,7 +66,7 @@ class Banner extends Component {
 			</div>
 			<div className="swiper-slide">
 				<div className="hero-inner">
-					<div className="th-hero-bg" data-bg-src="assets/img/hero/cdc-banner4.jpg" style={{backgroundSize:'cover'}}>
+					<div className="th-hero-bg" data-bg-src="assets/img/hero/web-banner2.jpg" style={{backgroundSize:'cover'}}>
 						
 					</div>
 					<div className="container">

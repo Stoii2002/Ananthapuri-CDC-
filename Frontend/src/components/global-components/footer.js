@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 class Footer_v1 extends Component {
     componentDidMount() {
         const $ = window.$;
@@ -37,25 +37,24 @@ class Footer_v1 extends Component {
                                         <h3 className="widget_title">Quick Links</h3>
                                         <div className="menu-all-pages-container">
                                             <ul className="menu">
-                                                <li><a href="about.html">Home</a></li>
-                                                <li><a href="classNamees.html">About</a></li>
-                                                <li><a href="contact.html">Our school</a></li>
-                                                <li><a href="team.html">Disorder</a></li>
-                                                <li><a href="contact.html">Gallery</a></li>
-                                                <li><a href="service.html">Contact</a></li>
+                                            <li><Link to="/">Home</Link></li>
+                                            <li><Link to="/about">About Us</Link></li>
+                                            <li><Link to="/our-school">Our School</Link></li>
+                                            <li><Link to="/Gallery">Gallery</Link></li>
+                                            <Link to="/contact">Contact</Link>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 col-xl-auto">
                                     <div className="widget widget_nav_menu footer-widget">
-                                        <h3 className="widget_title">Blog</h3>
+                                        <h3 className="widget_title">Our Programs</h3>
                                         <div className="menu-all-pages-container">
                                             <ul className="menu">
-                                                <li><a href="classNamees.html">Parents Role</a></li>
-                                                <li><a href="classNamees.html">Stuttering</a></li>
-                                                <li><a href="classNamees.html">Autism</a></li>
-                                                <li><a href="classNamees.html">Sign and Symptoms</a></li>
+                                                <li><Link to="Occupational-Theraphy">Occupational Theraphy</Link></li>
+                                                <li> <Link to="Psycho-Theraphy">Psycho Theraphy</Link></li>
+                                                <li> <Link to="Special-education">Special Education</Link></li>
+                                                <li><Link to="Speech-Theraphy">Speech Theraphy</Link></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -65,8 +64,8 @@ class Footer_v1 extends Component {
                                         <h3 className="widget_title">Contact Us!</h3>
                                         <div className="th-widget-contact">
                                             <p className="footer-info"><i className="fas fa-map-marker-alt"></i>Medical College, Chalakkuzhi, Trivandrum, Kerala 695011</p>
-                                            <p className="footer-info"><i className="fas fa-envelope"></i>Email:<a className="text-inherit" href="cdc.ananthapuri@gmail.com"> cdc.ananthapuri@gmail.com</a></p>
-                                            <p className="footer-info"><i className="fas fa-phone-alt"></i>Phone:<a className="text-inherit" href="tel:0471 2554990"> 0471 2554990</a>&nbsp;<a className="text-inherit" href="tel:+91 94460 64178">+91 94460 64178</a></p>
+                                            <p className="footer-info"><i className="fas fa-envelope"></i>Email:<a className="text-inherit"> cdc.ananthapuri@gmail.com</a></p>
+                                            <p className="footer-info"><i className="fas fa-phone-alt"></i>Phone:<a className="text-inherit"> 0471 2554990</a>&nbsp;<a className="text-inherit">+91 94460 64178</a></p>
                                         </div>
                                     </div>
                                 </div>
