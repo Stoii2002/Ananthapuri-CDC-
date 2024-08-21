@@ -16,6 +16,7 @@ import Ourgallery from './ourgallery';
 import Testimonial from './section-components/Testominials';
 import Child_disorders from './section-components/Child-disorders';
 import Footer_v1 from './global-components/footer';
+import Theraphy_Sections from './section-components/Theraphy-Sections';
 
 const Home_V1 = () => {
     return <div>
@@ -27,6 +28,7 @@ const Home_V1 = () => {
         <div id="smooth-wrapper style2">    
         <div id="smooth-content">
             <Banner />
+            <Theraphy_Sections/>
             <WhyChooseUs />
             <AboutStyleOne />
             <AboutStyleTwo />
