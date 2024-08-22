@@ -15884,21 +15884,13 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 
-.about-block.style1 {
-  direction: rtl;
-  /* Small devices */
-  /* Small devices */
-}
+
 
 .about-block.style1 .about-block_icon {
   background-color: var(--theme-color3);
 }
 
-@media (max-width: 767px) {
-  .about-block.style1 {
-    direction: ltr;
-  }
-}
+
 
 .about-block.style1:nth-child(2) .about-block_icon {
   background-color: var(--theme-color4);

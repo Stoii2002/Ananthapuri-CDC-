@@ -17,7 +17,7 @@ class Funfact extends Component {
 						<img className="svg-img" src="assets/img/icon/counter_card_1_1.svg" alt=""/>
                         </div>
 						<div className="media-body">
-							<h2 className="box-number text-white"><span className="counter-number">750</span>+</h2>
+							<h2 className="box-number text-white"><span className="counter-number">100</span>+</h2>
 							<p className="box-text text-white">Total Children Supported</p>
 						</div>
 					</div>
@@ -28,7 +28,7 @@ class Funfact extends Component {
 						<img className="svg-img" src="assets/img/icon/counter_card_1_2.svg" alt=""/>
                         </div>
 						<div className="media-body">
-							<h2 className="box-number text-white"><span className="counter-number">28</span></h2>
+							<h2 className="box-number text-white"><span className="counter-number">6.5</span></h2>
 							<p className="box-text text-white">Years of Service</p>
 						</div>
 					</div>
@@ -38,7 +38,7 @@ class Funfact extends Component {
 						<div className="icon">
 							<img className="svg-img" src="assets/img/icon/counter_card_1_3.svg" alt=""/> </div>
 						<div className="media-body">
-							<h2 className="box-number text-white"><span className="counter-number">120</span>+</h2>
+							<h2 className="box-number text-white"><span className="counter-number">6</span>+</h2>	
 							<p className="box-text text-white">Qualified Teacher</p>
 						</div>
 					</div>
@@ -47,7 +47,7 @@ class Funfact extends Component {
 					<div className="counter-card">
 						<div className="icon"><img className="svg-img" src="assets/img/icon/counter_card_1_4.svg" alt=""/> </div>
 						<div className="media-body">
-							<h2 className="box-number text-white"><span className="counter-number">50</span></h2>
+							<h2 className="box-number text-white"><span className="counter-number">5</span></h2>
 							<p className="box-text text-white">Programs & Therapies Offered</p>
 						</div>
 					</div>

@@ -58,14 +58,14 @@ const Occupational_content = () => {
                             
                             <h3 className="sec-title page-title">OCCUPATIONAL THERAPY IN ADHD</h3>
                             <p className="sec-textmb-30">An occupational therapist helps children with ADHD to improve certain skills, such as:</p>
-                            <p className="sec-textmb-30">
+                            <div className="sec-textmb-30">
                                 <ul>
                                     <li>Organization</li>
                                     <li>Physical coordination</li>
                                     <li>Ability to do daily activities like taking a shower, organizing their backpack, or making their bed, quickly and neatly</li>
                                     <li>Control their energy levels in order to rein in hyperactivity</li>
                                 </ul>
-                            </p>
+                            </div>
 
                             <p className="sec-textmb-30">The first line of things here is to evaluate the child. Occupational therapists usually do this with input from you. During the evaluation, the therapist will assess how ADHD influences your child’s schoolwork, social life and home life. The therapist will also do a test to evaluate your child’s strengths and weaknesses and appropriate ways to address his/her issues will be recommended. During a therapy session, the occupational therapist and your child might play games, such as catching or hitting a ball to improve coordination, take part in activities to work out anger and aggression, teach new ways to do daily tasks like brushing teeth, getting dressed, or feeding himself/herself.</p>
                             <p className="sec-textmb-30">Occupational therapist will also try techniques to improve focus on handwriting, social skills, work on time management, ways to stay organized in the classroom and at home.</p>
