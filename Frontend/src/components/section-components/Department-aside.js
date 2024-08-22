@@ -23,31 +23,31 @@ const Departmentaside = () => {
         <div className="widget widget_categories">
             <h3 className="widget_title">Departments</h3>
             <ul>
-                <li><Link to="Occupational-Theraphy">Behavioural Therapy</Link></li>
-                <li><Link to="Psycho-Theraphy">Psycho Theraphy</Link></li>
-                <li><Link to="Special-education">Special Education</Link></li>
-                <li><Link to="Speech-Theraphy">Speech Theraphy</Link></li>
+                <li><Link to="/Occupational-Theraphy">Behavioural Therapy</Link></li>
+                <li><Link to="/Psycho-Theraphy">Psycho Theraphy</Link></li>
+                <li><Link to="/Special-education">Special Education</Link></li>
+                <li><Link to="/Speech-Theraphy">Speech Theraphy</Link></li>
             </ul>
         </div>
 
         <div className="widget widget_categories">
             <h3 className="widget_title">Conditions</h3>
             <ul>
-                <li><Link to="ADHD">ADHD</Link></li>
-                <li><Link to="Autism">Autism</Link></li>
-                <li><Link to="Cerebral-Palsy">Cerebral Palsy</Link></li>
-                <li><Link to="Downs-Syndrome">Downs Syndrome</Link></li>
-                <li><Link to="Intellectual-Disability">Intellectual disability</Link></li>
-                <li><Link to="Learning-Disability">Learning Disability</Link></li>
-                <li><Link to="Virtual-Autism">Virtual Autism</Link></li>            
-                <li><Link to="Counduct-Disorder">Counduct Disorder</Link></li>
-                <li><Link to="Gdd">Global Developmental Delay</Link></li>
-                <li><Link to="Adolescent_councelling">Adolescent Counselling</Link></li>
-                <li><Link to="Stuttering">Stuttering</Link></li>
-                <li><Link to="Senory">Sensory Processing Disoders</Link></li>
+                <li><Link to="/ADHD">ADHD</Link></li>
+                <li><Link to="/Autism">Autism</Link></li>
+                <li><Link to="/Cerebral-Palsy">Cerebral Palsy</Link></li>
+                <li><Link to="/Downs-Syndrome">Downs Syndrome</Link></li>
+                <li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
+                <li><Link to="/Learning-Disability">Learning Disability</Link></li>
+                <li><Link to="/Virtual-Autism">Virtual Autism</Link></li>            
+                <li><Link to="/Counduct-Disorder">Counduct Disorder</Link></li>
+                <li><Link to="/Gdd">Global Developmental Delay</Link></li>
+                <li><Link to="/Adolescent_councelling">Adolescent Counselling</Link></li>
+                <li><Link to="/Stuttering">Stuttering</Link></li>
+                <li><Link to="/Senory">Sensory Processing Disoders</Link></li>
             </ul>
         </div>
-
+        
         <div className="widget widget_categories">
             <h3 className="widget_title">Recent Blogs</h3>
             <ul className="sub-menu">

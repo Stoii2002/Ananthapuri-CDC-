@@ -20,8 +20,8 @@ class AboutPage extends Component {
 					</div>
 					<div className="th-experience movingX">
 						<div className="th-experience_content">
-							<h2 className="experience-year"><img src="assets/img/icon/about_2.svg" alt=""/><span className="counter-number">30</span>+</h2>
-							<p className="experience-text">Award.</p>
+							<h2 className="experience-year"><img src="assets/img/icon/about_2.svg" alt=""/><span className="counter-number">50</span>+</h2>
+							<p className="experience-text">Reviews</p>
 						</div>
 						<div className="about-shape3"></div>
 					</div>

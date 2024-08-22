@@ -20,7 +20,7 @@ const Blog_banner = () => {
         <div 
             className="breadcumb-wrapper" 
             style={{ 
-                backgroundImage: `url(${blog.Banner})` 
+                backgroundImage: `url(${blog.Banner})` ,backgroundSize:'cover',backgroundRepeat:'no-repeat'
             }}
         >
             <div 

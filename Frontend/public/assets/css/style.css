@@ -17200,11 +17200,6 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 
-.testi-area {
-  padding: 170px 0 120px 0;
-  /* Large devices */
-  /* Medium devices */
-}
 
 @media (max-width: 1199px) {
   .testi-area {

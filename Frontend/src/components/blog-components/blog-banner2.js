@@ -3,7 +3,7 @@ import React from 'react'
 function Blogbanner2() {
   return (
     <div>
-      <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+      <div className="breadcumb-wrapper " data-bg-src="assets/img/bg/blogbanner.jpg">
                 <div class="banner-shape" data-bg-src="assets/img/shape/banner_bg_2.png"></div>
                 <div class="container">
                     <div class="breadcumb-content">
