@@ -11,6 +11,8 @@ const TeamV2 = () => {
     return (
 	
 	<section className="team-area2">
+		    <div className="shape-top" data-mask-src="assets/img/shape/shape.png"></div>
+			<div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png" style={{marginBottom:'-25px'}}></div>
 	<div className="container z-index-common">
 		<div className="title-area text-center">
 			<span className="sub-title">Our Honorable Teacher</span>
@@ -29,11 +31,7 @@ const TeamV2 = () => {
 								<div className="team-img">
 									<img src={teachers.Image} alt="Team"/>
 								</div>
-								<div className="th-social">
-									<i className="fab fa-facebook-f"></i>
-									<i className="fab fa-instagram"></i>
-									<i className="fab fa-twitter"></i>
-								</div>
+								
 							</div>
 							<div className="team-content">
 								<h3 className="box-title"><a href="team-details.html">{teachers.Name}</a></h3>

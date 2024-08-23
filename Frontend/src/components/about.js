@@ -26,8 +26,9 @@ const AboutPage = () => {
             <About />
             <Howitworks/>
             <Funfact/>
-            <Team />
             <Testimonial />
+            <Team />
+           
             <Newsletter/>
             <Footer_v1/>
         </div>

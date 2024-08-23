@@ -16244,15 +16244,15 @@ span.select2-selection.select2-selection--single:focus {
   }
 }
 
-@media (max-width: 991px) {
-  .team-area2 {
-    padding: 80px 0 250px 0;
+@media (max-width: 767px) {
+  .shape-bottom.bg-mask{
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
-  .team-area2 {
-    padding: 80px 0 100px 0;
+  .shape-bottom.bg-mask{
+    display: none;
   }
 }
 
@@ -18148,13 +18148,13 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 991px) {
   .counter-sec {
-    padding: 0px 0 60px 0;
+    padding: 0px 0 70px 0;
   }
 }
 
 @media (max-width: 575px) {
   .counter-sec {
-    padding: 0 0 40px 0;
+    padding: 0 0 70px 0;
   }
 }
 
@@ -24877,25 +24877,25 @@ span.select2-selection.select2-selection--single:focus {
 
 @media (max-width: 767px) {
   .cta-cloud {
-    padding: 101px 80px;
+    padding: 137px 80px;
   }
 }
 
 @media (max-width: 575px) {
   .cta-cloud {
-    padding: 120px 80px;
+    padding: 92px 80px;
   }
 }
 
 @media (max-width: 480px) {
   .cta-cloud {
-    padding: 64px 40px;
+    padding: 55px 40px;
   }
 }
 
 @media (max-width: 375px) {
   .cta-cloud {
-    padding: 50px 20px;
+    padding: 38px 20px;
   }
 }
 
