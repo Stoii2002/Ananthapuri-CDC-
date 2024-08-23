@@ -11,15 +11,17 @@ const Testimonial = () => {
 
     return (
 		 <div className="" id="testi-sec">
-			<div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png" style={{marginBottom:'-22px'}}></div>
-				<div className="testi-sec">
+				<div className="testi-sec p-5">
 					<div className="container mb-5">
+						
+					
 						<div className="row align-items-center">
 							<div className="col-xl-6">
 								<div className="testi-wrapper">
-									<div className="testi-image">
-										<img src="assets/img/testimonial/testi-banner2.jpg" alt="testimonial-banner"/>
-									</div>
+									
+									<div className="testi-image2" data-mask-src="assets/img/shape/testi-img-shape.png">
+                            <img src="assets/img/testimonial/testi-banner2.jpg" alt=""/>
+                        </div>
 									<div className="testi-shape"><img src="assets/img/shape/testi-line.png" alt=""/></div>
 									<div className="team-thumb" data-slider-tab="#testiSlide1">
 										<div className="tab-btn active"></div>

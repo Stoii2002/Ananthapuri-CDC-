@@ -9,7 +9,6 @@ import About from './components/about';
 import Service from './components/School';
 
 
-import Team from './components/team';
 import BlogDetails from './components/blog-details';
 import Contact from './components/contact';
 import School from './components/School';

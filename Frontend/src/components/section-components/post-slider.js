@@ -17,6 +17,7 @@ const PostSlider = () => {
     return (
         <section className="blog-area bg-smoke overflow-hidden" id="blog-sec">
             <div className="shape-top" data-mask-src={`${process.env.PUBLIC_URL}/assets/img/shape/shape.png`}></div>
+            <div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png" style={{marginBottom:'-22px'}}></div>
             <div className="container">
                 <div className="blog-title-area">
                     <div className="title-area text-center">

@@ -30,9 +30,9 @@ const TeamV2 = () => {
 									<img src={teachers.Image} alt="Team"/>
 								</div>
 								<div className="th-social">
-									<a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f"></i></a>
-									<a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram"></i></a>
-									<a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter"></i></a>
+									<i className="fab fa-facebook-f"></i>
+									<i className="fab fa-instagram"></i>
+									<i className="fab fa-twitter"></i>
 								</div>
 							</div>
 							<div className="team-content">

@@ -23,11 +23,11 @@ class Banner extends Component {
 							<div className="btn-group">
 							<Link to="/contact"  className="th-btn">Connect With Us</Link>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
-									<a href="" className="play-btn popup-video">
-										<i className="fas fa-play"></i>
+									<a  className="play-btn popup-video">
+										<i className="fas fa-play"></i>	
 									</a>
 									<div className="media-body">
-										<a href="" className="btn-title popup-video">Watch Video</a>
+										<a className="btn-title popup-video">Watch Video</a>
 									</div>
 								</div>
 							</div>
@@ -52,11 +52,11 @@ class Banner extends Component {
 								<Link to="/contact"  className="th-btn">Connect With Us</Link>
 								</div>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
-									<a href="" className="play-btn popup-video">
+									<a  className="play-btn popup-video">
 										<i className="fas fa-play"></i>
 									</a>
 									<div className="media-body">
-										<a href="" className="btn-title popup-video">Watch Video</a>
+										<a  className="btn-title popup-video">Watch Video</a>
 									</div>
 								</div>
 							</div>
@@ -80,11 +80,11 @@ class Banner extends Component {
 								<Link to="/contact"  className="th-btn">Connect With Us</Link>
 								</div>
 								<div className="call-btn" data-ani="slideinright" data-ani-delay="0.9s">
-									<a href="" className="play-btn popup-video">
+									<a  className="play-btn popup-video">
 										<i className="fas fa-play"></i>
 									</a>
 									<div className="media-body">
-										<a href="" className="btn-title popup-video">Watch Video</a>
+										<a  className="btn-title popup-video">Watch Video</a>
 									</div>
 								</div>
 							</div>

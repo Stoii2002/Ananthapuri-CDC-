@@ -6,7 +6,8 @@ class Funfact extends Component {
     render() {
 
 
-    return <div className="counter-area"><div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png" style={{marginBottom:'-22px'}}></div>
+    return <div className="counter-area">
+		<div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png" style={{marginBottom:'-22px'}}></div>
 	<div className="counter-shape" data-mask-src="assets/img/shape/counter_shape.png"></div>
 	<div className="counter-sec overflow-hidden">
 		<div className="container">
