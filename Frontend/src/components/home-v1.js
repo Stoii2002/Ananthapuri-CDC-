@@ -32,7 +32,6 @@ const Home_V1 = () => {
                 <WhyChooseUs />
                 <AboutStyleOne />
                 <AboutStyleTwo />
-                <Skill />
                 <Funfact/>
                 <Child_disorders/>
                 <Joinus/>

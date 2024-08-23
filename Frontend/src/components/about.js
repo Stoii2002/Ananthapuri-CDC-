@@ -11,6 +11,7 @@ import Howitworks from './section-components/about_howitworks';
 import Newsletter from './section-components/Newsletter';
 import Footer_v1 from './global-components/footer';
 import {Helmet} from "react-helmet";
+import Skill from './section-components/skill';
 
 
 const AboutPage = () => {
@@ -25,6 +26,7 @@ const AboutPage = () => {
             <Aboutbanner/>
             <About />
             <Howitworks/>
+            <Skill/>
             <Funfact/>
             <Testimonial />
             <Team />
