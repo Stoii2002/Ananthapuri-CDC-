@@ -11,8 +11,8 @@ const Testimonial = () => {
 
     return (
 		 <div className="" id="testi-sec">
-				<div className="testi-sec p-5">
-					<div className="container mb-5">
+				<div className="testi-sec">
+					<div className="container">
 						
 					
 						<div className="row align-items-center">
@@ -76,12 +76,12 @@ const Testimonial = () => {
 					</div>
 				</div>
 
-				<div className="shape-mockup z-index-3 movingX d-none d-xl-block" data-top="-10%" data-left="0%"><img src="assets/img/shape/shape_2_17.png" alt="shape"/>
+				{/* <div className="shape-mockup z-index-3 movingX d-none d-xl-block" data-top="-10%" data-left="0%"><img src="assets/img/shape/shape_2_17.png" alt="shape"/>
 				</div>
 				<div className="shape-mockup z-index-3 movingX d-none d-xl-block" data-top="-10%" data-right="5%"><img src="assets/img/shape/shape_2_18.png" alt="shape"/>
 				</div>
 				<div className="shape-mockup z-index-3 movingX d-none d-xl-block" data-bottom="0%" data-right="10%"><img src="assets/img/shape/shape_2_19.png" alt="shape"/>
-				</div>
+				</div> */}
 			</div>
 		)
         

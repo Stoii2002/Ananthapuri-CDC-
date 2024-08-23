@@ -29,7 +29,7 @@ const Newsletter = () => {
       };
 
     return (
-        <div className="newsletter-sec overflow-hidden">
+        <div className="newsletter-sec overflow-hidden ">
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-12 col-lg-6 col-xl-8">
@@ -72,7 +72,7 @@ const Newsletter = () => {
                                         />
                                         <i className="fa fa-phone"></i>
                                     </div>
-                                    <div className="form-group col-12 mb-1">
+                                    <div className="form-group col-12 mb-1 mt-1">
                                         <input
                                             type="text"
                                             className="form-control"
