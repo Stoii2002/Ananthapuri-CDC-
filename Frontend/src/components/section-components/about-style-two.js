@@ -5,6 +5,7 @@ const AboutStyleTwo = () => {
   return (
     <div className="program-area bg-smoke">
     <div className="shape-top" data-mask-src="assets/img/shape/shape.png"></div>
+    <div className="shape-bottom" data-mask-src="assets/img/shape/shape2.png" style={{marginBottom:'-22px'}}></div>
     <div className="container">
         <div className="title-area text-center">
             <span className="sub-title">Our Programs</span>

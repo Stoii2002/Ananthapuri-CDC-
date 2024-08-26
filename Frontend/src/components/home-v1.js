@@ -32,9 +32,9 @@ const Home_V1 = () => {
                 <WhyChooseUs />
                 <AboutStyleOne />
                 <AboutStyleTwo />
-                <Funfact/>
+                
                 <Child_disorders/>
-                <Joinus/>
+                <Funfact/>
                 <Ourgallery/>
                 <PostSlider />
                 <Testimonial/>
