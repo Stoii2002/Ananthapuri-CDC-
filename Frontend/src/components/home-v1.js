@@ -6,10 +6,8 @@ import { Helmet } from 'react-helmet';
 const WhyChooseUs = lazy(() => import('./section-components/why-choose-us'));
 const AboutStyleOne = lazy(() => import('./section-components/about-style-one'));
 const AboutStyleTwo = lazy(() => import('./section-components/about-style-two'));
-const Skill = lazy(() => import('./section-components/skill'));
 const Funfact = lazy(() => import('./section-components/funfact'));
 const PostSlider = lazy(() => import('./section-components/post-slider'));
-const Joinus = lazy(() => import('./section-components/Joinus'));
 const Ourgallery = lazy(() => import('./ourgallery'));
 const Testimonial = lazy(() => import('./section-components/Testominials'));
 const Child_disorders = lazy(() => import('./section-components/Child-disorders'));
@@ -32,7 +30,6 @@ const Home_V1 = () => {
                 <WhyChooseUs />
                 <AboutStyleOne />
                 <AboutStyleTwo />
-                
                 <Child_disorders/>
                 <Funfact/>
                 <Ourgallery/>
