@@ -26,6 +26,16 @@ class Funfact extends Component {
 				<div className="col-sm-6 col-xl-auto counter-card-wrap">
 					<div className="counter-card">
 						<div className="icon">
+							<img className="svg-img" src="assets/img/icon/counter_card_1_3.svg" alt=""/> </div>
+						<div className="media-body">
+							<h2 className="box-number text-white"><span className="counter-number">6</span>+</h2>	
+							<p className="box-text text-white">Qualified Teacher</p>
+						</div>
+					</div>
+				</div>	
+				<div className="col-sm-6 col-xl-auto counter-card-wrap">
+					<div className="counter-card">
+						<div className="icon">
 						<img className="svg-img" src="assets/img/icon/counter_card_1_2.svg" alt=""/>
                         </div>
 						<div className="media-body">
@@ -34,16 +44,19 @@ class Funfact extends Component {
 						</div>
 					</div>
 				</div>
+				
+
 				<div className="col-sm-6 col-xl-auto counter-card-wrap">
 					<div className="counter-card">
 						<div className="icon">
 							<img className="svg-img" src="assets/img/icon/counter_card_1_3.svg" alt=""/> </div>
 						<div className="media-body">
-							<h2 className="box-number text-white"><span className="counter-number">6</span>+</h2>	
-							<p className="box-text text-white">Qualified Teacher</p>
+							<h2 className="box-number text-white"><span className="counter-number">25</span></h2>	
+							<p className="box-text text-white">Therapist</p>
 						</div>
 					</div>
 				</div>
+
 				<div className="col-sm-6 col-xl-auto counter-card-wrap">
 					<div className="counter-card">
 						<div className="icon"><img className="svg-img" src="assets/img/icon/counter_card_1_4.svg" alt=""/> </div>
