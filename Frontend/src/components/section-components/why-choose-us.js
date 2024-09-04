@@ -40,7 +40,7 @@ class WhyChooseUs extends Component {
                     </div>
                     <div className="media-body">
                         <h3 className="box-title">Highly Qualified and Experienced Faculty</h3>
-                        <p className="feature-item_text">Expert educators committed to exceptional child care and education.</p>
+                        <p className="feature-item_text">Expert educators committed to exceptional child care and education excellence. </p>
                     </div>
                 </div>
             </div>

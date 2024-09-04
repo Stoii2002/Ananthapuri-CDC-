@@ -18,7 +18,7 @@ class Funfact extends Component {
 						<img className="svg-img" src="assets/img/icon/counter_card_1_1.svg" alt=""/>
                         </div>
 						<div className="media-body">
-							<h2 className="box-number text-white"><span className="counter-number">100</span>+</h2>
+							<h2 className="box-number text-white"><span className="counter-number">700</span>+</h2>
 							<p className="box-text text-white">Total Children Supported</p>
 						</div>
 					</div>

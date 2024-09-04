@@ -8,6 +8,7 @@ import AboutStyleTwo from './section-components/about-style-two';
 import Newsletter from './section-components/Newsletter';
 import Footer_v1 from './global-components/footer';
 import { Helmet } from 'react-helmet';
+import Funfacttwo from './section-components/fun-fact-two';
 
 
 
@@ -22,6 +23,7 @@ const School = () => {
         <div id="smooth-content">
             <School_banner/>
             <AboutV3/> 
+            <Funfacttwo/>
             <SchoolContent2/>
             <SchoolContent3/>
             <AboutStyleTwo/>

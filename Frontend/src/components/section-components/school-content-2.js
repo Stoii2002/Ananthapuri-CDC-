@@ -4,7 +4,7 @@ const SchoolContent2 = () =>
     {
         return (
             
-            <div className="container">
+            <div className="container mt-5">
             <div className="row align-items-center">
                 <div className="col-xl-6">
                     <div className="img-box3 me-xl-5 pe-xl-2">
