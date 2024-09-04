@@ -31,10 +31,9 @@ const TeamV2 = () => {
 								<div className="team-img">
 									<img src={teachers.Image} alt="Team"/>
 								</div>
-								
 							</div>
 							<div className="team-content">
-								<h3 className="box-title"><a href="team-details.html">{teachers.Name}</a></h3>
+								<h3 className="box-title">{teachers.Name}</h3>
 								<span className="team-desig">{teachers.Designation}</span>
 							</div>
 						</div>
