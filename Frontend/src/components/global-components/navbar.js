@@ -78,7 +78,7 @@ const Navbar = () => {
 												<li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
 												<li><Link to="/Learning-Disability">Learning Disability (LD)</Link></li>
 
-												<li><Link to="/Counduct-Disorder">Counduct Disorder </Link></li>	
+												<li><Link to="/Counduct-Disorder">Conduct Disorder </Link></li>	
 												<li><Link to="/Virtual-Autism">Virtual Autism</Link></li>	
 												<li><Link to="/Gdd">Global developmental Delay (GDD)</Link></li>	
 												<li><Link to="/Adolescent_councelling">Adolescent Counselling </Link></li>	

@@ -12,6 +12,7 @@ import Newsletter from './section-components/Newsletter';
 import Footer_v1 from './global-components/footer';
 import {Helmet} from "react-helmet";
 import Skill from './section-components/skill';
+import CEO from './section-components/CEO';
 
 
 const AboutPage = () => {
@@ -29,6 +30,7 @@ const AboutPage = () => {
             <Skill/>
             <Funfact/>
             <Testimonial />
+            <CEO/>
             <Team />
            
             <Newsletter/>

@@ -52,12 +52,12 @@ function Blogdetails2() {
                                     </div>
                                     <div className="blog-content">
                                         <div className="blog-meta">
-                                            <a className="author" href="blog.html"><i className="fa-solid fa-user"></i>Admin</a>
-                                            <a href="blog.html"><i className="fa-solid fa-comment"></i>Comments (5)</a>
+                                            <a ><i className="fa-solid fa-user"></i>Admin</a>
+                                            <a><i className="fa-solid fa-comment"></i>Comments (5)</a>
                                         </div>
-                                        <h2 className="blog-title"><a href="blog-details.html">{blog.name}</a></h2>
+                                        <h2 className="blog-title"><a href={`/blog/${blog.slug}`}>{blog.name}</a></h2>
                                         <p className="blog-text">In a pioneering move, kindergartens across the country are embracing virtual learning tools to enhance early education. It's interesting to hear that kindergartens across the country are embracing virtual learning tools to enhance early education.</p>
-                                        <a href="blog-details.html" className="th-btn">Read More</a>
+                                        <a href={`/blog/${blog.slug}`} className="th-btn">Read More</a>
                                     </div>
                                 </div>
                             ))}

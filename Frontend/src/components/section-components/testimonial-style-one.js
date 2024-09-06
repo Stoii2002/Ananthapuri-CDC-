@@ -11,7 +11,7 @@ const TestimonialOne = () => {
 	}, []);
 
     return (
-        <div className="space overflow-hidden" id="testi-sec">
+        <div className="p-5 overflow-hidden" id="testi-sec">
             <div className="container">
                 <div className="row">
                     <div className="col-xl-7">

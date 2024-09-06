@@ -160,7 +160,7 @@ class Child_disorders extends Component {
 								</div>
 							</div>
 							<div className="team-content">
-								<h3 className="box-title"><Link to="/Counduct-Disorder">Counduct Disorder</Link></h3>
+								<h3 className="box-title"><Link to="/Counduct-Disorder">Conduct Disorder</Link></h3>
 							</div>
 						</div>
 					</div>
