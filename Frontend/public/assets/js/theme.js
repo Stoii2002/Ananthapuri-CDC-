@@ -434,15 +434,22 @@
 
             function linePos($activeThumb) {
                 var thumbOffset = $activeThumb.position();
-
+            
+                // Check if thumbOffset is defined
+                if (!thumbOffset) {
+                    console.error('thumbOffset is undefined or null. Ensure $activeThumb is valid.');
+                    return; // Exit the function early if thumbOffset is not defined
+                }
+            
                 var marginTop = parseInt($activeThumb.css('margin-top')) || 0;
                 var marginLeft = parseInt($activeThumb.css('margin-left')) || 0;
-
+            
                 $line.css("--height-set", $activeThumb.outerHeight() + "px");
                 $line.css("--width-set", $activeThumb.outerWidth() + "px");
-                $line.css("--pos-y", thumbOffset.top + marginTop + "px");
-                $line.css("--pos-x", thumbOffset.left + marginLeft + "px");
+                $line.css("--pos-y", (thumbOffset.top + marginTop) + "px");
+                $line.css("--pos-x", (thumbOffset.left + marginLeft) + "px");
             }
+            
         });
     };
 
