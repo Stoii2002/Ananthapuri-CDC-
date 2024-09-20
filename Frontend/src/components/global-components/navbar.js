@@ -69,6 +69,15 @@ const Navbar = () => {
 										<li><Link to="/about">About Us</Link></li>
 										<li><Link to="/our-school">Our School</Link></li>
 										<li className="menu-item-has-children">
+											<a href="#">Services</a>	
+											<ul className="sub-menu">
+												<li><Link to="/Speech-Theraphy">Speech Therapy</Link></li>
+												<li><Link to="/Occupational-Theraphy">Occupational Therapy</Link></li>
+												<li><Link to="/Psycho-Theraphy">Behavioural Therapy</Link></li>
+												<li><Link to="/Special-education">Special Education</Link></li>	
+											</ul>
+										</li>
+										<li className="menu-item-has-children">
 											<a href="#">Conditions</a>	
 											<ul className="sub-menu">
 												<li><Link to="/ADHD">Attention Deficit Hyperactive Disorder - ADHD</Link></li>
