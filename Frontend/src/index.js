@@ -11,10 +11,14 @@ const BlogDetails = lazy(() => import('./components/blog-details'));
 const Contact = lazy(() => import('./components/contact'));
 const School = lazy(() => import('./components/School'));
 const Gallery = lazy(() => import('./components/Gallery'));
+
+
 const Occupational_Therapy = lazy(() => import('./components/Occupational-Therapy'));
 const Psycho_Therapy = lazy(() => import('./components/Psycho-Theraphy'));
 const Special_Education = lazy(() => import('./components/Special-Education'));
 const Speech_Therapy = lazy(() => import('./components/Speech-Theraphy'));
+
+
 const Adhd = lazy(() => import('./components/ADH'));
 const Autism = lazy(() => import('./components/Autism'));
 const Cerebral = lazy(() => import('./components/Cerebral-Palsy'));
