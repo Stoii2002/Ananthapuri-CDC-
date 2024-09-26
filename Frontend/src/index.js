@@ -38,7 +38,7 @@ const Sensory_Processing_Disorders = lazy(() => import('./components/Senory'));
 class Root extends Component {
     render() {
         return(
-            <Router forceRefresh={true}>
+            <Router>
                 <div>
                     {/* Lazy load the mobile menu and popup form */}
                     <Suspense fallback={<div>Loading...</div>}>
