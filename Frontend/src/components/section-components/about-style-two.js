@@ -17,7 +17,7 @@ const AboutStyleTwo = () => {
                     <div className="box-img ding-dong">
                         <img src="assets/img/shape/feature_box_1.png" alt="img"/>
                     </div>
-                    <Link to="Occupational-Theraphy">
+                    <Link to="Occupational-Therapy">
                         <div className="program-feature_content">
                             <div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
                             <div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
@@ -33,7 +33,7 @@ const AboutStyleTwo = () => {
                     <div className="box-img ding-dong">
                         <img src="assets/img/shape/feature_box_2.png" alt="img"/>
                     </div>
-                    <Link to="Psycho-Theraphy">
+                    <Link to="Psycho-Therapy">
                         <div className="program-feature_content">
                             <div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
                             <div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
@@ -65,7 +65,7 @@ const AboutStyleTwo = () => {
                     <div className="box-img ding-dong">
                         <img src="assets/img/shape/feature_box_4.png" alt="img"/>
                     </div>
-                    <Link to="Speech-Theraphy">
+                    <Link to="Speech-Therapy">
                     <div className="program-feature_content">
                         <div className="prograp-line" data-mask-src="assets/img/shape/program_line.png"></div>
                         <div className="program-shape" data-bg-src="assets/img/shape/program_shape3.png"></div>
