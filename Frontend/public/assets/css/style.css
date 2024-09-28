@@ -7901,7 +7901,7 @@ ol.wp-block-rss {
 
 .main-menu ul.sub-menu {
   padding: 18px 20px 18px 18px;
-  left: -27px;
+  left: -80px;
 }
 
 .main-menu ul.sub-menu li {
@@ -8021,8 +8021,15 @@ ol.wp-block-rss {
   .header-button .th-btn {
     display: none;
   }
+  .main-menu{
+    margin-right: 30px;
+  }
 }
-
+@media (max-width: 1300px) {
+  .header-layout1 .main-menu > ul > li {
+    margin: 0 0 ;
+  }
+}
 .header-button .icon-btn:hover .badge {
   background-color: var(--title-color);
 }
@@ -8224,7 +8231,7 @@ ol.wp-block-rss {
 
 @media (max-width: 480px) {
   .header-layout1 .header-logo {
-    max-width: 140px;
+    max-width: 137px;
   }
 }
 
@@ -8295,18 +8302,22 @@ ol.wp-block-rss {
   /* Extra large devices */
 }
 
-@media (max-width: 1500px) {
-  .header-layout1 .main-menu {
-    padding-right: 100px;
+
+
+@media (max-width: 1480px) {
+  .header-logo img{
+    height: 50px;
+  }
+  .th-btn{
+    font-size: 10px;
+  }
+  .header-layout1 .main-menu > ul > li > a{
+    font-size: 14px;
+  }
+  .main-menu ul.sub-menu li a{
+    font-size: 14px;
   }
 }
-
-@media (max-width: 1457px) {
-  .header-layout1 .main-menu {
-    padding-right: 0px;
-  }
-}
-
 .header-layout1 .main-menu > ul > li {
   margin: 0 16px;
 }
@@ -8317,9 +8328,9 @@ ol.wp-block-rss {
 
 
 
-@media (max-width: 1199px) {
-  .header-layout1 .main-menu a {
-    font-size: 12px;
+@media (max-width: 1200px) {
+  .header-layout1 .main-menu > ul > li {
+    margin: 0 7px;
   }
 }
 
