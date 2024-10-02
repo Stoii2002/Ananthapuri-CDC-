@@ -12,10 +12,11 @@ const Speech_content = () => {
                     <div className="page-single mb-0">
                        
                         <div className="page-content">
-                            <h3 className="sec-title page-title">Speech Therapy: Enhancing Communication Skills in Children</h3>
+                            <h3 className="sec-title page-title">
+                                Developing Verbal Skills in Kids with the Assistance of Professional Speech Therapists in Trivandrum.
+                            </h3>
                             <p className="sec-text mb-30">
-                            Speech therapy may be the thing that you are looking for if your child is suffering from speech disability like trouble pronouncing words. The principal objective of speech therapy is to get the child speaking, but apart from that speech therapy also focuses on enhancing the child’s ability to understand and express language. People who are imparting speech therapy are called speech therapists or speech and language pathologists (SLP).
-                            </p>
+                            If your child is struggling with speech disabilities, then our speech therapy can make your child's communication better. The main purpose of our speech therapy is to make your child speak clearly and effectively. Ananthapuri Child Development Center provides your kid with the best speech therapy in Trivandrum, and we ensure that our professional speech therapists will make your child understand and express their thoughts better.</p>
                             <div className="row justify-content-center">
                                 <div className="col-lg-6">
                                     <div className="page-img">
@@ -28,7 +29,14 @@ const Speech_content = () => {
                                     </div>
                                 </div>
                             </div>
-                            <h4 className="mt-n2 mb-20">SPEECH THERAPY COVERS MAINLY THREE ASPECTS OF COMMUNICATION:</h4>
+                            <h4 className="mt-n2 mb-20">Three essential elements of communication receive attention through speech therapy at Ananthapuri Child Development Centre.</h4>
+                            <p className="mb-20">
+                                <ul>
+                                    <li>Our speech therapy will improve your child's clarity and precision in speech. We also address major speech disorders like mispronunciation and stuttering. </li>
+                                    <li>Our speech therapists will help your children with both expressive and receptive language abilities. We enable your child to increase their vocabulary and understand the language effectively.</li>
+                                    <li>In our speech therapy, we will pay more attention to the functional speech training. We teach your children how to understand social cues, how to take turns in conversations, and how to respond effectively in social situations.</li>
+                                </ul>
+                            </p>
                             <p className="mb-20">
                                 <ol>
                                     <li>Coordinating the mouth to produce sounds to form words and sentences (articulation, fluency, and voice volume regulation)</li>
@@ -36,56 +44,50 @@ const Speech_content = () => {
                                     <li>The use of language through alternative communication systems (social media, computers, and tablets)</li>
                                 </ol>
                             </p>
-                            <p className="mb-20">
-                            The service of the speech therapist or SLP may be required for a variety of disorders. Not only speech, but issues with hearing and swallowing can also be dealt by a speech therapist or SLP. The following areas of communication come under the purview of a speech therapist.
-                            </p>
-                            <p className="mb-20">
-                                <ul>
-                                    <li>Stuttering and cluttering</li>
-                                    <li>Comprehension of spoken and written language</li>
-                                    <li>Cognition related issues like attention, memory and ability to solve problems</li>
-                                    <li>Characteristics of vocal tone</li>
-                                    <li>Auditory Rehabilitation — recovery techniques associated with speech, hearing & language disorders</li>
-                                    <li>Swallowing disorders — stroke and congenital disorders</li>
-                                    <li>Other services — some therapists will specialize in other services including professional voice development, accent or dialect modification, business communication modification, and voice hygiene</li>
-                                </ul>
-                            </p>
+                            
                             <h4 className="mt-n2 mb-20">WHO NEEDS SPEECH THERAPY?</h4>
                             <p className="mb-20">
-                            Some children may be early talkers or able to read well, even such kids can seek the service of speech therapy to get an understanding on using body language to put across the point they want to communicate in a better way. This will make children proficient in expressing themselves such as making requests, holding conversation, making new friends etc.
+                            Every child learns to speak at his own pace. As a parent If you have any concern about whether your child needs speech therapy or not, then it is absolutely normal to give a speech therapy session to your child. Even children who can talk and read at a very young age can also benefit from speech therapy. The sessions provided by our professional speech therapists in Trivandrum Ananthapuri Child Development Centre train your child not just about how to speak clearly but also in better use of the body language and gestures in order to communicate properly. Speech therapy ensures your child becomes more accurate in putting across his thoughts and ideas and becomes more efficient in conducting conversations and making new friends.
                             </p>
-                            <p className="mb-20">
-                            Other occasions where a child needs the service of a speech therapist are purely on medical grounds such as injury to the brain or infection that has impaired their ability to communicate in a normal manner and an identifiable disability such as Down syndrome. Identifying the need for a speech therapy at an early age will vastly improve the outcome of the therapy by a large extent.
+                            <p className="mb-20">But in some cases, your child needs speech therapy due to medical conditions. Injuries to the brain and infections or developmental disorders like Down syndrome can impact your child's ability to speak and cause problems with communication. In such cases, speech therapy can regain your ability to improve your child's communication skills.
+                            </p>
+                            <p className="mb-20">Identification of speech disability should occur at a very young age. Initiating speech therapy at a very young age will improve your child's chances of attaining their full potential for communication development. Our speech therapists in Trivandrum Ananthapuri Child Development Centre will identify and improve your child's communication skills during their behavioral developmental stage. 
                             </p>
 
                              <h4 className="mt-n2 mb-20">IS YOUR CHILD A LATE-TALKER?</h4>
                             <p className="mb-20">
-                            If you think your toddler is way past the time of making first signs of talking, speech therapy may be the thing that you needed. Being a speech therapist, she/he knows how to get a child speak through various child-friendly tricks, that may even include playing hide-seek with them!
+                            Late talking can occur due to issues related to hearing or retardation in development. Your toddler would need speech therapy if he is not meeting the typical standards for speech development. Each child learns things at various paces, but we need to keep attention to their progress. Normally, if your child doesn't speak by 18-24 months or is less interested in talking, then he/she might be a late talker.
                             </p>
                             <p className="mb-20">
-                            Sometimes they may spur the child to talk by taking away his/her favorite toy. A speech therapist also assesses the child’s hearing ability and if they sense something amiss, they may refer the child for further hearing tests.
+                            In such cases, speech therapy can make a big impact to improve your child's communication. Our qualified speech therapists in Trivandrum Ananthapuri Child Development Centre use fun and interactive methods to make your child speak. We also monitor your child's hearing ability to identify the problems that could block their communication.
+                            </p>
+                            <p className="mb-20">
+                            If you are worried about your child's communication abilities, you can feel free to contact one of our professional speech therapist in Ananthapuri Child Development Centre, Trivandrum.
                             </p>
 
                             <h4 className="mt-n2 mb-20">DO SPEECH THERAPISTS DEAL WITH SWALLOWING AND HEARING DIFFICULTIES?
                             </h4>
                             <p className="mb-20">
-                            Yes, they do! The general public is familiar with speech therapy related to training children on articulation, language and cognition difficulties, but what they tend to overlook is speech therapy for swallowing and feeding difficulties. It is not uncommon to come across children with difficulty in communication have issues with feeding. It may remind you of children with speech needs, but seemingly normal kids also have speech and feeding difficulties because both speech and eating calls for fine motor movements – moving the tongue, jaw and lips in a synchronic fashion. It may be something that naturally happens to grown-ups, but at the early stages of life it is something that they have to work on.
+                            Yes, they do! Most people assume that speech therapists only deal with improving communication. But in reality, they also address eating and swallowing issues. Kids suffering from speech difficulties frequently find it difficult to eat because they require exact tongue movement for both actions. Even kids who do not have speech disorders may sometimes have eating and swallowing difficulties.
                             </p>
                             <p className="mb-20">
-                            Speech therapist will focus on strengthening the muscles involved in speech and eating, to achieve it they may carry out unique programs such as blowing toys and whistles or funny games like blowing-the-cotton-ball, blowing bubbles etc. Children will be glad to take part in these fun-filled activities that would strengthen the muscles involved in speech and eating.
+                            Our speech therapists can help your child by giving them fun activities to develop the mouth muscles essential for eating and communication. This fun activity includes blowing toys or bubbles. Our speech therapy makes sure that your toddler is happy throughout the process. 
                             </p>
 
-                            <h4 className="mt-n2 mb-20">SPEECH THERAPY FOR STUTTERING:</h4>
+                            <h4 className="mt-n2 mb-20">SPEECH THERAPY FOR STUTTERING</h4>
                             <p className="mb-20">
-                            Stuttering is something that one might associate speech therapy with the most. It is a common issue in childhood and can even persist along the adulthood. Stuttering is a type of behavioral issue. A child with stuttering may be introduced to different behavioral techniques to deal with this nagging issue. Controlling the rate of speech is something that shows a sea change in people who stutter as speaking fast can aggravate an already existing speech disorder. Speaking in a slower and fluent manner is a sure shot method of improving stuttering.
+                            Stuttering is a behavioral speech issue that mainly affects your child's communication flow. If not treated well, stuttering can continue into adulthood. This makes talking difficult for your child. But with our speech therapy, your child can easily learn some ways to manage it. Our speech therapy in Trivandrum 
+                            </p>
+                            <p className="mb-20">
+                            Ananthapuri Child Development Centre will improve your child's confidence and teach some techniques to manage stuttering.
                             </p>
 
                             <h4 className="mt-n2 mb-20">WHAT IF THE CHILD IS NOT MAKING VERBAL COMMUNICATION?</h4>
                             <p className="mb-20">
-                            As we know, there are children who cannot communicate verbally owing to multitude of medical issues. They require alternative communication methods. In this day and age, speech therapists use computers and tablets to boost non-verbal communication. Touch-screen gadgets have become a great boon for children to express themselves effortlessly, enabling them to use the same super-cool device like their classmates.
+                            There are kids who find it hard to communicate because of their health problems, so they need alternative methods. But today, children who can't communicate verbally also have solutions. Speech therapy has some innovative solutions through technology for those kids who can't communicate verbally. At Ananthapuri Child Development Center, Trivandrum, our speech therapists use computers and tablets to boost non-verbal communication; this helps your children express themselves more easily. Touch-screen technologies help these kids to express themselves and build bonds with others. 
                             </p>
                             <p className="mb-20">
-                            For enquiries related to speech therapy, send a message to <a href='www.AnanthapuriCDC.com/contact' target="_blank" rel="noopener noreferrer">www.AnanapuriCDC.com/contact</a>
+                            For further insights on speech therapy or alternative communication techniques, visit <a href='https://ananthapuricdc.com/contact' target="_blank" rel="noopener noreferrer">AnanapuriCDC.com</a>
                             </p>
                         </div>
                     </div>
