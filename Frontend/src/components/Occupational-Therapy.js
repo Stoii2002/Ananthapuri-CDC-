@@ -7,10 +7,11 @@ import { Helmet } from 'react-helmet';
 
 const Occupational_Theraphy = () => {
     return <div>
-        <Helmet>
-                <meta charSet="utf-8" />
-                <title>Ananthapuri CDC - Occupational Theraphy</title>
-        </Helmet>
+            <Helmet>
+                <title>Occupational therapy in Trivandrum / Occupational therapist | Ananthapuricdc</title>
+                <meta name="description" content="Ananthapuri CDC provides professional occupational therapy in Trivandrum. Tailored therapy for sensory integration, and developement delay." />
+                <meta name="keywords" content="occupational therapy, fine motor skills, sensory integration, hand therapy, rehabilitation, physical therapy, occupational therapist, Trivandrum, cognitive therapy, pediatric therapy, ADL training, sensory processing disorders, developmental delays, therapy for children, adult rehabilitation" />
+            </Helmet>
         <Navbar />
         <div id="smooth-wrapper style2">
         <div id="smooth-content">
