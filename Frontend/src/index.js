@@ -2,6 +2,7 @@ import React, { Component, Suspense, lazy } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import ScrollToTop from './ScrollToTop';
 
 // Lazy load components
 const HomeV1 = lazy(() => import('./components/home-v1'));
@@ -12,12 +13,10 @@ const Contact = lazy(() => import('./components/contact'));
 const School = lazy(() => import('./components/School'));
 const Gallery = lazy(() => import('./components/Gallery'));
 
-
 const Occupational_Therapy = lazy(() => import('./components/Occupational-Therapy'));
 const Psycho_Therapy = lazy(() => import('./components/Psycho-Theraphy'));
 const Special_Education = lazy(() => import('./components/Special-Education'));
 const Speech_Therapy = lazy(() => import('./components/Speech-Theraphy'));
-
 
 const Adhd = lazy(() => import('./components/ADH'));
 const Autism = lazy(() => import('./components/Autism'));
@@ -37,15 +36,16 @@ const Sensory_Processing_Disorders = lazy(() => import('./components/Senory'));
 
 class Root extends Component {
     render() {
-        return(
-            <Router forceRefresh={true}>
+        return (
+            <Router>
+                <ScrollToTop /> {/* Ensure this is inside the Router */}
                 <div>
                     {/* Lazy load the mobile menu and popup form */}
                     <Suspense fallback={<div>Loading...</div>}>
                         <Mobile_menu />
                         <Popup_contactform />
                     </Suspense>
-                    
+
                     <Suspense fallback={<div>Loading page...</div>}>
                         <Switch>
                             <Route exact path="/" component={HomeV1} />
