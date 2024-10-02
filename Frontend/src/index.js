@@ -28,6 +28,12 @@ const Cerebral = lazy(() => import('./components/Cerebral-Palsy'));
 const Downs = lazy(() => import('./components/Downs-Syndrome'));
 const Intellectual = lazy(() => import('./components/Intellectual-disability'));
 const Learning_Disability = lazy(() => import('./components/Learning-Disability'));
+const Counduct = lazy(() => import('./Counduct-Disorder'));
+const Virtual_Autism = lazy(() => import('./components/Virtual-autism'));
+const Global_Developmental_Delay = lazy(() => import('./components/Gdd'));
+const Adolescent_Counselling = lazy(() => import('./components/Adolescent_councelling'));
+const Stuttering_disorder = lazy(() => import('./components/Stuttering'));
+const Sensory_Processing_Disorders = lazy(() => import('./components/Senory'));
 const Blogs = lazy(() => import('./components/Blogs'));
 
 // Lazy load other components
@@ -76,6 +82,18 @@ class Root extends Component {
                             <Route path="/Downs-Syndrome" component={Downs} />
                             <Route path="/Intellectual-Disability" component={Intellectual} />
                             <Route path="/Learning-Disability" component={Learning_Disability} />
+                            <Route path="/ADHD" component={Adhd} />
+                            <Route path="/Autism" component={Autism} />
+                            <Route path="/Cerebral-Palsy" component={Cerebral} />
+                            <Route path="/Downs-Syndrome" component={Downs} />
+                            <Route path="/Intellectual-Disability" component={Intellectual} />
+                            <Route path="/Learning-Disability" component={Learning_Disability} />
+                            <Route path="/Counduct-Disorder" component={Counduct} />
+                            <Route path="/Virtual-Autism" component={Virtual_Autism} />
+                            <Route path="/Gdd" component={Global_Developmental_Delay} />
+                            <Route path="/Adolescent_councelling" component={Adolescent_Counselling} />
+                            <Route path="/Stuttering" component={Stuttering_disorder} />
+                            <Route path="/Senory" component={Sensory_Processing_Disorders} />
 
                             <Route path="/blog/:slug" component={BlogDetails} />
                             <Route path="/blogs/" component={Blogs} />
