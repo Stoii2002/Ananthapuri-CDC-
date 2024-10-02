@@ -41,12 +41,20 @@ class Root extends Component {
                 <ScrollToTop /> {/* Ensure this is inside the Router */}
                 <div>
                     {/* Lazy load the mobile menu and popup form */}
-                    <Suspense fallback={<div>Loading...</div>}>
+                    <Suspense fallback={
+                        <div id="preloader" class="preloader">
+                            <div id="loader"></div>
+                        </div>
+                    }>
                         <Mobile_menu />
                         <Popup_contactform />
                     </Suspense>
 
-                    <Suspense fallback={<div>Loading page...</div>}>
+                    <Suspense fallback={    
+                        <div id="preloader" class="preloader">
+                            <div id="loader"></div>
+                        </div>
+                    }>
                         <Switch>
                             <Route exact path="/" component={HomeV1} />
                             <Route path="/about" component={About} />
