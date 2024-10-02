@@ -58,7 +58,7 @@ const Navbar = () => {
 							<div className="col-auto">
 								<div className="header-logo">
 									
-									<Link to="/"><img src={publicUrl+"assets/img/logocdc.png" } alt={ imgattr } /></Link>
+									<Link to="/Home"><img src={publicUrl+"assets/img/logocdc.png" } alt={ imgattr } /></Link>
 								</div>
 							</div>
 							<div className="col-auto ms-xl-auto">
@@ -73,7 +73,7 @@ const Navbar = () => {
 											<ul className="sub-menu">
 												<li><Link to="/Speech-Therapy">Speech Therapy</Link></li>
 												<li><Link to="/Occupational-Therapy">Occupational Therapy</Link></li>
-												<li><Link to="/Psycho-Therapy">Behavioural Therapy</Link></li>
+												<li><Link to="/Behavioural-Therapy">Behavioural Therapy</Link></li>
 												<li><Link to="/Special-education">Special Education</Link></li>	
 											</ul>
 										</li>
