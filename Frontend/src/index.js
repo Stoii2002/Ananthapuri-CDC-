@@ -56,6 +56,7 @@ class Root extends Component {
                                 <div id="loader"></div>
                             </div>
                         }>
+                             <Route path="/Home" component={HomeV1} />
                             <Route path="/about" component={About} />
                             <Route path="/our-school" component={School} />
                             <Route path="/service" component={Service} />
@@ -64,7 +65,7 @@ class Root extends Component {
 
                             {/* Departments */}
                             <Route path="/Occupational-Therapy" component={Occupational_Therapy} />
-                            <Route path="/Psycho-Therapy" component={Psycho_Therapy} />
+                            <Route path="/Behavioural-Therapy" component={Psycho_Therapy} />
                             <Route path="/Special-education" component={Special_Education} />
                             <Route path="/Speech-Therapy" component={Speech_Therapy} />
 
