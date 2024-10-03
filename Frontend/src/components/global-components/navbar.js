@@ -58,7 +58,7 @@ const Navbar = () => {
 							<div className="col-auto">
 								<div className="header-logo">
 									
-									<Link to="/Home"><img src={publicUrl+"assets/img/logocdc.png" } alt={ imgattr } /></Link>
+									<Link to="/"><img src={publicUrl+"assets/img/logocdc.png" } alt={ imgattr } /></Link>
 								</div>
 							</div>
 							<div className="col-auto ms-xl-auto">
