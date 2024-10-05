@@ -40,6 +40,17 @@ const Blogs = lazy(() => import('./components/Blogs'));
 const Mobile_menu = lazy(() => import('./components/global-components/mobile_menu'));
 const Popup_contactform = lazy(() => import('./components/Popup-contactform'));
 
+// Lazy Load Component
+const LazyLoad = ({ Component }) => (
+    <Suspense fallback={
+        <div id="preloader" className="preloader">
+            <div id="loader"></div>
+        </div>
+    }>
+        <Component />
+    </Suspense>
+);
+
 const App = () => {
     return (
         <Router>
@@ -56,126 +67,34 @@ const App = () => {
                     <Route path="/" element={<HomeV1 />} /> {/* HomeV1 eagerly loaded */}
 
                     {/* Lazy load the rest of the components */}
-                    <Route path="/about" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><About /></Suspense>} />
-                    <Route path="/our-school" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><School /></Suspense>} />
-                    <Route path="/service" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Service /></Suspense>} />
-                    <Route path="/gallery" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Gallery /></Suspense>} />
-                    <Route path="/contact" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Contact /></Suspense>} />
+                    <Route path="/about" element={<LazyLoad Component={About} />} />
+                    <Route path="/our-school" element={<LazyLoad Component={School} />} />
+                    <Route path="/service" element={<LazyLoad Component={Service} />} />
+                    <Route path="/gallery" element={<LazyLoad Component={Gallery} />} />
+                    <Route path="/contact" element={<LazyLoad Component={Contact} />} />
 
                     {/* Departments */}
-                    <Route path="/Occupational-Therapy" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Occupational_Therapy /></Suspense>} />
-                    <Route path="/Behavioural-Therapy" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Psycho_Therapy /></Suspense>} />
-                    <Route path="/Special-education" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Special_Education /></Suspense>} />
-                    <Route path="/Speech-Therapy" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Speech_Therapy /></Suspense>} />
+                    <Route path="/Occupational-Therapy" element={<LazyLoad Component={Occupational_Therapy} />} />
+                    <Route path="/Behavioural-Therapy" element={<LazyLoad Component={Psycho_Therapy} />} />
+                    <Route path="/Special-education" element={<LazyLoad Component={Special_Education} />} />
+                    <Route path="/Speech-Therapy" element={<LazyLoad Component={Speech_Therapy} />} />
 
                     {/* Disorders */}
-                    <Route path="/ADHD" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Adhd /></Suspense>} />
-                    <Route path="/Autism" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Autism /></Suspense>} />
-                    <Route path="/Cerebral-Palsy" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Cerebral /></Suspense>} />
-                    <Route path="/Downs-Syndrome" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Downs /></Suspense>} />
-                    <Route path="/Intellectual-Disability" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Intellectual /></Suspense>} />
-                    <Route path="/Learning-Disability" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Learning_Disability /></Suspense>} />
-                    <Route path="/Counduct-Disorder" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Counduct /></Suspense>} />
-                    <Route path="/Virtual-Autism" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Virtual_Autism /></Suspense>} />
-                    <Route path="/Gdd" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Global_Developmental_Delay /></Suspense>} />
-                    <Route path="/Adolescent_councelling" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Adolescent_Counselling /></Suspense>} />
-                    <Route path="/Stuttering" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Stuttering_disorder /></Suspense>} />
-                    <Route path="/Senory" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Sensory_Processing_Disorders /></Suspense>} />
+                    <Route path="/ADHD" element={<LazyLoad Component={Adhd} />} />
+                    <Route path="/Autism" element={<LazyLoad Component={Autism} />} />
+                    <Route path="/Cerebral-Palsy" element={<LazyLoad Component={Cerebral} />} />
+                    <Route path="/Downs-Syndrome" element={<LazyLoad Component={Downs} />} />
+                    <Route path="/Intellectual-Disability" element={<LazyLoad Component={Intellectual} />} />
+                    <Route path="/Learning-Disability" element={<LazyLoad Component={Learning_Disability} />} />
+                    <Route path="/Counduct-Disorder" element={<LazyLoad Component={Counduct} />} />
+                    <Route path="/Virtual-Autism" element={<LazyLoad Component={Virtual_Autism} />} />
+                    <Route path="/Gdd" element={<LazyLoad Component={Global_Developmental_Delay} />} />
+                    <Route path="/Adolescent_councelling" element={<LazyLoad Component={Adolescent_Counselling} />} />
+                    <Route path="/Stuttering" element={<LazyLoad Component={Stuttering_disorder} />} />
+                    <Route path="/Senory" element={<LazyLoad Component={Sensory_Processing_Disorders} />} />
 
-                    <Route path="/blog/:slug" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><BlogDetails /></Suspense>} />
-                    <Route path="/blogs" element={<Suspense fallback={
-                        <div id="preloader" className="preloader">
-                            <div id="loader"></div>
-                        </div>
-                    }><Blogs /></Suspense>} />
+                    <Route path="/blog/:slug" element={<LazyLoad Component={BlogDetails} />} />
+                    <Route path="/blogs" element={<LazyLoad Component={Blogs} />} />
                 </Routes>
             </div>
         </Router>
