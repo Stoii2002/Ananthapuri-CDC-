@@ -23,8 +23,8 @@ const Departmentaside = () => {
         <div className="widget widget_categories">
             <h3 className="widget_title">Departments</h3>
             <ul>
-                <li><Link to="/Occupational-Therapy">Behavioural Therapy</Link></li>
-                <li><Link to="/Psycho-Therapy">Psycho Therapy</Link></li>
+                <li><Link to="/Occupational-Therapy">Occupatonal Therapy</Link></li>
+                <li><Link to="/Behavioural-Therapy">Behavioural Therapy</Link></li>
                 <li><Link to="/Special-education">Special Education</Link></li>
                 <li><Link to="/Speech-Therapy">Speech Therapy</Link></li>
             </ul>
