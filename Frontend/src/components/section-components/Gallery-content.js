@@ -41,7 +41,7 @@ const Gallery_content = () => {
             <div key={index} className="col-md-6 col-xl-4 filter-item gallery-card_wrapp">
               <div className="gallery-card style2" data-theme-color="#4C59CB">
                 <a className="box-img popup-image" href={testimonial.image}>
-                  <img src={testimonial.image} alt="gallery "/>
+                  <img src={testimonial.image} alt="gallery " loading='lazy'/>
                   <div className="box-content">
                     <span className="icon-btn style2">
                       <i className="fas fa-eye"></i>

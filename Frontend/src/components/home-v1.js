@@ -1,20 +1,20 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { Helmet } from 'react-helmet';
 
-// Import components directly (no lazy loading)
-import Navbar from './global-components/navbar';
-import Banner from './section-components/banner';
-import WhyChooseUs from './section-components/why-choose-us';
-import AboutStyleOne from './section-components/about-style-one';
-import AboutStyleTwo from './section-components/about-style-two';
-import Funfact from './section-components/funfact';
-import PostSlider from './section-components/post-slider';
-import Ourgallery from './ourgallery';
-import Testimonial from './section-components/Testominials';
-import Child_disorders from './section-components/Child-disorders';
-import Theraphy_Sections from './section-components/Theraphy-Sections';
-import Newsletter from './section-components/Newsletter';
-import Footer_v1 from './global-components/footer';
+// Lazy load components
+const Navbar = lazy(() => import('./global-components/navbar'));
+const Banner = lazy(() => import('./section-components/banner'));
+const WhyChooseUs = lazy(() => import('./section-components/why-choose-us'));
+const AboutStyleOne = lazy(() => import('./section-components/about-style-one'));
+const AboutStyleTwo = lazy(() => import('./section-components/about-style-two'));
+const Funfact = lazy(() => import('./section-components/funfact'));
+const PostSlider = lazy(() => import('./section-components/post-slider'));
+const Ourgallery = lazy(() => import('./ourgallery'));
+const Testimonial = lazy(() => import('./section-components/Testominials'));
+const Child_disorders = lazy(() => import('./section-components/Child-disorders'));
+const Theraphy_Sections = lazy(() => import('./section-components/Theraphy-Sections'));
+const Newsletter = lazy(() => import('./section-components/Newsletter'));
+const Footer_v1 = lazy(() => import('./global-components/footer'));
 
 const Home_V1 = () => {
     return (
@@ -23,24 +23,25 @@ const Home_V1 = () => {
                 <meta charSet="utf-8" />
                 <title>Ananthapuri CDC</title>
             </Helmet>
-            {/* No Suspense needed since we're not lazy loading */}
-            <Navbar />
-            <div id="smooth-wrapper style2">
-                <div id="smooth-content">
-                    <Banner />
-                    <Theraphy_Sections />
-                    <WhyChooseUs />
-                    <AboutStyleOne />
-                    <AboutStyleTwo />
-                    <Child_disorders />
-                    <Funfact />
-                    <Ourgallery />
-                    <PostSlider />
-                    <Testimonial />
-                    <Newsletter />
-                    <Footer_v1 />
+            <Suspense fallback={<div id="preloader" className="preloader"><div id="loader"></div></div>}>
+                <Navbar />
+                <div id="smooth-wrapper" style={{ style2: true }}>
+                    <div id="smooth-content">
+                        <Banner />
+                        <Theraphy_Sections />
+                        <WhyChooseUs />
+                        <AboutStyleOne />
+                        <AboutStyleTwo />
+                        <Child_disorders />
+                        <Funfact />
+                        <Ourgallery />
+                        <PostSlider />
+                        <Testimonial />
+                        <Newsletter />
+                        <Footer_v1 />
+                    </div>
                 </div>
-            </div>
+            </Suspense>
         </div>
     );
 };
