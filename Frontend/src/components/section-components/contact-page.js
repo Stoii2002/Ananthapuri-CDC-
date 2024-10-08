@@ -10,7 +10,7 @@ class Contact extends Component {
 		<div className="row gy-30 gx-30">
 			<div className="col-md-6 col-xl-3 contact-info_wrapp">
 				<div className="contact-info">
-					<div className="contact-info_icon"><img src="assets/img/icon/address.svg" alt=""/></div>
+					<div className="contact-info_icon"><img src="assets/img/icon/address.svg" alt="" loading="lazy"/></div>
 					<div className="media-body">
 						<p className="contact-info_label">Address</p>
 						<a href="https://www.google.com/maps" className="contact-info_link">Medical College, Chalakkuzhi,
@@ -20,7 +20,7 @@ class Contact extends Component {
 			</div>
 			<div className="col-md-6 col-xl-3 contact-info_wrapp">
 				<div className="contact-info">
-					<div className="contact-info_icon"><img src="assets/img/icon/call.svg" alt=""/></div>
+					<div className="contact-info_icon"><img src="assets/img/icon/call.svg" alt="" loading="lazy"/></div>
 					<div className="media-body">
 						<p className="contact-info_label">Phone</p>
 						<a href="tel:+163-642-2567" className="contact-info_link">(+91) 471 2554990</a>
@@ -30,7 +30,7 @@ class Contact extends Component {
 			</div>
 			<div className="col-md-6 col-xl-3 contact-info_wrapp">
 				<div className="contact-info">
-					<div className="contact-info_icon"><img src="assets/img/icon/mail.svg" alt=""/></div>
+					<div className="contact-info_icon"><img src="assets/img/icon/mail.svg" alt="" loading="lazy"/></div>
 					<div className="media-body">
 						<p className="contact-info_label">Email</p>
 						<a href="mailto:info@kitar.com" className="contact-info_link">cdc.ananthapuri@gmail.com</a>
@@ -39,7 +39,7 @@ class Contact extends Component {
 			</div>
 			<div className="col-md-6 col-xl-3 contact-info_wrapp">
 				<div className="contact-info">
-					<div className="contact-info_icon"><img src="assets/img/icon/qus.svg" alt=""/></div>
+					<div className="contact-info_icon"><img src="assets/img/icon/qus.svg" alt="" loading="lazy"/></div>
 					<div className="media-body">
 						<p className="contact-info_label">Have Questions?</p>
 						<span className="contact-info_link">Discover more by visiting us or joining our community</span>

@@ -16,7 +16,7 @@ class School_banner extends Component {
             </ul>
         </div>
     </div>
-    <div className="shape-mockup jump d-none d-lg-block" data-bottom="5%" data-left="0%"><img src="assets/img/shape/shape_1.png" alt="shape"/>
+    <div className="shape-mockup jump d-none d-lg-block" data-bottom="5%" data-left="0%"><img src="assets/img/shape/shape_1.png" alt="shape" loading="lazy"/>
     </div>
 </div>
 

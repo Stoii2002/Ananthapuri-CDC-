@@ -14,7 +14,7 @@ function Blogbanner2() {
                         </ul>
                     </div>
                 </div>
-                <div class="shape-mockup jump d-none d-lg-block" data-bottom="5%" data-left="0%"><img src="assets/img/shape/shape_1.png" alt="shape"/>
+                <div class="shape-mockup jump d-none d-lg-block" data-bottom="5%" data-left="0%"><img src="assets/img/shape/shape_1.png" alt="shape" loading="lazy"/>
                 </div>
             </div>
     </div>

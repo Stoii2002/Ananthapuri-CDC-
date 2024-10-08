@@ -47,7 +47,7 @@ function Blogdetails2() {
                             {blogs.map(blog => (
                                 <div className="th-blog blog-single has-post-thumbnail" key={blog.id}>
                                     <div className="blog-img">
-                                        <img src={`${process.env.PUBLIC_URL}${blog.image}`} alt={blog.name} />
+                                        <img src={`${process.env.PUBLIC_URL}${blog.image}`} alt={blog.name} loading="lazy"/>
                                         <a href="blog-details.html" className="blog-date"> 23 <span className="month">May</span> </a>
                                     </div>
                                     <div className="blog-content">

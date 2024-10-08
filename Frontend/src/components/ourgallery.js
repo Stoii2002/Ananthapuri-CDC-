@@ -22,9 +22,9 @@ class   Ourgallery extends Component {
                     </div>
                     
                 </div>
-                <div className="shape-mockup anim03 d-none d-xl-block" data-top="20%" data-left="2%"><img src="assets/img/shape/shape_12.png" alt="shape"/>
+                <div className="shape-mockup anim03 d-none d-xl-block" data-top="20%" data-left="2%"><img src="assets/img/shape/shape_12.png" alt="shape" loading="lazy"/>
                 </div>
-                <div className="shape-mockup anim02 d-none d-xl-block" data-top="20%" data-right="2%"><img src="assets/img/shape/shape_13.png" alt="shape"/>
+                <div className="shape-mockup anim02 d-none d-xl-block" data-top="20%" data-right="2%"><img src="assets/img/shape/shape_13.png" alt="shape" loading="lazy"/>
                 </div>
 
 
@@ -33,7 +33,7 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc11.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc11.jpg" alt="gallery image" loading="lazy"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
@@ -51,7 +51,7 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc6.webp" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc6.webp" alt="gallery image" loading="lazy"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
@@ -69,7 +69,7 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc12.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc12.jpg" alt="gallery image" loading="lazy"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
@@ -87,7 +87,7 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc13.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc13.jpg" alt="gallery image" loading="lazy"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">
@@ -105,7 +105,7 @@ class   Ourgallery extends Component {
                             <div className="swiper-slide">
                                 <div className="gallery-box">
                                     <div className="gallery-img">
-                                        <img src="assets/img/gallery/cdc14.jpg" alt="gallery image"/>
+                                        <img src="assets/img/gallery/cdc14.jpg" alt="gallery image" loading="lazy"/>
                                     </div>
                                     <div className="gallery-content">
                                         <div className="media-left">

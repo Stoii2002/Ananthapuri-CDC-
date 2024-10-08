@@ -22,7 +22,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-										<img src="assets/img/team/adhd-img.png" alt="Team"/>
+										<img src="assets/img/team/adhd-img.png" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -44,7 +44,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-								<img src="assets/img/team/autism-img.png" alt="Team"/>
+								<img src="assets/img/team/autism-img.png" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -66,7 +66,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/cerebral-palsy-img.png" alt="Team"/>
+									<img src="assets/img/team/cerebral-palsy-img.png" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -87,7 +87,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/down-syndrome-img.png" alt="Team"/>
+									<img src="assets/img/team/down-syndrome-img.png" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -108,7 +108,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/intellectual-home-img.png" alt="Team"/>
+									<img src="assets/img/team/intellectual-home-img.png" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -129,7 +129,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/learning-home-img.png" alt="Team"/>
+									<img src="assets/img/team/learning-home-img.png" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -150,7 +150,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/counduct-disorder.jpg" alt="Team"/>
+									<img src="assets/img/team/counduct-disorder.jpg" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -171,7 +171,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/virtual.jpg" alt="Team"/>
+									<img src="assets/img/team/virtual.jpg" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -191,7 +191,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/GDD.jpg" alt="Team"/>
+									<img src="assets/img/team/GDD.jpg" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -211,7 +211,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/A-C.jpg" alt="Team"/>
+									<img src="assets/img/team/A-C.jpg" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -230,7 +230,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/shuttering.jpg" alt="Team"/>
+									<img src="assets/img/team/shuttering.jpg" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -249,7 +249,7 @@ class Child_disorders extends Component {
 						<div className="team-card">
 							<div className="team-img-wrap">
 								<div className="team-img" data-mask-src="assets/img/shape/team-shape2.png">
-									<img src="assets/img/team/SPD.jpg" alt="Team"/>
+									<img src="assets/img/team/SPD.jpg" alt="Team" loading="lazy"/>
 									<div className="team-overlay" data-mask-src="assets/img/normal/team_overlay.png"></div>
 								</div>
 								<div className="th-social">
@@ -271,9 +271,9 @@ class Child_disorders extends Component {
 			<button data-slider-next="#teamSlider1" className="slider-arrow slider-next"><i className="fa fa-arrow-right"></i></button>
 		</div>
 	</div>
-	<div className="shape-mockup anim02 d-none d-xl-block" data-bottom="22%" data-left="5%"><img src="assets/img/shape/star3-1.png" alt="shape"/>
+	<div className="shape-mockup anim02 d-none d-xl-block" data-bottom="22%" data-left="5%"><img src="assets/img/shape/star3-1.png" alt="shape" loading="lazy"/>
 	</div>
-	<div className="shape-mockup jump d-none d-xl-block" data-top="30%" data-right="4%"><img src="assets/img/shape/shape_18.png" alt="shape"/>
+	<div className="shape-mockup jump d-none d-xl-block" data-top="30%" data-right="4%"><img src="assets/img/shape/shape_18.png" alt="shape" loading="lazy"/>
 	</div>
 </section>
 

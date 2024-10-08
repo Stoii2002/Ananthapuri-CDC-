@@ -95,10 +95,10 @@ const Newsletter = () => {
                     </div>
                 </div>
                 <div className="shape-mockup movingX d-none d-xxl-block" data-bottom="-8%" data-left="0%">
-                    <img src="assets/img/shape/shape_2.png" alt="shape" />
+                    <img src="assets/img/shape/shape_2.png" alt="shape" loading="lazy"/>
                 </div>
                 <div className="shape-mockup movingX d-none d-xxl-block" data-bottom="-8%" data-right="0%">
-                    <img src="assets/img/shape/shape_3.png" alt="shape" />
+                    <img src="assets/img/shape/shape_3.png" alt="shape" loading="lazy"/>
                 </div>
             </div>
             <div className="newsletter-shape" data-mask-src="assets/img/shape/newsletter-shape.png"></div>

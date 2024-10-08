@@ -35,7 +35,7 @@ class Skill extends Component {
 						<div className="col-xl-6">
 							<div className="img-box2 mt-50 mt-xl-0">
 								<div className="img1">
-									<img src="assets/img/normal/benefit_img_new.png" alt="About"/>
+									<img src="assets/img/normal/benefit_img_new.png" alt="About" loading="lazy"/>
 								</div>
 							</div>
 						</div>
@@ -44,7 +44,7 @@ class Skill extends Component {
 				<div className="shape-mockup shape1 spin d-none d-xxl-block" data-top="25%" data-left="3%">
 					<img className="gspin" src="assets/img/shape/shape_10.png" alt="shape"/>
 				</div>
-				<div className="shape-mockup anim02 d-none d-xl-block" data-top="0%" data-right="5%"><img src="assets/img/shape/shape_11.png" alt="shape"/>
+				<div className="shape-mockup anim02 d-none d-xl-block" data-top="0%" data-right="5%"><img src="assets/img/shape/shape_11.png" alt="shape" loading="lazy"/>
 				</div>
 			</div>
 

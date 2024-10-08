@@ -29,7 +29,7 @@ const TeamV2 = () => {
 						<div className="team-box">
 							<div className="team-img-wrap">
 								<div className="team-img">
-									<img src={teachers.Image} alt="Team"/>
+									<img src={teachers.Image} alt="Team" loading="lazy"/>
 								</div>
 							</div>
 							<div className="team-content">

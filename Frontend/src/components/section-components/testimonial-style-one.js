@@ -16,7 +16,7 @@ const TestimonialOne = () => {
                 <div className="row">
                     <div className="col-xl-7">
                         <div className="testi-image2" data-mask-src="assets/img/shape/testi-img-shape.png">
-                            <img src="assets/img/testimonial/about-testimonial.png" alt=""/>
+                            <img src="assets/img/testimonial/about-testimonial.png" alt="" loading="lazy"/>
                         </div>
                     </div>
                     <div className="col-xl-5">
@@ -58,14 +58,14 @@ const TestimonialOne = () => {
 									
                                 </div>
                             </div>
-                            <div className="testi-frame"><img src="assets/img/shape/testi-frame.png" alt=""/></div>
-                            <div className="testi-quote"><img src="assets/img/shape/testi-shape.png" alt=""/></div>
+                            <div className="testi-frame"><img src="assets/img/shape/testi-frame.png" alt="" loading="lazy"/></div>
+                            <div className="testi-quote"><img src="assets/img/shape/testi-shape.png" alt="" loading="lazy"/></div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="shape-mockup z-index-3 movingX d-none d-xl-block" data-top="5%" data-left="2%"><img src="assets/img/shape/shape_2_20.png" alt="shape"/></div>
-            <div className="shape-mockup z-index-3 spin d-none d-xl-block" data-bottom="18%" data-left="25%"><img className="gspin" src="assets/img/shape/shape_2_21.png" alt="shape"/></div>
+            <div className="shape-mockup z-index-3 movingX d-none d-xl-block" data-top="5%" data-left="2%"><img src="assets/img/shape/shape_2_20.png" alt="shape" loading="lazy"/></div>
+            <div className="shape-mockup z-index-3 spin d-none d-xl-block" data-bottom="18%" data-left="25%"><img className="gspin" src="assets/img/shape/shape_2_21.png" alt="shape" loading="lazy"/></div>
         </div>
     );
 }

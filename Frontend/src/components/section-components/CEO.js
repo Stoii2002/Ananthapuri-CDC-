@@ -33,7 +33,7 @@ function CEO() {
             </div>
             <div class="col-xl-5">					
             <div className="testi-image2" data-mask-src="assets/img/shape/testi-img-shape.png">
-                <img src="assets/img/team/arya.jpg" alt="banner"/>
+                <img src="assets/img/team/arya.jpg" alt="banner" loading="lazy"/>
              </div>	
             <div style={{textAlign:'center'}}>
              <h6 >Arya J Kumar </h6> 
@@ -43,9 +43,9 @@ function CEO() {
             </div>
         </div>
     </div>
-    <div class="shape-mockup pulse d-none d-xxl-block" data-top="13%" data-left="2%"><img src="assets/img/shape/star3-3.png" alt="shape"/>
+    <div class="shape-mockup pulse d-none d-xxl-block" data-top="13%" data-left="2%"><img src="assets/img/shape/star3-3.png" alt="shape" loading="lazy"/>
     </div>
-    <div class="shape-mockup movingX d-none d-xxl-block" data-bottom="30%" data-right="16%"><img class="gmovingX" src="assets/img/shape/shape_3_15.png" alt="shape"/>
+    <div class="shape-mockup movingX d-none d-xxl-block" data-bottom="30%" data-right="16%"><img class="gmovingX" src="assets/img/shape/shape_3_15.png" alt="shape" loading="lazy"/>
     </div>
 </div>
   )

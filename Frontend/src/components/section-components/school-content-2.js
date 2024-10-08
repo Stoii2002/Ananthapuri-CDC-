@@ -9,7 +9,7 @@ const SchoolContent2 = () =>
                 <div className="col-xl-6">
                     <div className="img-box3 me-xl-5 pe-xl-2">
                         <div className="img1">
-                            <img src="assets/img/normal/cdc-success-img.png" alt="About"/>
+                            <img src="assets/img/normal/cdc-success-img.png" alt="About" loading="lazy"/>
                         </div>
                     </div>
                 </div> 

@@ -68,13 +68,13 @@ class Funfact extends Component {
 				</div>
 			</div>
 		</div>
-		<div className="shape-mockup anim01 d-none d-lg-block" data-top="15%" data-left="2%"><img src="assets/img/shape/shape_14.png" alt="shape"/>
+		<div className="shape-mockup anim01 d-none d-lg-block" data-top="15%" data-left="2%"><img src="assets/img/shape/shape_14.png" alt="shape" loading="lazy"/>
 		</div>
-		<div className="shape-mockup anim01 d-none d-lg-block" data-top="30%" data-right="6%"><img src="assets/img/shape/shape_15.png" alt="shape"/>
+		<div className="shape-mockup anim01 d-none d-lg-block" data-top="30%" data-right="6%"><img src="assets/img/shape/shape_15.png" alt="shape" loading="lazy"/>
 		</div>
-		<div className="shape-mockup anim02 d-none d-lg-block" data-bottom="15%" data-left="7%"><img src="assets/img/shape/shape_16.png" alt="shape"/>
+		<div className="shape-mockup anim02 d-none d-lg-block" data-bottom="15%" data-left="7%"><img src="assets/img/shape/shape_16.png" alt="shape" loading="lazy"/>
 		</div>
-		<div className="shape-mockup anim03 d-none d-lg-block" data-bottom="15%" data-right="1%"><img src="assets/img/shape/shape_17.png" alt="shape"/>
+		<div className="shape-mockup anim03 d-none d-lg-block" data-bottom="15%" data-right="1%"><img src="assets/img/shape/shape_17.png" alt="shape" loading="lazy"/>
 		</div>
 	</div>
 </div>

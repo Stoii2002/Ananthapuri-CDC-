@@ -10,17 +10,17 @@ class AboutPage extends Component {
 			<div className="col-xl-6">
 				<div className="img-box3 me-xl-5 pe-xl-2">
 					<div className="img1">
-						<img src="assets/img/normal/about-img-new.png" alt="About"/>
+						<img src="assets/img/normal/about-img-new.png" alt="About" loading="lazy"/>
 					</div>
 					<div className="about-shape">
-						<img src="assets/img/shape/circle.png" alt=""/>
+						<img src="assets/img/shape/circle.png" alt="" loading="lazy"/>
 					</div>
 					<div className="about-shape2">
-						<img src="assets/img/shape/circle2.png" alt=""/>
+						<img src="assets/img/shape/circle2.png" alt="" loading="lazy"/>
 					</div>
 					<div className="th-experience movingX">
 						<div className="th-experience_content">
-							<h2 className="experience-year"><img src="assets/img/icon/about_2.svg" alt=""/><span className="counter-number">50</span>+</h2>
+							<h2 className="experience-year"><img src="assets/img/icon/about_2.svg" alt="" loading="lazy"/><span className="counter-number">50</span>+</h2>
 							<p className="experience-text">Reviews</p>
 						</div>
 						<div className="about-shape3"></div>
@@ -52,7 +52,7 @@ class AboutPage extends Component {
 			   thriving community for children with diverse needs.</p>
 		</div>
 	</div>
-	<div className="shape-mockup movingX d-none d-xl-block" data-top="-3.5%" data-right="4%"><img src="assets/img/shape/shape_3_8.png" alt="shape"/>
+	<div className="shape-mockup movingX d-none d-xl-block" data-top="-3.5%" data-right="4%"><img src="assets/img/shape/shape_3_8.png" alt="shape" loading="lazy"/>
 	</div>
 </div>
 

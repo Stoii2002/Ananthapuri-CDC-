@@ -24,7 +24,7 @@ const MobileMenu = () => {
         <div className="th-menu-area text-center">
           <button className="th-menu-toggle"><i className="fa fa-times" /></button>
           <div className="mobile-logo">
-            <Link to="/"><img src={`${publicUrl}assets/img/logocdc.png`} alt={imgAttr} /></Link>
+            <Link to="/"><img src={`${publicUrl}assets/img/logocdc.png`} alt={imgAttr} loading="lazy"/></Link>
           </div>
           <div className="th-mobile-menu">
             <ul>

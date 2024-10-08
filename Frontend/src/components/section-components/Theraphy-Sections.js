@@ -41,8 +41,8 @@ function Theraphy_Sections() {
                         </div>
                         <div className="col col-xl-auto text-center d-none d-xl-block">
                             <div className="about-image wow fadeInUp">
-                                <img src="assets/img/normal/about-img.png" alt=""/>
-                                <div className="shape-mockup  movingX d-none d-xxl-block" data-top="45%" data-right="-1%"><img src="assets/img/shape/shape_2_9.png" alt="shape"/>
+                                <img src="assets/img/normal/about-img.png" alt="" loading="lazy"/>
+                                <div className="shape-mockup  movingX d-none d-xxl-block" data-top="45%" data-right="-1%"><img src="assets/img/shape/shape_2_9.png" alt="shape" loading="lazy"/>
                                 </div>
                             </div>
                         </div>
@@ -77,7 +77,7 @@ function Theraphy_Sections() {
                 <div className="shape-mockup movingX d-none d-xl-block" data-top="12%" data-right="10%">
                     <img className="gmovingX" src="assets/img/shape/shape_3_15.png" alt="shape"/>
                 </div>
-                <div className="shape-mockup movingX d-none d-xl-block" data-top="12%" data-left="6%"><img src="assets/img/shape/shape_2_16.png" alt="shape"/>
+                <div className="shape-mockup movingX d-none d-xl-block" data-top="12%" data-left="6%"><img src="assets/img/shape/shape_2_16.png" alt="shape"loading="lazy"/>
                 </div>
             </section>
     </div>

@@ -54,7 +54,7 @@ const handleSubmit = (e) => {
             <div className="col-xxl-8 col-lg-7">
               <div className="th-blog blog-single">
                 <div className="blog-img">
-                <img src={blog.image} alt={blog.name} />
+                <img src={blog.image} alt={blog.name} loading="lazy"/>
                   <a href="blog-details.html" className="blog-date"> 26 <span className="month">May</span> </a>
                 </div>
                 <div className="blog-content">

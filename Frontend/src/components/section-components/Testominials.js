@@ -20,9 +20,9 @@ const Testimonial = () => {
 								<div className="testi-wrapper">
 									
 									<div className="testi-image2" data-mask-src="assets/img/shape/testi-img-shape.png">
-                            <img src="assets/img/testimonial/testi-banner2.jpg" alt=""/>
+                            <img src="assets/img/testimonial/testi-banner2.jpg" alt="" loading="lazy"/>
                         </div>
-									<div className="testi-shape"><img src="assets/img/shape/testi-line.png" alt=""/></div>
+									<div className="testi-shape"><img src="assets/img/shape/testi-line.png" alt="testimonial image" loading="lazy"/></div>
 									<div className="team-thumb" data-slider-tab="#testiSlide1">
 										<div className="tab-btn active"></div>
 										<div className="tab-btn"></div>
