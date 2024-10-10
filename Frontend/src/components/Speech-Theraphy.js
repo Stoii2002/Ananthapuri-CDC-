@@ -9,7 +9,7 @@ const Speech_Therapy = () => {
     return (
         <div>
             <Helmet>
-                <title>Speech therapy in Trivandrum / Speech therapist Trivandrum | Ananthapuricdc</title>
+                <title>Speech therapy in Trivandrum | Speech therapist Trivandrum | Ananthapuricdc</title>
                 <meta name="description" content="Ananthapuri CDC provides leading speech therapy services in Trivandrum, helping patients overcome speech delays and communication challenges" />
                 <meta name="keywords" content="speech therapy, communication improvement, speech services, speech disorders" />
             </Helmet>

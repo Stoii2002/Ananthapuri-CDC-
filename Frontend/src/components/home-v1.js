@@ -21,7 +21,8 @@ const Home_V1 = () => {
         <div>
             <Helmet>
                 <meta charSet="utf-8" />
-                <title>Ananthapuri CDC</title>
+                <title>Child development centre trivandrum | Special schools in Trivandrum</title>
+                <meta name="description" content="AnathapuriCDC, a leading center in Trivandrum, focuses on child development and special education, providing therapies that help children achieve their milestones."/>
             </Helmet>
             <Suspense fallback={<div id="preloader" className="preloader"><div id="loader"></div></div>}>
                 <Navbar />
