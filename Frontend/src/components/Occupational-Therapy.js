@@ -4,6 +4,7 @@ import Footer from './global-components/footer';
 import Occupational_content from './section-components/Department/Occupational-Content';
 import Occupationalbanner from './section-components/Department/Occupational-banner';
 import { Helmet } from 'react-helmet';
+import Newsletter from './section-components/Newsletter';
 
 const Occupational_Theraphy = () => {
     return <div>
@@ -17,6 +18,7 @@ const Occupational_Theraphy = () => {
         <div id="smooth-content">
             <Occupationalbanner/>
             <Occupational_content/>
+            <Newsletter/>
             <Footer/>
         </div>
         </div>

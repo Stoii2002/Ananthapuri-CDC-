@@ -1,5 +1,6 @@
 import React from 'react';
 import Departmentaside from '../Department-aside';
+import { Link } from 'react-router-dom';
 
 
 const Occupational_content = () => {
@@ -14,19 +15,10 @@ const Occupational_content = () => {
                             <img src={`${process.env.PUBLIC_URL}/assets/img/normal/occu-img-1.png`} alt="class Image"/>
                         </div>
                         <div className="page-content">
+                        <h3 className="sec-title page-title">Occupational Therapy for Kids at Ananthapuri Child Development Centre</h3>
                             <p className="sec-text mb-30">
-                                    Occupational therapy is often mistaken for something related to career counseling. In fact, 
-                                    occupational therapists are not worried about careers; they are focused on their work that 
-                                    gives daily life meaning.</p>
-                                    <p>Occupational therapy helps patients recover or develop skills required for the activities of daily 
-                            living, including self-care, leisure, independent living and work. Therapists work in hospitals, in 
-                            schools, in nursing homes and with patients in their own homes</p>
-                            
-                            <p>People who benefit from occupational therapy or OT, include those who have had autism, ADHD, 
-                                Down syndrome, dyslexia and other developmental disorders.</p>
-                            <p>In this article, we will review the skills that an occupational therapist can address for children
-                                 with developmental delays.</p>
-
+                            Occupational therapy is a treatment that improves the <Link to="https://montessoriacademy.com.au/montessori-at-home/getting-started/age-appropriate-family-work/ ">practical life skills</Link> of specially abled kids. At Ananthapuri Child Development Centre in Trivandrum, our professional occupational therapists will improve the basic living skills of kids with developmental challenges. In this treatment, our occupational therapists will train your kids to independently perform basic skills such as playing with toys, learning new things, eating food, social interactions, etc. Our skilled therapists will observe each child to find out their weak points and then create a personalized treatment plan to help your kid recover from their physical and mental challenges.</p>
+                                   
                             <div className="row justify-content-center">
                                 <div className="col-lg-6">
                                     <div className="page-img">
@@ -37,48 +29,114 @@ const Occupational_content = () => {
                                     <div className="page-img">
                                         <img src={`${process.env.PUBLIC_URL}/assets/img/normal/occu-img-3.png`} alt="class Image"/>
                                     </div>
-                                </div>
+                                </div>  
                             </div>
-                            <h4 className="mt-n2 mb-20">OCCUPATIONAL THERAPY IN AUTISM</h4>
+                            <h4 className="mt-n2 mb-20">Our occupational therapists can improve your child's condition.</h4>
                             <p className="mb-20">
-                            Occupational therapy practitioners use a host of techniques to address and promote skills needed to participate fully in day-to-day life activities. Children with autism and sensory processing difficulties often get occupational therapy services as a means to build skills in the areas needed to complete daily activities, such as bathing, dressing, completing schoolwork, handwriting, engaging in play and more. With the prevalence of autism estimated to be 1 in 68 children, it is vital to consider which treatment is most effective for helping individuals with autism and their families. Below is a listing of some of the most common areas addressed in occupational therapy for autism.
+                            If your child is facing any developmental challenges listed below, then our occupational therapists at Ananthapuri Child Development Centre in Trivandrum can help them learn practical life skills through occupational therapy.
                             </p>
-                            <p className="mb-20">
-                            Emotion regulation skills – Emotion regulation skills involve the skills needed to contain and cope with emotions. This can include identifying emotions in one’s self and in others, understanding different emotions, and being able to find out a helpful coping skill. Children with autism generally struggle in this area. Often, they have a tough time understanding emotions and identifying ways to manage intense emotions. An occupational therapist can assist your child with all areas described above. They may use a slew of methods including role-play activities, games, video modeling and one-on-one practice.
-                            </p>
-                            <p className="mb-20">
-                            Sensory processing – It is reckoned that between 50 and 70% of children with autism have trouble with sensory processing. Sensory processing involves the ability to take in and interpret the information that is occurring within our environment.
-                            </p>
-                            <p className="mb-20">
-                            Motor Skills – Gross motor skills involve large movements, such as running, walking, and moving our limbs. Fine motor skills involve the small movements of the hand, such as picking something up, writing, transferring objects between the fingers.
-                            </p>
-                            <p className="mb-20">
-                            Family routines and time management – Children with autism tend to do best with structure, consistency and routine. Many children with autism also have very strong visual skills and find that visual aids are useful tools for them. An occupational therapist will work by keeping in mind your family’s daily routines and your child’s tasks that need to be finished.
-                            </p>
-                            
-                            <h3 className="sec-title page-title">OCCUPATIONAL THERAPY IN ADHD</h3>
-                            <p className="sec-textmb-30">An occupational therapist helps children with ADHD to improve certain skills, such as:</p>
                             <div className="sec-textmb-30">
                                 <ul>
-                                    <li>Organization</li>
-                                    <li>Physical coordination</li>
-                                    <li>Ability to do daily activities like taking a shower, organizing their backpack, or making their bed, quickly and neatly</li>
-                                    <li>Control their energy levels in order to rein in hyperactivity</li>
+                                    <li><Link to="https://www.ananthapuricdc.com/ADHD ">Attention Deficit Hyperactivity Disorder (ADHD)</Link></li>
+                                    <li><Link to="https://en.wikipedia.org/wiki/Dyslexia ">Dyslexia </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Senory ">Sensory Processing Disorder (SPD)</Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Autism">Autism Spectrum Disorder (ASD) </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Cerebral-Palsy ">Cerebral Palsy </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Intellectual-Disability">Intellectual Disability (ID) </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Downs-Syndrome ">Down Syndrome </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Counduct-Disorder">Conduct Disorder </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Learning-Disability ">Learning Disability </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Virtual-Autism">Virtual Autism </Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Stuttering">Stuttering</Link></li>
+                                    <li><Link to="https://www.ananthapuricdc.com/Gdd ">Global Developmental Delay (GDD)</Link></li>
                                 </ul>
                             </div>
+                            
+                            <h4 className="mt-n2 mb-20"> <h4 className="mt-n2 mb-20">Occupational Therapy for Kids at Ananthapuri Child Development Centre</h4></h4>
+                            <div className="sec-textmb-30">
+                                <ul>
+                                    <li><Link to="https://www.communicationcommunity.com/what-are-play-skills-and-why-are-they-important/">Play Skills </Link></li>
+                                    <li><Link to="https://study.com/academy/lesson/classification-of-motor-skills.html ">Motor Skills</Link></li>
+                                    <li><Link to="https://www.coursera.org/articles/cognitive-skills">Cognitive Skills </Link></li>
+                                    <li><Link to="https://www.calm.com/blog/self-care-for-kids">Self-Care Activities </Link></li>
+                                    <li><Link to="https://www.beginlearning.com/parent-resources/social-skills-for-kids/">Social Interaction </Link></li>
+                                    <li><Link to="https://positivepsychology.com/emotional-intelligence-for-kids/#what-is-emotional-intelligence-in-children">Emotional Intelligence</Link></li>
+                                    <li><Link to="https://sensiblespeech.com/what-are-activities-of-daily-living-adls-for-children/">Activities of Daily Living </Link></li>
+                                    <li><Link to="https://extension.psu.edu/programs/betterkidcare/early-care/tip-pages/all/school-readiness">School Readiness Skills </Link></li>
+                                    <li><Link to="http://surl.li/ejmapu">Sensory Integration</Link></li>
+                                    <li><Link to="http://surl.li/bddcvh">Body Balance and Coordination Skills </Link></li>
+                                </ul>
+                            </div>
+                            <p className="mb-20">
+                            Our structured occupational therapy program can give each child the skills listed above to make their daily lives far easier. If we can uplift specially abled children and help them grow in their lives, then that is what we try to achieve through our occupational therapy in Trivandrum.
+                            </p>
+                            
+                            <h4 className="mt-n2 mb-20">Key Features of Our Occupational Therapy Program in Trivandrum </h4>
+                            <div className="feature-area overflow-hidden pt-5" id="feature-area">
+                                <div className="container">
+                                    <div className="row gy-4 justify-content-center">
+                                        <div className="col-md-6 col-xl-4">
+                                            <div className="feature-item th-ani" data-bg-color="#FEEDEA">
+                                                <div className="feature-shape" data-theme-color="#FE5A86"></div>
+                                                <div className="feature-item_icon">
+                                                    <img src="assets/img/icon/feature_1_1.svg" alt="icon" loading="lazy" />
+                                                </div>
+                                                <div className="media-body">
+                                                    <p className="feature-item_text">group therapy sessions with peers to promote social skills, teamwork, and social interaction.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 col-xl-4">
+                                            <div className="feature-item th-ani" data-bg-color="#F1F9EA">
+                                                <div className="feature-shape" data-theme-color="#7DBE48"></div>
+                                                <div className="feature-item_icon">
+                                                    <img src="assets/img/icon/feature_1_2.svg" alt="icon" loading="lazy" />
+                                                </div>
+                                                <div className="media-body">
+                                                    <p className="feature-item_text">Individual assessment to know the strengths, challenges, and specific needs of each child.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 col-xl-4">
+                                            <div className="feature-item th-ani" data-bg-color="#FFF6E8">
+                                                <div className="feature-shape" data-theme-color="#FC800A"></div>
+                                                <div className="feature-item_icon">
+                                                    <img src="assets/img/icon/feature_1_3.svg" alt="icon" loading="lazy" />
+                                                </div>
+                                                <div className="media-body">
+                                                    <p className="feature-item_text">Communication with parents to provide strategies and support that exceeds beyond therapy sessions.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 col-xl-4">
+                                            <div className="feature-item th-ani" data-bg-color="#E3F5F9">
+                                                <div className="feature-shape" data-theme-color="#16C4E3"></div>
+                                                <div className="feature-item_icon">
+                                                    <img src="assets/img/icon/feature_1_4.svg" alt="icon" loading="lazy" />
+                                                </div>
+                                                <div className="media-body">
+                                                    <p className="feature-item_text">Specialized education fostering individual academic success and growth.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-md-6 col-xl-4">
+                                            <div className="feature-item th-ani" data-bg-color="#FEEDEA">
+                                                <div className="feature-shape" data-theme-color="#FE5A86"></div>
+                                                <div className="feature-item_icon">
+                                                    <img src="assets/img/icon/feature_1_1.svg" alt="icon" loading="lazy" />
+                                                </div>
+                                                <div className="media-body">
+                                                    <p className="feature-item_text">Connecting with teachers and schools to develop strategies that support learning.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                            <p className="sec-textmb-30">The first line of things here is to evaluate the child. Occupational therapists usually do this with input from you. During the evaluation, the therapist will assess how ADHD influences your child’s schoolwork, social life and home life. The therapist will also do a test to evaluate your child’s strengths and weaknesses and appropriate ways to address his/her issues will be recommended. During a therapy session, the occupational therapist and your child might play games, such as catching or hitting a ball to improve coordination, take part in activities to work out anger and aggression, teach new ways to do daily tasks like brushing teeth, getting dressed, or feeding himself/herself.</p>
-                            <p className="sec-textmb-30">Occupational therapist will also try techniques to improve focus on handwriting, social skills, work on time management, ways to stay organized in the classroom and at home.</p>
-
-                            <h3 className="sec-title page-title">OCCUPATIONAL THERAPY IN DOWN SYNDROME</h3>
-                            <p className="sec-textmb-30">Occupational therapists focus on the child’s ability to master skills for independence. These can include self-care skills (feeding, dressing, grooming, etc.), fine and gross motor skills, skills related to school performance (e.g.: printing, cutting, etc.), play and leisure skills.</p>
-                            <p className="sec-textmb-30">Occupational therapist may become involved to help the child with oral-motor feeding problems. Due to hypotonia and weakness of the muscles of the cheeks, tongue and lips, feeding is difficult for some infants with Down syndrome. Occupational therapists suggest positioning and feeding techniques, and can be involved in giving lessons on feeding studies, if necessary.</p>
-                            <p className="sec-textmb-30">Occupational therapists and physical therapists work in tandem to help the young child develop gross motor milestones (e.g.: sitting, crawling, standing, walking). OTs work with the child at this stage to encourage arm and hand movements that lay the foundation for later developing fine motor skills. The low muscle tone and loose ligaments at the joints associated with Down syndrome are indeed challenges to early motor development and occupational therapy can help your child overcome those challenges.</p>
-
-                            <h3 className="sec-title page-title">OCCUPATIONAL THERAPY IN DYSLEXIA</h3>
-                            <p className="sec-textmb-30">Dyslexia is a very common learning difference, affecting 1 in 5 children worldwide. Although dyslexia is primarily a language processing difference, occupational therapists are in a unique position to help a child with dyslexia by addressing key components of skills such as oculomotor function, executive functioning, and motor coordination.</p>
-                            <p className="sec-textmb-30">Because of the unique learning style of these children, it is important that occupational therapists become familiar with manifestations of dyslexia, comorbid conditions, best practices, and the ways through which these children can learn fast.</p>
-                            <p className="sec-textmb-30">By familiarizing oneself with characteristics of dyslexia, basic tenets of effective teaching, and comorbidities, occupational therapists position themselves as a bridge between the child with dyslexia and other professionals. An occupational therapist who understands dyslexia will be in a sweet spot to conduct evaluations and create treatment plans that serve to enhance the learning style of a child with dyslexia.</p>
+                            <h4 className="mt-n2 mb-20 mt-4">Why Your Child Needs Our Care?</h4>
+                            <p className="sec-textmb-30">At <Link to="https://www.ananthapuricdc.com/">Ananthapuri Child Development Centre</Link>, we want to give fine care to children who require occupational therapy in Trivandrum. Our team of experienced professionals always makes sure that your child feels safe, supported, and empowered throughout our therapy sessions.</p>
+                            <p className="sec-textmb-30">If your little kids are dealing with developmental delays and unable to do daily activities, then <Link to="https://www.ananthapuricdc.com/contact">contact</Link> our professional occupational therapists in Trivandrum Ananthapuri Child Development Centre. We are here to assist your kid with love, care, and support.</p>
                         </div>
                     </div>
                 
