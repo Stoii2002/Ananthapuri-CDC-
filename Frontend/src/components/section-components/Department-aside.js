@@ -62,10 +62,9 @@ const Departmentaside = () => {
         <div className="widget">
             <h3 className="widget_title">Social Network</h3>
             <div className="th-social">
-                <a href="https://facebook.com"><i className="fab fa-facebook-f"></i></a>
-                <a href="https://linkedin.com"><i className="fab fa-instagram"></i></a>
-                <a href="https://pinterest.com"><i className="fab fa-pinterest-p"></i></a>
-                <a href="https://linkedin.com"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61555715290318" target="_blank"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/ananthapuricdc?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" target="_blank"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/99358336/admin/feed/posts/ " target="_blank"><i className="fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </aside>

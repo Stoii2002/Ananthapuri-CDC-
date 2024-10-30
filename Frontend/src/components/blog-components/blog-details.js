@@ -73,12 +73,12 @@ const handleSubmit = (e) => {
                         </div>
                       </div>
                       <div className="col-md-auto text-xl-end">
-                        <span className="share-links-title">Share:</span>
+                        <span className="share-links-title">Follow us:</span>
                         <div className="th-social">
-                          <a href="https://www.facebook.com/"><i className="fab fa-facebook-f"></i></a>
-                          <a href="https://www.instagram.com/"><i className="fab fa-instagram"></i></a>
-                          <a href="https://www.twitter.com/"><i className="fab fa-twitter"></i></a>
-                          <a href="https://www.linkedin.com/"><i className="fab fa-linkedin-in"></i></a>
+                          <a href="https://www.facebook.com/profile.php?id=61555715290318" target="_blank"><i className="fab fa-facebook-f"></i></a>
+                          
+                          <a href="https://www.linkedin.com/company/99358336/admin/feed/posts/ " target="_blank"><i className="fab fa-linkedin-in"></i></a>
+                          <a href="https://www.instagram.com/ananthapuricdc?utm_source=ig_web_button_share_sheet&amp;igsh=ZDNlZDc0MzIxNw==" target="_blank"><i className="fab fa-instagram"></i></a>
                         </div>
                       </div>
                     </div>
