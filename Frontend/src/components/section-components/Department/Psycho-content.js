@@ -1,5 +1,7 @@
 import React from 'react';
 import Departmentaside from '../Department-aside';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 const Psycho_content = () => {
@@ -10,19 +12,19 @@ const Psycho_content = () => {
             <div className="row">
                 <div className="col-xxl-8 col-lg-8">
                     <div className="page-single mb-0">
-                        
+                        <Helmet>
                         <div className="page-content">
-                            <h3 className="sec-title page-title">Child Behavioural Therapy: Helping Children Thrive</h3>
+                            <h3 className="sec-title page-title">Behavioural therapy for kids in Ananthapuri Child Development Centre.</h3>
+                            <h4 className='sec-title page-title mt-3'>What is Behavioural Therapy?</h4>
                             <p className="sec-text mb-30">
-                            Behavioural therapy is a type of therapy used to treat emotional problems and mental health conditions like autism and other developmental disorders. In involves talking to a trained therapist, either one-to-one or with your husband, wife or partner. It gives a deeper insight into your problems and worries and equips you to deal with your troublesome habits and wide range of issues.
-
-                            Talking is the integral part of psychotherapy, but sometimes other methods like art, music, drama etc may be used. Psychotherapy helps you to open up yourself completely with the therapist; you can discuss the feelings you have about yourself. In some cases, joint therapy sessions are also offered for couples and families. The therapists provide utmost confidentiality, so you can trust them with information that may be personal and embarrassing.
+                            Behavioural therapy is a treatment that identifies and resolves behavioural disorders in children. It will identify self-destructive behaviours in your kids and reinforce with desirable behaviours by eliminating the unwanted ones. The focus of this treatment is based on current behavioural problems and how to change them. It is mainly based on the idea that all behaviours are learnt and that can be changed with structured therapy sessions.
                             </p>
+
+                            <h4 className='sec-title page-title'>Behavioural Therapy in Trivandrum Ananthapuri Child Development Centre. </h4>
                             <p className="sec-text mb-45">
-                            There are several different types of psychotherapy including psychodynamic (psychoanalytic) psychotherapy, cognitive behavioral therapy (CBT), cognitive analytical therapy (CAT), interpersonal psychotherapy (IPT), the humanistic approaches, group therapy, and family therapy.
-
-                            If you are undergoing psychotherapy, you are required to meet your therapist regularly, usually once a week. However, in some cases more frequent visits are required. A course involving 6 to 20 sessions are considered short-term sessions with each session lasting about 50 to 60 minutes.
+                            At <Link to="https://www.ananthapuricdc.com/ "> Ananthapuri Child Development Centre</Link>, our behavioural therapists will do a detailed psychological assessment to understand your child's personality, emotions, <Link to="https://www.codewizardshq.com/logical-reasoning-for-kids/">logical thinking</Link>, and personal likes and dislikes. They will use different methods for this. They will impart training on life skills, responsive prevention techniques, behaviour modelling, habit reversal, relaxation, etc., which is essential for behavioural development.
                             </p>
+
                             <div className="row justify-content-center">
                                 <div className="col-lg-6">
                                     <div className="page-img">
@@ -35,37 +37,78 @@ const Psycho_content = () => {
                                     </div>
                                 </div>
                             </div>
-                            <h4 className="mt-n2 mb-20">USE OF PSYCHOTHERAPY IN AUTISM AND OTHER DEVELOPMENTAL DISORDERS</h4>
+
+                            
+                            <h5>
+                            Behavioural therapy benefits kids with a wide range of developmental disorders like:
+                            </h5>
+                            <ul>
+                                <li><Link to="https://www.ananthapuricdc.com/ADHD ">Attention Deficit Hyperactivity Disorder (ADHD) </Link></li>
+                                <li><Link to="https://en.wikipedia.org/wiki/Dyslexia">Dyslexia </Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Senory">Sensory Processing Disorder (SPD) </Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Autism">Autism Spectrum Disorder (ASD) </Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Cerebral-Palsy">Cerebral Palsy </Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Intellectual-Disability">Intellectual Disability (ID) </Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Downs-Syndrome">Down Syndrome</Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Counduct-Disorder">Conduct Disorder</Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Learning-Disability">Learning Disability</Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Virtual-Autism ">Virtual Autism </Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Stuttering ">Stuttering </Link></li>
+                                <li><Link to="https://www.ananthapuricdc.com/Gdd">Global Developmental Delay (GDD)</Link></li>
+                               
+                            </ul>
                             <p className="mb-20">
-                            Benefits of psychotherapy in treating autism and other disorders related to developmental growth are gaining momentum. Psychotherapy also supports parents, who suffer profoundly when they face the task of handholding their ward with developmental disorders like Down syndrome, Asperger syndrome, cerebral palsy and intellectual disability.
+                            If your child is facing any of these developmental challenges, our behavioural therapist in Trivandrum <Link to="https://www.ananthapuricdc.com/">Ananthapuri Child Development Centre</Link> can help them get better at social interactions. 
                             </p>
                             <p className="mb-20">
-                            Often children diagnosed with autism and other developmental disorders like depression, anxiety, relationship issues have issues with responding to social cues. They tend to suffer with low social motivation and they prefer to do everything in isolation throughout their lifespan. Medical studies show that individuals diagnosed with developmental disorders like autism are at increased risk of developing depression. It may set in during early adolescence, when they develop increased awareness of their difficulty establishing peer relationships, a pivotal developmental task during the adolescent phase. Anxiety is often associated autism and can be problematic in many settings. Strong preference for highly restricted interests and activities further interfere with socialization and daily functioning. In these cases, psychotherapy can provide the individuals and their families with much-needed intervention to reduce negative mood behavior and facilitate increased comfort and effectiveness in socializing and engaging in daily activities.
+                            Kids who don't have any developmental delays also show self-destructive behaviours. Such kids can also benefit from our behavioural therapy.
+                            </p>
+
+
+                            <h4 className='sec-title page-title'>Signs That Your Child Need Our Behavioural Therapy.</h4>
+                            <ul>
+                                <li>Self-destructive behaviour.</li>
+                                <li>Disrespecting people.</li>
+                                <li>Continuous Lying and stealing </li>
+                                <li>Abnormal sleeping and eating habits</li>
+                                <li>Early sexual activities</li>
+                                <li>Poor academic performance</li>
+                            </ul>
+                            <p className="mb-20">
+                            If any of the signs listed above align with your child's behavior, it's time to book a therapy session at Ananthapuri Child Development Centre.
+                            </p>
+
+                            <h4 className='sec-title page-title'>Features of Behavioural Therapy in Trivandrum Ananthapuri Child Development Centre</h4>
+                            <ul>
+                                <li>Our behavioural therapy sessions will help your child to identify the triggers of bad behaviours and train them how to control those triggers with emotional intelligence.</li>
+                                <li>To improve the desirable behaviours in your kid, our therapists will create a reward chart that helps them to distinguish between good and bad behaviours.</li>
+                                <li>We will guide parents to have effective communication with their child.</li>
+                            </ul>
+
+                            <h4 className='sec-title page-title'>Types of Behavioural Therapy.</h4>
+                                <ul>
+                                    <li><Link to="https://www.mayoclinic.org/tests-procedures/cognitive-behavioral-therapy/about/pac-20384610">Cognitive behavioural therapy.</Link></li>
+                                    <li><Link to="https://cbpt.org/en/cbpt-homepage/">Cognitive behavioural play therapy.</Link> </li>
+                                    <li><Link to="https://www.psychologytoday.com/intl/therapy-types/acceptance-and-commitment-therapy ">Acceptance and Commitment therapy.</Link></li>
+                                    <li><Link to="https://www.autismspeaks.org/applied-behavior-analysis ">Applied behaviour analysis.</Link></li>
+                                    <li><Link to="https://childmind.org/article/dbt-dialectical-behavior-therapy/#:~:text=DBT%20stands%20for%20dialectical%20behavior,substance%20abuse%2C%20and%20suicidal%20thoughts. ">Dialectical behavioural play therapy.</Link></li>
+                                    <li><Link to="https://my.clevelandclinic.org/health/treatments/25067-exposure-therapy">Exposure therapy.</Link></li>
+                                    <li><Link to="https://www.verywellmind.com/rational-emotive-behavior-therapy-2796000">Rational emotive behaviour therapy. </Link></li>
+                                    <li><Link to="https://www.verywellmind.com/social-learning-theory-2795074">Social learning theory.</Link></li>
+                                </ul>
+
+
+                            <h4 className='sec-title page-title'>How will behavioural therapy in Trivandrum Ananthapuri Child Development help your child?</h4>
+                            <p className="mb-20">
+                            Most of the parents are not ready to discuss their child's flaws with a third person, but we need to understand that kids with <Link to="https://www.betterhealth.vic.gov.au/health/healthyliving/behavioural-disorders-in-children ">behavioural challenges</Link> need care from a professional behavioural therapist. We promise you that our behavioural therapy program will always ensure your child's safety and privacy. As a team of experienced behavioural therapists, we work together with your child to address their difficulties.
                             </p>
                             <p className="mb-20">
-                            If you think psychotherapy may be helpful to you or someone suffering from developmental disorders like autism, you can find a qualified clinician by speaking with your pediatric consultant. Selecting a psychotherapist who had specific training in developmental disorders can bring a positive change in the life of a person affected with the condition. There is a wing of psychotherapy that uses treatment model utilizing evidence-based interventions such as cognitive behavioral therapy.
-                            </p>
-                            <p className="mb-20">
-                            Psychotherapy is built around the use of spoken word. For verbal people on the spectrum, psychotherapy can be an effective tool for dealing with symptoms such as anxiety or compulsions. With the help of psychotherapy people affected with autism can better understand how their actions and reactions are perceived by others.
-                            </p>
-                            <p className="mb-20">
-                            Psychotherapy is often involved in the process of diagnosing both children and adults with autism and other developmental disorders. Once the disorder is identified, psychotherapists may recommend appropriate treatment programs. Psychotherapy encourages people with developmental disorders to engage with others through play and learn skills such as joint attention (doing something “with”, rather than “near”someone else).
-                            </p>
-                            <p className="mb-20">
-                            School-based psychotherapy may work with students with autism and help them engage with their peers, manage stress or teach them tips to handle difficult interactions with bullies or general teasing. Psychotherapists may work with parents and teachers to device strategies to handle children with developmental disorders in an effective way.
-                            </p>
-                            <p className="mb-20">
-                            Psychotherapists work with both children and adults with autism to treat issues such as social anxiety, depression, and perseverative behavior (doing or saying the same things over and over again). Psychotherapists also work with individuals with developmental disorders to help them manage self stimulation, social interactions, understand social cues, and manage school and work relationships.
-                            </p>
-                            <p className="mb-20">
-                            Behavioral psychotherapy is in high demand within people affected with autism. Behavioral psychotherapists may evaluate autistic behaviors to better understand their meaning and purpose, develop behavioral programs to teach a wide range of skills or help families to manage aggression and other problematic behaviors in the home. This branch of psychotherapy has proven to be immense benefit in other developmental disorders as well.
-                            </p>
-                            <p className="mb-20">
-                            To sum up, psychotherapy helps people with developmental disabilities cope with everyday concerns and longstanding problems. His/Her thoughts, feelings, and behaviors are observed and fine-tuned in a supportive environment and psychotherapy helps them develop better coping skills. The basic skills needed to benefit from psychotherapy include the ability to interact with a therapist and engagement in some form of interpersonal communication.
+                            <Link to="https://www.ananthapuricdc.com/ ">Ananthapuri Child Development</Link> Centre offers the best behavioural therapy in Trivandrum for children who are affected by ADHD, autism, and other behavioural challenges. So, if you're looking for behavioural therapy in Trivandrum, then <Link to="https://www.ananthapuricdc.com/contact">contact us today</Link>to book a session for your child's future.
                             </p>
                             
                             
                         </div>
+                        </Helmet>
                     </div>
                     
                 </div>

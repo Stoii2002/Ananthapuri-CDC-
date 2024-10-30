@@ -31,22 +31,35 @@ const MobileMenu = () => {
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/our-school">Our School</Link></li>
-
               <li className="menu-item-has-children">
-                <a href="#">Disorders</a>
-                <ul className="sub-menu">
-                  <li><Link to="/ADHD">ADHD</Link></li>
-                  <li><Link to="/Autism">Autism</Link></li>
-                  <li><Link to="/Cerebral-Palsy">Cerebral Palsy</Link></li>
-                  <li><Link to="/Downs-Syndrome">Downs Syndrome</Link></li>
-                  <li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
-                  <li><Link to="/Learning-Disability">Learning Disability</Link></li>
-                </ul>
-              </li>
-
-              <li><Link to="/Gallery">Gallery</Link></li>
-
+											<a href="#">Services</a>	
+											<ul className="sub-menu">
+												<li><Link to="/Speech-Therapy">Speech Therapy</Link></li>
+												<li><Link to="/Occupational-Therapy">Occupational Therapy</Link></li>
+												<li><Link to="/Behavioural-Therapy">Behavioural Therapy</Link></li>
+												<li><Link to="/Special-education">Special Education</Link></li>	
+											</ul>
+										</li>
               <li className="menu-item-has-children">
+											<a href="#">Conditions</a>	
+											<ul className="sub-menu">
+												<li><Link to="/ADHD">Attention Deficit Hyperactive Disorder - ADHD</Link></li>
+												<li><Link to="/Autism">Autism</Link></li>
+												<li><Link to="/Cerebral-Palsy">Cerebral palsy (CP)</Link></li>
+												<li><Link to="/Downs-Syndrome">Down Syndrome</Link></li>
+												<li><Link to="/Intellectual-Disability">Intellectual disability</Link></li>
+												<li><Link to="/Learning-Disability">Learning Disability (LD)</Link></li>
+
+												<li><Link to="/Counduct-Disorder">Conduct Disorder </Link></li>	
+												<li><Link to="/Virtual-Autism">Virtual Autism</Link></li>	
+												<li><Link to="/Gdd">Global developmental Delay (GDD)</Link></li>	
+												<li><Link to="/Adolescent_councelling">Adolescent Counselling </Link></li>	
+												<li><Link to="/Stuttering">Stuttering </Link></li>	
+												<li><Link to="/Senory">Sensory Processing Disorders</Link></li>	
+											</ul>
+										</li>
+
+                    <li className="menu-item-has-children">
                 <a href="#">Blog</a>
                 <ul className="sub-menu">
                   {blogs.map(blog => (
@@ -56,7 +69,8 @@ const MobileMenu = () => {
                   ))}
                 </ul>
               </li>
-
+              
+              <li><Link to="/Gallery">Gallery</Link></li>
               <li>
                 <Link to="/contact">Contact</Link>
               </li>

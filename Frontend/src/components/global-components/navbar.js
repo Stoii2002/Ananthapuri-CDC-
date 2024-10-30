@@ -95,7 +95,6 @@ const Navbar = () => {
 												<li><Link to="/Senory">Sensory Processing Disorders</Link></li>	
 											</ul>
 										</li>
-										<li><Link to="/Gallery">Gallery</Link></li>
 										<li className="menu-item-has-children">
 											<a href="#">Blog</a>
 											<ul className="sub-menu">
@@ -109,6 +108,7 @@ const Navbar = () => {
 
 											</ul>
 										</li>
+										<li><Link to="/Gallery">Gallery</Link></li>
 										<li>
 										<Link to="/contact">Contact</Link>
 										</li>
